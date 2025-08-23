@@ -3,27 +3,27 @@ import React from "react";
 const technologies = [
   {
     title: "Advanced Emergency & Trauma Unit with ICU backup & burn unit",
-    image: "/images/patient/Advanced Emergency & Trauma Unit with ICU backup & burn unit.jpg",
+    image: "/images/patient/Advanced Emergency & Trauma Unit with ICU backup & burn unit.webp",
   },
   {
     title: "Ambulances with critical care facilities available round-the-clock",
-    image: "/images/patient/Ambulances with critical care facilities available round-the-clock.jpg",
+    image: "/images/patient/Ambulances with critical care facilities available round-the-clock.webp",
   },
   {
     title: "Expert team for cardiac, neurological, and accident cases",
-    image: "/images/patient/Expert team for cardiac, neurological, and accident cases.jpg",
+    image: "/images/patient/Expert team for cardiac, neurological, and accident cases.webp",
   },
   {
     title: "No prior booking required- walk-ins and ambulance support available 24/7",
-    image: "/images/patient/No prior booking required- walk-ins and ambulance support available 247.jpg",
+    image: "/images/patient/No prior booking required- walk-ins and ambulance support available 247.webp",
   },
   {
     title: "Emergency Helpline: 0471 3100101",
-    image: "/images/patient/Emergency Helpline_ 0471 3100101.jpg",
+    image: "/images/patient/Emergency Helpline_ 0471 3100101.webp",
   },
   {
     title: "Care Champions:  Specially trained staff to provide dedicated support to patients",
-    image: "/images/patient/Care Champions_  Specially trained staff to provide dedicated support to patients.jpg",
+    image: "/images/patient/Care Champions_  Specially trained staff to provide dedicated support to patients.webp",
   },
 ];
 

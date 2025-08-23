@@ -385,12 +385,12 @@ scopeOfCare: [
         type: 'text',
         text: "“I had severe bloating and acidity for years. One visit here and I felt relieved after a week.” – Ravi Nair."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
         text: "“My father was treated for Hepatitis C and is now completely virus-free.” – Fatima R., UAE."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'See GI recovery stories',

@@ -124,7 +124,7 @@ const { title, subtitle, description, items } = comprehensiveCare;
           modules={[Navigation, Autoplay]}
           className="!px-2"
         >
-          {items.map((item, index) => (
+          {items?.map((item, index) => (
             <SwiperSlide key={index}>
               <div
                 ref={el => (cardRefs.current[index] = el)}

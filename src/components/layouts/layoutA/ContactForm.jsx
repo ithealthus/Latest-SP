@@ -90,7 +90,7 @@ const ContactForm = () => {
                         value={name || ""}
                         onChange={(e) => setName(e.target.value)}
                         placeholder="Your Name"
-                        className="border-gray-300 dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded-xl shadow-md border py-3 px-[14px] text-base outline-none"
+                        className="border-gray-300 bg-white dark:border-dark-3 dark:text-dark-6  text-body-color focus:border-primary w-full rounded-xl shadow-md border py-3 px-[14px] text-base outline-none"
                     />
                 </div>
                 <div className="mb-6">
@@ -101,7 +101,7 @@ const ContactForm = () => {
                         value={email || ""}
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder="Your Email"
-                        className="border-gray-300 dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded-xl shadow-md border py-3 px-[14px] text-base outline-none"
+                        className="border-gray-300 bg-white dark:border-dark-3 dark:text-dark-6  text-body-color focus:border-primary w-full rounded-xl shadow-md border py-3 px-[14px] text-base outline-none"
                     />
                 </div>
                 <div className="mb-6">
@@ -113,7 +113,7 @@ const ContactForm = () => {
                             value={phone || ""}
                             placeholder="Your Phone"
                             onChange={(e) => setPhone(e.target.value)}
-                            className="dark:border-dark-3 border-gray-300 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full rounded-xl shadow-md border py-3 px-[14px] text-base outline-none"
+                            className="dark:border-dark-3 border-gray-300 bg-white dark:text-dark-6  text-body-color focus:border-primary w-full rounded-xl shadow-md border py-3 px-[14px] text-base outline-none"
                         />
                     </div>
                     {phoneError && <p className="text-red-600 mt-2 pl-2">{phoneError}</p>}
@@ -126,7 +126,7 @@ const ContactForm = () => {
                         value={message || ""}
                         onChange={(e) => setMessage(e.target.value)}
                         placeholder="Your Message"
-                        className="border-gray-300 dark:border-dark-3 dark:text-dark-6 dark:bg-dark text-body-color focus:border-primary w-full resize-none rounded-xl shadow-md border py-3 px-[14px] text-base outline-none"
+                        className="border-gray-300 bg-white dark:border-dark-3 dark:text-dark-6  text-body-color focus:border-primary w-full resize-none rounded-xl shadow-md border py-3 px-[14px] text-base outline-none"
                     ></textarea>
                 </div>
                 <div>

@@ -7,7 +7,7 @@ const CriticalCare = {
       "At SP Medifort, our Critical Care Department provides continuous, specialized medical care to patients facing life-threatening conditions. Our ICU in Trivandrum is managed by experienced intensivists, trained nurses, and supported by high-end monitoring systems, all focused on stabilizing, supporting, and reviving patients through every crisis."
     ],
     cta: { label: 'Contact our Critical Care team', href: '/appointments/cardiology' },
-    image: { src: '/images/departments/CriticalCare.webp', alt: 'Critical Care' },
+    image: { src: '/images/departments/Critical-Care.webp', alt: 'Critical Care' },
     
   },
 
@@ -274,13 +274,13 @@ const CriticalCare = {
   successStories: {
     items: [
       { type: 'text', text: 'My father had severe COVID-19 and was on a ventilator. He’s home now thanks to the ICU team.' },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       { type: 'text', text: 'After a stroke, I thought my mother wouldn’t survive. They brought her back' },
-      { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+      { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
       { type: 'text', text: 'After a stroke, I thought my mother wouldn’t survive. They brought her back' },
-      { type: 'image', src: '/images/card3.jpg', alt: 'Covered woman smiling' },
+      { type: 'image', src: '/images/card3.webp', alt: 'Covered woman smiling' },
       { type: 'text', text: 'After a stroke, I thought my mother wouldn’t survive. They brought her back' },
-      { type: 'image', src: '/images/card4.jpg', alt: 'Covered woman smiling' },
+      { type: 'image', src: '/images/card4.webp', alt: 'Covered woman smiling' },
       { type: 'text', text: 'After a stroke, I thought my mother wouldn’t survive. They brought her back' },
     ],
     cta: {

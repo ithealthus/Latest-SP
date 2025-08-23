@@ -4,23 +4,23 @@ import Image from 'next/image';
 const insuranceFeatures = [
   {
     text: 'We support most leading insurance providers and TPAs',
-    image: '/images/patient/health_and_safety.png',
+    image: '/images/patient/health_and_safety.webp',
   },
   {
     text: 'Dedicated helpdesk for cashless treatment, document handling, and claim queries',
-    image: '/images/patient/fax.png',
+    image: '/images/patient/fax.webp',
   },
   {
     text: 'Hassle-free Insurance Approval for Planned Surgeries',
-    image: '/images/patient/inventory.png',
+    image: '/images/patient/inventory.webp',
   },
   {
     text: 'Daily billing updates are shared with the patient or attendant',
-    image: '/images/patient/credit_card_clock.png',
+    image: '/images/patient/credit_card_clock.webp',
   },
   {
     text: 'Guidance on financial estimation for planned procedures',
-    image: '/images/patient/checkbook.png',
+    image: '/images/patient/checkbook.webp',
   },
 ];
 

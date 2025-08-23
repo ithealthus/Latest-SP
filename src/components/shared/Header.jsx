@@ -12,7 +12,7 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "#", label: "DISCOVER SP MEDIFORT" },
   { href: "#", label: "SPECIALITES & TREATMENT" },
-  { href: "", label: "SERVICES" },
+  { href: "/services", label: "SERVICES" },
   { href: "/patient-care", label: "INTERNATIONAL PATIENTS" },
   { href: "/hospital-facilities", label: "HOSPITAL FACILITIES" },
   { href: "/contact", label: "CONTACT US" },
@@ -21,31 +21,38 @@ const navLinks = [
 const discoverItems = [
   { name: "About Us", href: "/our-story" },
   { name: "Careers", href: "/career" },
+  { name: "Blogs", href: "/blog" },
+  { name: "News & Resources", href: "/news-and-resources" },
+  // { name: "Latest News Update", href: "/latest-news-update" },
+  { name: "Health Blogs", href: "/health-articles-and-blogs" },
+  { name: "Videos & Media Gallery", href: "/videos-and-media-gallery" },
+  // { name: "Podcasts", href: "/videos-and-media-gallery/podcast" },
 ];
 
 const treatmentItems = [
   {
     name: "Physiotherapy & Rehabilitation",
-    href: "/services/physiotherapyRehabilitation",
+    href: "/services/physiotherapy-rehabilitation-in-trivandrum",
   },
-  { name: "Clinical Laboratory", href: "/services/clinicalLaboratory" },
-  { name: "Pharmacy", href: "/services/pharmacy" },
-  { name: "Cath Lab", href: "/services/cathLab" },
-  { name: "Nursing Services", href: "/services/nursingServices" },
-  { name: "Blood Centre", href: "/services/bloodCentre" },
-  { name: "Medical Records", href: "/services/medicalRecords" },
+  { name: "Clinical Laboratory", href: "/services/clinical-laboratory-in-trivandrum" },
+  { name: "Pharmacy", href: "/services/pharmacy-in-trivandrum" },
+  { name: "Cath Lab", href: "/services/cath-lab-in-trivandrum" },
+  { name: "Nursing Services", href: "/services/nursing-services-in-trivandrum" },
+  { name: "Blood Centre", href: "/services/blood-centre-in-trivandrum" },
+  { name: "Medical Records", href: "/services/medical-records-in-trivandrum" },
   {
     name: "Audiology & Speech Therapy",
-    href: "/services/audioSpeech",
+    href: "/services/audio-speech-in-trivandrum",
   },
-  { name: "Imaging Services", href: "/services/imaging" },
-  { name: "EMG / EEG / ECG", href: "/services/emgEeGEcg" },
-  { name: "Dietetics & Nutrition", href: "/services/dieteticsNutrition" },
+  { name: "Imaging Services", href: "/services/imaging-in-trivandrum" },
+  { name: "EMG / EEG / ECG", href: "/services/emg-eeg-ecg-in-trivandrum" },
+  { name: "Dietetics & Nutrition", href: "/services/dietetics-nutrition-in-trivandrum" },
   {
     name: "CSSD (Central Sterile Services Department)",
-    href: "/services/cssd",
+    href: "/services/cssd-in-trivandrum",
   },
 ];
+
 
 const departmentItems = [
   { name: "Cardiac Science", href: "/departments/cardiac" },

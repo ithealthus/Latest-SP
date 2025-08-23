@@ -7,7 +7,7 @@
       "At SP Medifort, our Medical Oncology department offers evidence-based, compassionate treatment for patients diagnosed with all forms of cancer. From chemotherapy to targeted therapy and immunotherapy, our approach balances clinical precision with holistic care.We offer outpatient cancer treatment in Trivandrum tailored to each patient’s cancer type, stage, and overall health, always prioritizing quality of life and survival outcomes."
     ],
     cta: { label: 'Book an Oncology consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/departments/MedicalOncology.webp', alt: 'Cardiology' },
+    image: { src: '/images/departments/Medical-Oncology.webp', alt: 'Cardiology' },
     
   },
 
@@ -242,12 +242,12 @@ scopeOfCare: [
         type: 'text',
         text: "“6 cycles of chemo for breast cancer, handled beautifully with no hospital stays.” – Latha S."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
         text: " “Even during my advanced stage lung cancer, SP Medifort gave me hope and comfort.” – Farid M., Oman "
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'More Cancer survival stories',

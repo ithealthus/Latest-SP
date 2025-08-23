@@ -145,14 +145,14 @@ export default function MedicalRecordsPage({ data }) {
                         return (
                           <div
                             key={idx}
-                            className="flex items-center bg-white rounded-2xl shadow-xl py-6 px-5 md:px-6 w-full relative overflow-hidden"
+                            className="flex items-center border-l-8 border-[#D95DB0]  bg-white rounded-2xl shadow-xl py-6 px-5 md:px-6 w-full relative overflow-hidden"
                           >
-                            <div className="w-[16px] h-[112px] rounded-l-2xl bg-[#D95DB0] absolute left-0 top-0" />
+                           {/* <div className="w-[16px] h-[112px] rounded-l-2xl bg-[#D95DB0] absolute left-0 top-0" /> */}
                             <div className="flex items-center pl-6">
                               <span className="flex items-center justify-center w-12 h-12 bg-[#D95DB0] rounded-md mr-4">
                                 <Icon className="text-white text-2xl" />
                               </span>
-                              <span className="font-bold text-[20px] sm:text-[22px] md:text-[26px] leading-[24px] tracking-[0.1px] text-[#1e1831]">
+                              <span className="font-semibold text-[20px] sm:text-[22px] md:text-[26px] leading-[28px] tracking-[0.1px] text-[#1e1831]">
                                 {item}
                               </span>
                             </div>
@@ -185,10 +185,10 @@ export default function MedicalRecordsPage({ data }) {
                     <img
                       src="/images/services/sp-md-fort-logo.png"
                       alt="Icon"
-                      className="w-[80px] sm:w-[99.65px] h-[72px] sm:h-[96px] mt-4"
+                      className=" h-[72px] sm:h-[96px] mt-4"
                     />
                   </div>
-                  <div className="bg-[#CCCCCC] py-6 px-6 min-h-[100px] flex items-center">
+                  <div className="bg-[#fff] py-6 px-6 min-h-[100px] flex items-center">
                     <p className="text-[#870064] text-[20px] sm:text-[24px] font-medium leading-snug">
                       {item}
                     </p>

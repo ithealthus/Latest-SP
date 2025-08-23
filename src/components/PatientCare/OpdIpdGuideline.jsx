@@ -4,15 +4,15 @@ import Image from 'next/image';
 const teamData = [
   {
     text: '50+ Specialty Consultants',
-    image: '/images/patient/tdesign_time.png',
+    image: '/images/patient/tdesign_time_1.webp',
   },
   {
     text: 'Critical Care Experts available 24x7',
-    image: '/images/patient/mdi_calendar-outline.png',
+    image: '/images/patient/mdi_calendar-outline.webp',
   },
   {
     text: 'Trained Emergency Response Team',
-    image: '/images/patient/tabler_id.png',
+    image: '/images/patient/tabler_id_1.webp',
   },
 ];
 

@@ -7,7 +7,7 @@
       "At SP Medifort, our Department of Robotic, Laparoscopic & General Surgery provides advanced surgical solutions that are minimally invasive, highly precise, and recovery focused. From routine appendectomies to complex hernia repairs, our surgeons use both laparoscopic and robotic systems to ensure faster healing and better outcomes.We are recognized as a pioneer in robotic-assisted surgery in South Kerala, offering expertise in routine, emergency, and specialty procedures."
     ],
     cta: { label: 'Book a surgical consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/departments/Anesthesiology.webp', alt: 'Anesthesiology' },
+    image: { src: '/images/departments/robotic-surgery.webp', alt: 'Anesthesiology' },
     
   },
 
@@ -301,13 +301,13 @@
   successStories: {
     items: [
       { type: 'text', text: '““I walked the same day after my robotic hernia surgery. Amazing care and coordination.” – Rafiq K.' },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       { type: 'text', text: '““Minimal pain, no scar, and I was discharged the next morning.” – Greta S., Maldives.' },
-      { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+      { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
       // { type: 'text', text: 'Pre-booked angioplasty slots' },
-      // { type: 'image', src: '/images/card3.jpg', alt: 'Covered woman smiling' },
+      // { type: 'image', src: '/images/card3.webp', alt: 'Covered woman smiling' },
       // { type: 'text', text: 'Pre-booked angioplasty slots' },
-      // { type: 'image', src: '/images/card4.jpg', alt: 'Covered woman smiling' },
+      // { type: 'image', src: '/images/card4.webp', alt: 'Covered woman smiling' },
       // { type: 'text', text: 'Telemonitoring post-discharge for overseas patients' },
     ],
     cta: {

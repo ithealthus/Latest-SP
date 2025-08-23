@@ -262,12 +262,12 @@ const LaryngologyData = {
         type: 'text',
         text: "“As a singer, I was devastated when my voice cracked constantly. SP Medifort gave me my voice back.” — Ritika M."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
         text: "“Microlaryngeal surgery helped me speak clearly again after paralysis.” — Joseph A., UAE."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'More voice recovery stories',

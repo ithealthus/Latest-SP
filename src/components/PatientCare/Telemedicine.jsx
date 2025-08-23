@@ -55,7 +55,7 @@ const Telemedicine = () => {
                 {/* Right Image Section */}
                 <div data-aos="fade-left" className="rounded-xl overflow-hidden">
                     <Image
-                        src="/images/patient/Frame 171.png"
+                        src="/images/patient/Frame 171.webp"
                         alt="Telemedicine Consultation"
                         width={600}
                         height={400}

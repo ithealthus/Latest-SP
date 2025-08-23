@@ -39,7 +39,7 @@ const Admission = () => {
             <div data-aos="fade-left" className="relative lg:ml-auto">
               <div className="relative rounded-2xl overflow-hidden w-full max-w-[427px] mx-auto ">
                 <img
-                  src="/images/patient/Medical-Records(why-choose).jpg"
+                  src="/images/patient/Medical-Records(why-choose).webp"
                   alt="Why Choose SP Medifort"
                   className="w-full h-auto object-cover rounded-2xl"
                 />

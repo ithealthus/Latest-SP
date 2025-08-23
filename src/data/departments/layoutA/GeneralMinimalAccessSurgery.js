@@ -285,12 +285,12 @@ const GeneralMinimalAccessSurgeryData = {
         type: 'text',
         text: "I had gallbladder surgery and was home in 24 hours — no scar, no pain.– Bindu S."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
         text: "The laparoscopic hernia surgery gave me zero downtime and quick recovery.” – Ahmed R., Oman"
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'More patient reviews',

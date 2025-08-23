@@ -7,7 +7,7 @@ import React from 'react';
       "The Psychiatry & Behavioral Health Department at SP Medifort provides compassionate, evidence-based care for emotional, cognitive, and behavioral disorders across all ages. From short-term stress to complex mood or psychotic illnesses, our multidisciplinary team blends medication, advanced neuromodulation, and therapeutic counseling to help patients reclaim well-being and purpose.We’re recognized as a leading mental-health center in Trivandrum, trusted for discreet outpatient therapy as well as comprehensive inpatient programs"
     ],
     cta: { label: 'Book a Mental-Health Consultation', href: '/appointments/ophthalmology' },
-    image: { src: '/images/departments/ophthalmology.webp', alt: 'Ophthalmology' },
+    image: { src: '/images/departments/psychiatry-and-behavioral-sciences.webp', alt: 'psychiatry-and-behavioral-sciences' },
     
   },
 
@@ -149,9 +149,9 @@ import React from 'react';
   successStories: {
     items: [
       { type: 'text', text: '“After rTMS, I finally woke up without the weight of depression.” — Arun P.' },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       { type: 'text', text: '“Their child-psychiatry team helped my daughter manage anxiety and return to school.” — Megha S.' },
-      { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+      { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
     ],
     cta: {
       label: 'Read parent testimonials',

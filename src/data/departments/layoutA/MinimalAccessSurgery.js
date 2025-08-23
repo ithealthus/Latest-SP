@@ -6,7 +6,7 @@
       "At SP Medifort, our General & Minimal Access Surgery team provides modern surgical solutions with a strong emphasis on precision, safety, and recovery. From traditional general procedures to state-of-the-art laparoscopic (keyhole) and robotic surgeries, we focus on delivering excellent outcomes with minimal pain, minimal scarring, and minimal hospital stay.We are widely trusted for laparoscopic and general surgery in Trivandrum, with a reputation for safe, patient-centered surgical care."
     ],
     cta: { label: 'Consult a general surgeon today', href: '/appointments/cardiology' },
-    image: { src: '/images/departments/Anesthesiology.webp', alt: 'Anesthesiology' },
+    image: { src: '/images/departments/general-and-minimal-access-surgery.webp', alt: 'Anesthesiology' },
     
   },
 
@@ -311,13 +311,13 @@
   successStories: {
     items: [
       { type: 'text', text: '“I had gallbladder surgery and was home in 24 hours, no scar, no pain.” – Bindu S.' },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       { type: 'text', text: '“The laparoscopic hernia surgery gave me zero downtime and quick recovery.” – Ahmed R., Oman.' },
-      { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+      { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
       // { type: 'text', text: 'Pre-booked angioplasty slots' },
-      // { type: 'image', src: '/images/card3.jpg', alt: 'Covered woman smiling' },
+      // { type: 'image', src: '/images/card3.webp', alt: 'Covered woman smiling' },
       // { type: 'text', text: 'Pre-booked angioplasty slots' },
-      // { type: 'image', src: '/images/card4.jpg', alt: 'Covered woman smiling' },
+      // { type: 'image', src: '/images/card4.webp', alt: 'Covered woman smiling' },
       // { type: 'text', text: 'Telemonitoring post-discharge for overseas patients' },
     ],
     cta: {

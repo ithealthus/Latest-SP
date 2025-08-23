@@ -396,7 +396,7 @@ export default function Home() {
                overflow-hidden z-10 shadow-xl"
             >
               <img
-                src="/images/spmed.jpg"
+                src="/images/spmed.webp"
                 alt="SP Medifort Lobby"
                 className="w-full h-full object-cover"
               />
@@ -596,7 +596,7 @@ export default function Home() {
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="h-[200px] w-full overflow-hidden">
                 <img
-                  src="/images/29.png"
+                  src="/images/29.webp"
                   alt="NSDC Course"
                   className="w-full h-full object-cover"
                 />
@@ -635,7 +635,7 @@ export default function Home() {
 
           {/* CTA Button */}
           <Link
-            href="https://spmedifort.com/news-and-resources/blogs/"
+            href="/news-and-resources"
             className="inline-flex items-center gap-2 bg-[#6E2452] text-white px-3 py-2 rounded-full font-semibold hover:bg-[#5a1d44] transition"
           >
             Explore Academic Opportunities

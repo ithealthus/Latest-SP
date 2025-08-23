@@ -5,51 +5,51 @@ const Infrastructure = () => {
     const infrastructure = [
         {
             title: "500,000+ sq. ft. hospital campus",
-            image: "/images/AdvanceTechnology/adv4.jpg",
+            image: "/images/Infrastructure/1.webp",
         },
         {
             title: "475+ beds, including 170 Level-D ICU beds",
-            image: "/images/AdvanceTechnology/adv4.jpg",
+            image: "/images/Infrastructure/2.webp",
         },
         {
             title: "10 Modular Operating Theatres",
-            image: "/images/AdvanceTechnology/adv4.jpg",
+            image: "/images/Infrastructure/3.webp",
         },
         {
             title: "30-bed Emergency Wing with dedicated Burns Unit",
-            image: "/images/AdvanceTechnology/adv4.jpg",
+            image: "/images/Infrastructure/4.webp",
         },
         {
             title: "South Asia’s 1st 3D Hybrid Cath Lab (GE Allia) with AI",
-            image: "/images/AdvanceTechnology/cathlab.jpg",
+            image: "/images/Infrastructure/5.webp",
         },
         {
             title: "South Kerala’s 1st Robotic Zeiss Kinevo Neuro Microscope",
-            image: "/images/infrastructure/adv4.jpg",
+            image: "/images/Infrastructure/6.webp",
         },
         {
             title: "Fully motorized X-ray suite",
-            image: "/images/AdvanceTechnology/adv4.jpg",
+            image: "/images/Infrastructure/7.webp",
         },
         {
             title: "Multi-level covered parking for 650+ vehicles",
-            image: "/images/infrastructure/parking.jpg",
+            image: "/images/Infrastructure/8.webp",
         },
         {
             title: "In-house pharmacy",
-            image: "/images/AdvanceTechnology/pharmacy.jpg",
+            image: "/images/Infrastructure/9.webp",
         },
         {
             title: "Dedicated physiotherapy zone",
-            image: "/images/AdvanceTechnology/physiotherapy.jpg",
+            image: "/images/Infrastructure/10.webp",
         },
         {
             title: "Advanced lab & radiology facilities",
-            image: "/images/AdvanceTechnology/lab.jpg",
+            image: "/images/Infrastructure/11.webp",
         },
         {
             title: "Infection-controlled, efficiency-driven architecture",
-            image: "/images/AdvanceTechnology/architecture.jpg",
+            image: "/images/Infrastructure/12.webp",
         },
     ];
 

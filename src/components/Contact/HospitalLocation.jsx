@@ -13,7 +13,7 @@ const HospitalLocation = () => {
           {/* Image */}
           <div className="md:w-1/3 w-full rounded-lg overflow-hidden">
             <img
-              src="/images/contact/hospitalocation.jpg"
+              src="/images/contact/hospitalocation.webp"
               alt="Hospital Interior"
               className="w-full h-full object-cover"
             />

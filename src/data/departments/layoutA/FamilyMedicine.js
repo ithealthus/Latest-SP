@@ -215,12 +215,12 @@ const FamilyMedicineData = {
         type: 'text',
         text: "“My parents have been visiting this family clinic for 3 years. Everything from BP to diet is managed here.” — Anjali S., Trivandrum."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
         text: "“As an NRI, I booked my annual tests, and the results were delivered digitally. Very smooth.” — Joseph M., UAE."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'Read more reviews',

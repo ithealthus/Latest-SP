@@ -35,7 +35,7 @@ const ContactHero = () => {
         {/* Image Block */}
         <div className="md:w-1/2 w-full flex justify-end">
           <img
-            src="/images/contact/doctor.png"
+            src="/images/contact/doctor.webp"
             alt="Doctor"
             className="lg:w-[70%] object-cover h-[650px] mx-auto object-center"
           />

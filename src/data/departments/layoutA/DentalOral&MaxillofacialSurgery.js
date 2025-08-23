@@ -299,13 +299,13 @@ const DentalOralMaxillofacialSurgery = {
   successStories: {
     items: [
       { type: 'text', text: 'My jaw was fractured in a road accident. Thanks to SP Medifort’s maxillofacial team, I’ve fully recovered.' },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       { type: 'text', text: 'I came for full dental implants. The planning, precision, and recovery were world-class.' },
-      { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+      { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
       // { type: 'text', text: 'Interpreter & concierge support' },
-      // { type: 'image', src: '/images/card3.jpg', alt: 'Covered woman smiling' },
+      // { type: 'image', src: '/images/card3.webp', alt: 'Covered woman smiling' },
       // { type: 'text', text: 'Post-surgical digital follow-ups' },
-      // { type: 'image', src: '/images/card4.jpg', alt: 'Covered woman smiling' },
+      // { type: 'image', src: '/images/card4.webp', alt: 'Covered woman smiling' },
       // { type: 'text', text: 'Aesthetic jaw correction & implants for international medical travelers' },
     ],
     cta: {

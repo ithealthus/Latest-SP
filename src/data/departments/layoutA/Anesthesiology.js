@@ -302,13 +302,13 @@ const AnesthesiologyData = {
   successStories: {
     items: [
       { type: 'text', text: 'Advance video consult for cardiac second opinions' },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       { type: 'text', text: 'Airport pickup, translator, and post-op guidance' },
-      { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+      { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
       { type: 'text', text: 'Pre-booked angioplasty slots' },
-      { type: 'image', src: '/images/card3.jpg', alt: 'Covered woman smiling' },
+      { type: 'image', src: '/images/card3.webp', alt: 'Covered woman smiling' },
       { type: 'text', text: 'Pre-booked angioplasty slots' },
-      { type: 'image', src: '/images/card4.jpg', alt: 'Covered woman smiling' },
+      { type: 'image', src: '/images/card4.webp', alt: 'Covered woman smiling' },
       { type: 'text', text: 'Telemonitoring post-discharge for overseas patients' },
     ],
     cta: {

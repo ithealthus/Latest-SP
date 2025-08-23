@@ -16,7 +16,7 @@ function Hero({ breadcrumb, title, subtitle, image }) {
       )}
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-primary/80 to-primary/60"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/40 to-primary/40"></div>
 
       {/* Breadcrumb at Top-Left */}
       {breadcrumb && (

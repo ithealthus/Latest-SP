@@ -6,7 +6,7 @@
       " We offer specialized cancer surgery for solid tumors across the body. From early-stage tumor removal to complex reconstructive procedures, we ensure safe and advanced surgical options in a multidisciplinary environment"
     ],
     cta: { label: 'Consult a cancer surgeon', href: '/appointments/cardiology' },
-    image: { src: '/images/departments/surgicaloncology.webp', alt: 'Cardiology' },
+    image: { src: '/images/departments/surgery-Oncology.webp', alt: 'surgery-Oncology' },
     
   },
 
@@ -237,12 +237,12 @@ scopeOfCare: [
         type: 'text',
         text: "“Tumor removed, face rebuilt. I smile again.” – Jacob V."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
         text: " “Pain-free, dignified breast cancer surgery.” – Saniya R., UAE "
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'More Cancer survival stories',

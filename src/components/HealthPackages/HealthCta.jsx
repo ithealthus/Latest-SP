@@ -48,7 +48,7 @@ const HealthCta = () => {
                     width={50}
                     height={50}
                     alt="call"
-                    src="/images/patient/ion_call.png"
+                    src="/images/patient/ion_call.webp"
                   />
                   0471 3100 100
                 </Link>
@@ -64,7 +64,7 @@ const HealthCta = () => {
                     width={50}
                     height={50}
                     alt="email"
-                    src="/images/patient/material-symbols_mail-outline.png"
+                    src="/images/patient/material-symbols_mail-outline.webp"
                   />
                   patientcare@spmedifort.com
                 </Link>

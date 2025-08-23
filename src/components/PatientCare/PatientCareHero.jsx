@@ -48,7 +48,7 @@ const PatientCareHero = () => {
             className="rounded-3xl overflow-hidden shadow-md"
           >
             <img
-              src="/images/patient/patienthero.jpg"
+              src="/images/patient/patienthero.webp"
               alt="Nurse with patient"
               className="w-full lg:h-[550px] object-cover"
             />

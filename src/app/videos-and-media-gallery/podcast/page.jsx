@@ -35,7 +35,7 @@ const Page = () => {
         subtitle="Listen to Expert Insights Anytime"
         tagline="Your health journey, now in audio form"
         description="Explore our collection of health and wellness podcasts designed to keep you informed, inspired, and motivated. Tune in for expert advice, fitness tips, nutrition guides, and real stories from people like you."
-        image="/images/blog/blog10.webp"
+        image="/images/blog/blog9.webp"
       />
 
       <PodcastSection podcasts={podcasts} />

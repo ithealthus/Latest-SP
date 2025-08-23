@@ -7,7 +7,7 @@ const GeneralMedicineData = {
       "Welcome to the General Medicine Department at SP Medifort Hospital, Thiruvananthapuram. We provide comprehensive medical care for adults covering everything from sudden illnesses to complex chronic diseases. Our focus is on accurate diagnosis, evidence-based treatment, and compassionate care, making us a trusted choice for general medicine in Trivandrum."
     ],
     cta: { label: 'Book a physician consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/departments/General.webp', alt: 'Cardiology' },
+    image: { src: '/images/departments/General-medicine.webp', alt: 'Cardiology' },
     
   },
 
@@ -238,12 +238,12 @@ const GeneralMedicineData = {
         type: 'text',
         text: "“I came for a hernia surgery and was walking the next day. Clean, safe, and excellent staff.” — Manoj T."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
         text: "“As an NRI, I appreciated the digital reports and post-op guidance via WhatsApp.” — Zainab R., Qatar."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'View more experiences',

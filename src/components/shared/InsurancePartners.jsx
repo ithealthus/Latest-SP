@@ -5,10 +5,10 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 const logos = [
-  { src: "/images/Homepage/img1.jpg" },
-  { src: "/images/Homepage/img2.jpg" },
-  { src: "/images/Homepage/img3.jpg" },
-  { src: "/images/Homepage/img4.jpg" },
+  { src: "/images/insurancelogo/Carousel-1.jpg" },
+  { src: "/images/insurancelogo/Carousel-2nd.jpg" },
+  { src: "/images/insurancelogo/Carousel-3rd.jpg" },
+  { src: "/images/insurancelogo/Carousel-4th.jpg" },
 ];
 
 export default function InsurancePartners() {

@@ -320,13 +320,13 @@ scopeOfCare: [
         type: 'text',
         text: "After my stroke, the neurology and rehab team gave me my mobility and confidence back.” — Radha M."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
         text: "“My epilepsy was undiagnosed for years. Now I’m stable, seizure-free, and working again.” — Hassan I., Muscat"
 
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'See patient testimonials',

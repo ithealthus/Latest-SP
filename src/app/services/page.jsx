@@ -3,62 +3,62 @@ import Link from "next/link";
 const allServices = [
   {
     title: "Audiology & Speech Therapy at SP Medifort Hospital",
-    link: "/services/audioSpeech",
+    link: "/services/audio-speech-in-trivandrum",
     icon: "Audiology-&-Speech-Therapy.svg",
   },
   {
     title: "Blood Centre at SP Medifort Hospital",
-    link: "/services/bloodCentre",
+    link: "/services/blood-centre-in-trivandrum",
     icon: "Blood-Centre.svg",
   },
   {
     title: "Cath Lab at SP Medifort Hospital",
-    link: "/services/cathLab",
+    link: "/services/cath-lab-in-trivandrum",
     icon: "Cath-Lab.svg",
   },
   {
     title: "Clinical Laboratory at SP Medifort Hospital",
-    link: "/services/clinicalLaboratory",
+    link: "/services/clinical-laboratory-in-trivandrum",
     icon: "Clinical-Laboratory.svg",
   },
   {
     title: "CSSD at SP Medifort Hospital",
-    link: "/services/cssd",
+    link: "/services/cssd-in-trivandrum",
     icon: "CSSD-(Central-Sterile-Services-Department).svg",
   },
   {
     title: "Dietetics & Nutrition at SP Medifort Hospital",
-    link: "/services/dieteticsNutrition",
+    link: "/services/dietetics-nutrition-in-trivandrum",
     icon: "Dietetics-&-Nutrition.svg",
   },
   {
     title: "EMG / EEG / ECG Services at SP Medifort Hospital",
-    link: "/services/emgEeGEcg",
+    link: "/services/emg-eeg-ecg-in-trivandrum",
     icon: "EMG-EEG-ECG.svg",
   },
   {
     title: "Imaging Services at SP Medifort Hospital",
-    link: "/services/imaging",
+    link: "/services/imaging-in-trivandrum",
     icon: "Imaging-Services.svg",
   },
   {
     title: "Medical Records at SP Medifort Hospital",
-    link: "/services/medicalRecords",
+    link: "/services/medical-records-in-trivandrum",
     icon: "Medical-RecordsMedical-Records.svg",
   },
   {
     title: "Nursing Services at SP Medifort Hospital",
-    link: "/services/nursingServices",
+    link: "/services/nursing-services-in-trivandrum",
     icon: "Nursing-Services.svg",
   },
   {
     title: "Pharmacy at SP Medifort Hospital",
-    link: "/services/pharmacy",
+    link: "/services/pharmacy-in-trivandrum",
     icon: "Pharmacy.svg",
   },
   {
     title: "Physiotherapy & Rehabilitation at SP Medifort Hospital",
-    link: "/services/physiotherapyRehabilitation",
+    link: "/services/physiotherapy-rehabilitation-in-trivandrum",
     icon: "Physiotherapy-&-Rehabilitation.svg",
   },
 ];

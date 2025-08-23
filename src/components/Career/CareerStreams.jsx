@@ -34,43 +34,46 @@ const data = {
 const CareerStreams = () => {
   return (
     <>
-      {/* FAQs */}
-      {data.faqs?.length > 0 && (
-        <section className="py-16 px-4 md:px-0 bg-[#EFDAD952]">
-          <div className="w-full max-w-[1600px] mx-auto">
-            <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-[48px] text-[#44002E] mb-14 text-center tracking-tight">
-              Career Streams at SP Medifort
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {data.faqs.map((faq, idx) => {
-                const isLastOdd =
-                  data.faqs.length % 2 !== 0 && idx === data.faqs.length - 1;
+      <section className="py-16 px-4 bg-[#EFDAD952]">
+        <div className="max-w-7xl mx-auto">
+          {/* FAQs */}
+          {data.faqs?.length > 0 && (
+            <section className="py-16 px-4 md:px-0 ">
+              <div className="w-full max-w-[1600px] mx-auto">
+                <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-[48px] text-[#44002E] mb-14 text-center tracking-tight">
+                  Career Streams at SP Medifort
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  {data.faqs.map((faq, idx) => {
+                    const isLastOdd =
+                      data.faqs.length % 2 !== 0 && idx === data.faqs.length - 1;
 
-                return (
-                  <div
-                    key={idx}
-                    className={`flex flex-col md:flex-row items-start bg-white rounded-xl border-2 border-[#870064] px-7 py-7 md:py-8 transition-shadow duration-200 ${
-                      isLastOdd ? "md:col-span-2 md:mx-auto md:w-1/2" : ""
-                    }`}
-                  >
-                    <span className="flex-shrink-0 w-9 h-9 bg-[#8A226F] rounded-full flex items-center justify-center mr-0 md:mr-5 mb-3 md:mb-0 mt-1">
-                      <MdHelpOutline className="text-white text-2xl" />
-                    </span>
-                    <div>
-                      <h4 className="text-lg md:text-xl font-extrabold text-[#44002E] mb-2 leading-snug">
-                        {faq.question}
-                      </h4>
-                      <p className="text-base md:text-lg text-[#626262]">
-                        {faq.answer}
-                      </p>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-      )}
+                    return (
+                      <div
+                        key={idx}
+                        className={`flex flex-col md:flex-row items-start bg-white rounded-xl border-2 border-[#870064] px-7 py-7 md:py-8 transition-shadow duration-200 ${isLastOdd ? "md:col-span-2 md:mx-auto md:w-1/2" : ""
+                          }`}
+                      >
+                        <span className="flex-shrink-0 w-9 h-9 bg-[#8A226F] rounded-full flex items-center justify-center mr-0 md:mr-5 mb-3 md:mb-0 mt-1">
+                          <MdHelpOutline className="text-white text-2xl" />
+                        </span>
+                        <div>
+                          <h4 className="text-lg md:text-xl font-extrabold text-[#44002E] mb-2 leading-snug">
+                            {faq.question}
+                          </h4>
+                          <p className="text-base md:text-lg text-[#626262]">
+                            {faq.answer}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </section>
+          )}
+        </div>
+      </section >
     </>
   );
 };

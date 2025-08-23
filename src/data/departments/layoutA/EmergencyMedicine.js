@@ -266,9 +266,9 @@ const EmergencyMedicineData = {
         type: 'text',
         text: "“My father had a stroke, and we got emergency care in 15 minutes. He's recovering well today.” — Meenakshi, Trivandrum."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       { type: 'text', text: '“I was brought here after a highway accident. They saved my life.” — Ajay R., Kollam.' },
-      { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+      { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
     ],
     cta: {
       label: 'More emergency testimonials',

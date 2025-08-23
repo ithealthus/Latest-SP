@@ -6,7 +6,7 @@ const CareHelpSection = () => {
   return (
     <section
       style={{
-        background: "url('/images/patient/Group 52.png')",
+        background: "url('/images/patient/Group 52.webp')",
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover'
       }}
@@ -45,7 +45,7 @@ const CareHelpSection = () => {
                     width={50}
                     height={50}
                     alt="call"
-                    src="/images/patient/ion_call.png"
+                    src="/images/patient/ion_call.webp"
                   />
                   0471 3100 100
                 </Link>
@@ -61,7 +61,7 @@ const CareHelpSection = () => {
                     width={50}
                     height={50}
                     alt="email"
-                    src="/images/patient/material-symbols_mail-outline.png"
+                    src="/images/patient/material-symbols_mail-outline.webp"
                   />
                   patientcare@spmedifort.com
                 </Link>

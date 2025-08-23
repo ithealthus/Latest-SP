@@ -276,12 +276,12 @@ const ObstetricsGynaecologyData = {
         type: 'text',
         text: "My delivery was safe and smooth thanks to the doctors and the care team.” — Anjali R."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
         text: "They found and treated my fibroids through laparoscopy — I went home the next day!” — Fatema H., UAE"
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'Read women’s health testimonials',

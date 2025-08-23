@@ -6,7 +6,7 @@ const OrthopedicData = {
 			"At SP Medifort, our Orthopedics & Spine Surgery department is known for treating bone, joint, and spine disorders using a combination of clinical expertise and cutting-edge surgical technologies. From fractures to robotic joint replacements and scoliosis correction, our goal is to help patients return to pain-free movement as quickly and safely as possible.We’re recognized as a leading orthopedic and spine surgery hospital in Trivandrum, trusted for both elective and emergency procedures."
 		],
 		cta: { label: 'Book an Orthopedic consultation', href: '/appointments/cardiology' },
-		image: { src: '/images/dep/joint-replacement.png', alt: 'Urology' },
+		image: { src: '/images/departments/Orthopedic.webp', alt: 'Urology' },
 
 	},
 
@@ -478,7 +478,7 @@ const OrthopedicData = {
 			{ type: 'text', text: '“My robotic knee replacement was painless. I walked within 2 days.” — Pradeep K.' },
 			{ type: 'video', src: '/videos/Genesys-Vide-2.mp4', alt: 'Happy patient' },
 			{ type: 'text', text: '“They repaired my spine without a large cut. I’m finally sleeping well.” — Farha N., UAE.' },
-			{ type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+			{ type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
 
 		],
 		cta: {

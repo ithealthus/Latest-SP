@@ -166,18 +166,18 @@ export default function Footer() {
                 <span className="font-bold">info@spmedifort.com</span>
               </p>
               <p >
-                <Link  href="#">
-                  Post a Medical Query
+                <Link  href="/videos-and-media-gallery/videos-albums">
+                  Videos Albums
                 </Link>
               </p>
               <p >
-                <Link  href="#">
-                  Get Directions to the Hospital
+                <Link  href="/videos-and-media-gallery/photo-album">
+                  Photo Albums
                 </Link>
               </p>
               <p >
-                <Link  href="#">
-                  Feedback & Complaints
+                <Link  href="/patient-testimonial">
+                 Patient Testimonial
                 </Link>
               </p>
             </div>
@@ -212,23 +212,23 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-200 pt-6  text-center text-xs text-dark">
           <div className="space-x-4 text-sm py-3">
-            <Link className="font-bold" href="#">
+            <Link className="font-bold" href="/privacyandpolicy">
               Privacy Policy
             </Link>
             <span>|</span>
-            <Link className="font-bold" href="#">
+            <Link className="font-bold" href="/termsandconditions">
               Terms of Use
             </Link>
-            <span>|</span>
+            {/* <span>|</span>
             <Link className="font-bold" href="#">
               Site Map
-            </Link>
+            </Link> */}
           </div>
           <div className="flex justify-center space-x-6 mb-3 text-xl text-primary">
             <Link className="font-bold" href="https://www.linkedin.com/company/sp-medifort-hospital/?originalSubdomain=in">
               <FaFacebookF />
             </Link>
-            <Link className="font-bold" href="#">
+            <Link className="font-bold" href="https://x.com/spmedifort/">
               <FaXTwitter />
             </Link>
             <Link className="font-bold" href="https://www.instagram.com/spmedifort/?hl=en">

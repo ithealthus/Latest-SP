@@ -59,7 +59,7 @@ const HospitalFacilitiesHero = () => {
             className="rounded-3xl overflow-hidden shadow-md"
           >
             <img
-              src="/images/HospitalFacilities/Hospital Facilities at SP Medifort Hospital.png"
+              src="/images/HospitalFacilities/Hospital Facilities at SP Medifort Hospital.webp"
               alt="Nurse with patient"
               className="w-full lg:h-[600px] object-cover"
             />

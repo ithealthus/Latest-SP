@@ -8,7 +8,7 @@ const specialties = [
     title: 'Cardiac Sciences',
     description:
       'SP Medifort’s Cardiology Department is one of the most comprehensive heart care centers in South Kerala. From emergency cardiac support to preventive heart screenings and interventional procedures, we provide personalized cardiology in Thiruvananthapuram backed by innovation, empathy, and outcomes.',
-    image: '/images/cardiac.jpg',
+    image: '/images/cardiac.webp',
     procedures: ['Coronary Angiography', 'CABG (Bypass Surgery)',],
     slug: 'cardiac',
   },

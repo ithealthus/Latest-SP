@@ -7,7 +7,7 @@ import React from 'react';
       "At SP Medifort, our Paediatric Surgery department provides specialized surgical care for infants, children, and adolescents. From neonatal surgeries to correction of congenital anomalies, our pediatric surgeons prioritize safety, comfort, and outcomes using child-specific techniques in a dedicated pediatric setting.We are regarded as a leading children’s surgical care center in Thiruvananthapuram, trusted by families for complex and emergency surgeries alike."
     ],
     cta: { label: 'Book a Paediatric Surgery consult', href: '/appointments/ophthalmology' },
-    image: { src: '/images/departments/surgerypediatric.webp', alt: 'Ophthalmology' },
+    image: { src: '/images/departments/surgery-pediatric.webp', alt: 'Pediatric' },
     
   },
 

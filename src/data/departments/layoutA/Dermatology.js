@@ -255,9 +255,9 @@ const Dermatology = {
   successStories: {
     items: [
       { type: 'text', text: '“My psoriasis was finally under control after trying everything else.” — Sreekanth V.' },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       { type: 'text', text: '“I had cystic acne for 5 years. At SP Medifort, it cleared up in 3 months.” — Sana M.' },
-      { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+      { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
       
     ],
     cta: {

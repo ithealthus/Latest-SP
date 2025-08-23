@@ -286,12 +286,12 @@ const EntData = {
         type: 'text',
         text: "“My father had constant sinus pain — surgery was smooth and recovery was quick!” – Lakshmi T."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
             {
         type: 'text',
         text: "After struggling with hoarseness, I was diagnosed with vocal cord nodules and treated quickly.” – Hassan R., UAE."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'See patient reviews',

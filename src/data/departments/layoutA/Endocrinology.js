@@ -254,12 +254,12 @@ const EndocrinologyData = {
         type: 'text',
         text: "“My HbA1c dropped from 10 % to 6.8 % in six months thanks to the CGM program.” — Anjali S."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
        {
         type: 'text',
         text: "“ “After years of unexplained fatigue, the doctors here diagnosed a rare adrenal issue and cured it.” — Ramesh V."
       },
-      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],
     cta: {
       label: 'More patient testimonials',
