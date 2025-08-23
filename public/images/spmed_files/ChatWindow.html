@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!-- saved from url=(0322)https://india.kenyt.ai/botapp/ChatbotUI/ChatWindow?v=159&botid=50752404&origin=https%3A%2F%2Fspmedifort.com%2F&enablePortal=false&enableHomePortal=false&enableMessagePortal=false&test=0&hash=1380746689&setuserdataforbot=false&hideChatHistory=false&enableMessageFeedback=false&forms=&kenytStartIntent=null&data-bot=50752404 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+
+    <!-- <3rd party libs> -->
+    <script type="text/javascript" async="" src="./analytics.js.download"></script><script type="text/javascript" async="" src="./js"></script><script src="./VendorScripts"></script>
+
+    <link href="./VendorStyles" rel="stylesheet" defer="">
+
+    <link href="./all.min.css" rel="stylesheet">
+    <script async="" src="./js(1)"></script>
+    <link href="./css2" rel="stylesheet">
+    <script src="./handlebars.min.js.download" type="text/javascript"></script>
+    <!-- </3rd party libs> -->
+
+    <style>
+        /*USED BY A CUSTOMER, DONT REMOVE IT*/
+        @font-face {
+            font-family: "Raleway";
+            src: url("fonts/Raleway-Regular.ttf");
+        }
+
+        /* fallback */
+        @font-face {
+            font-family: 'Material Icons';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/materialicons/v114/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+        }
+
+        .material-icons-outlined {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+        const DEBUG = false; // can be set to true to load js from lib folder
+        function onChatwindowCssLoaded() {
+            let appJsNode = document.createElement("script");
+            appJsNode.setAttribute("type", "text/javascript");
+            if (DEBUG) {
+                appJsNode.setAttribute("src", "./lib/app.js?v=159");
+                appJsNode.setAttribute('onload', "loadPortalScript()")
+            } else {
+                appJsNode.setAttribute("src", "./dist/js/kenytapp.js?v=159");
+            }
+            document.head.appendChild(appJsNode);
+        }
+
+        function loadPortalScript() {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const isPortalEnabled = urlParams.get("enablePortal");
+            console.log(isPortalEnabled, "isPortalEnabled")
+            if (isPortalEnabled !== "false") {
+                let utilsJsNode = document.createElement("script");
+                utilsJsNode.setAttribute("type", "text/javascript");
+                utilsJsNode.setAttribute("src", "./lib/utils.js?v=159");
+                utilsJsNode.setAttribute('onload', "loadUtilScript()")
+                document.head.appendChild(utilsJsNode);
+            }
+        }
+
+        function loadUtilScript() {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const isPortalEnabled = urlParams.get("enablePortal");
+            let portalJsNode = document.createElement("script");
+                portalJsNode.setAttribute("type", "text/javascript");
+                portalJsNode.setAttribute("src", "./lib/portal.js?v=159");
+                document.head.appendChild(portalJsNode);
+        }
+    </script>
+    <link href="./chatwindow.css" rel="stylesheet" onload="onChatwindowCssLoaded();">
+    <link href="./portalwindow.css" rel="stylesheet">
+
+<script type="text/javascript" src="./kenytapp.js.download"></script><style>.option-pill:hover{color:#ffffffff !important;border-color:#852065 !important;background-color:#852065 !important;}.option-pill.isSelected{color:#ffffffff !important;border-color:#852065 !important;background-color:#852065 !important;}.option-pill{color:#000000ff !important;border-color:#852065 !important;background-color:#ffffffff !important;}.bg-accent{background-image:linear-gradient(90deg,#600c36,#a96393) !important;}.text-accent{color:#000000ff !important;}.bot-chat-bubble{color:#000000ff !important ;}.interactivelist-card:hover{color:#ffffffff !important;border-color:#a96393 !important;background-color:#a96393 !important;}.primary-border{border-color:#852065 !important ;}.primary-background{background-color:#852065 !important ;}.primary-color{color:#852065 !important ;}.primary-text{color:#ffffffff !important ;}.primary-button{color:#ffffffff !important ;background-color:#852065 !important ;}.style3 .text-center.data-subtitle{color:#852065 !important ;}.style3 .user-chat-bubble{background-color:#852065 !important ;color:#ffffffff !important ;}.style3 .send-btn{color:#852065 !important ;}.style3 #chatWindowHeader{background-color:#852065 !important ;}.style3 .slick-next:before{color:#852065 !important ;}.style3 .slick-prev:before{color:#852065 !important ;}.primary-hover:hover{color:#ffffffff !important;border-color:#852065 !important;background-color:#852065 !important;}.user-chat-bubble{background-color:#852065 !important ;color:#ffffffff !important ;}</style></head>
+
+<body class="style1">
+    <div id="roughWork">
+        <div id="roughChatWindowBody" class="smooth-scroll thin-scroll">
+            <div class="row m-0" id="roughMessageContainer">
+            </div>
+        </div>
+    </div>
+    
+    <div id="cameraOverlay" class="d-none">
+        <!-- Camera view -->
+        <div id="cameraContainer">
+            <video id="videoElement" autoplay="" playsinline=""></video>
+            <canvas id="canvasElement"></canvas>
+            
+            <!-- Close Camera Icon -->
+            <span id="closeCameraBtn" class="fa fa-times-circle control-icon" title="Close Camera"></span>
+            
+            <!-- Switch Camera Icon -->
+            <span id="switchCameraBtn" class="fa fa-sync control-icon" title="Switch Camera"></span>
+            
+            <!-- Capture Button -->
+            <span id="captureBtn" class="fa fa-circle control-icon" title="Capture Image"></span>
+        </div>
+
+        <!-- Captured image view -->
+        <div id="capturedImageContainer">
+            <img id="capturedImage" src="https://india.kenyt.ai/botapp/ChatbotUI/ChatWindow?v=159&amp;botid=50752404&amp;origin=https%3A%2F%2Fspmedifort.com%2F&amp;enablePortal=false&amp;enableHomePortal=false&amp;enableMessagePortal=false&amp;test=0&amp;hash=1380746689&amp;setuserdataforbot=false&amp;hideChatHistory=false&amp;enableMessageFeedback=false&amp;forms=&amp;kenytStartIntent=null&amp;data-bot=50752404" alt="Captured Image">
+            
+            <!-- Action buttons -->
+            <div class="action-buttons">
+                <button id="sendBtn" class="action-btn">
+                    <i class="fa fa-paper-plane"></i> Send
+                </button>
+                <button id="retakeBtn" class="action-btn">
+                    <i class="fa fa-redo"></i> Retake
+                </button>
+            </div>
+        </div>
+
+        <!-- Status message -->
+        <div id="statusMessage" class="status-message">
+            Initializing camera...
+        </div>
+    </div>
+
+    <div id="chatLoader" style="display: none;">
+        <div class="spinner chat-loader"></div>
+    </div>
+    <div id="chatWindow" tabindex="-1">
+        <div id="chatWindowHeader" style="background-image: linear-gradient(90deg, rgb(96, 12, 54), rgb(169, 99, 147)); color: rgb(255, 255, 255);">
+            <div class="header-button k-hide" id="headerBackButton" style="margin-right:10px">
+                <span class="material-icons-outlined">arrow_back</span>
+            </div>
+            <div id="headerIconContainer">
+                <img src="./getimage" id="headerImage">
+            </div>
+            <div id="header-content">
+                <div class="vertical-center">
+                    <div class="h5" id="headerTitle" style="color: rgb(255, 255, 255); white-space: nowrap;">SP Medifort Hospital</div>
+
+                    <div class="headerSubTitleWrapper">
+                        <div id="headerOnlineIcon" class=""></div>
+                        <small id="headerSubTitle" style="color: rgb(255, 255, 255);">We are online to assist you</small>
+                    </div>
+                </div>
+            </div>
+            <div class="header-button-container">
+                <div class="header-button" title="Show additional options" id="additionalOptions">
+                    <div class="dropdown " id="menuContainer">
+                        <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="material-icons-outlined">
+                                more_vert
+                            </span>
+                        </div>
+                        <div class="dropdown-menu dropdown-menu-right py-2">
+                            <h6 class="dropdown-header py-2">Additional options</h6>
+                            
+                        <div>
+            <div class="dropdown-item px-2" message="" data-card-icon-container="" data-card-title=""><span class="fa fa-calendar"></span>Book Appointment</div>
+        </div><div>
+            <div class="dropdown-item px-2" message="" data-card-icon-container="" data-card-title=""><span class="fa fa-user"></span>Request Human Agent</div>
+        </div></div>
+                    </div>
+                </div>
+                <div class="header-button d-none" id="headerMaximizeMinimizeButton" data-toggle="maximize">
+                    <span class="material-icons-outlined">fullscreen</span>
+                </div>
+                <div class="header-button" id="headerCloseButton">
+                    <span class="material-icons-outlined">close</span>
+                </div>
+            </div>
+
+        </div>
+        <div id="announcement">
+            <div id="announcementContainer">
+                <div id="announcementText"></div>
+                <div id="announcementCloseButton">
+                    <span class="material-icons-outlined">close</span>
+                </div>
+            </div>
+        </div>
+        <div id="chatWindowBody" class="smooth-scroll thin-scroll">
+            <div class="row m-0" id="messageContainer">
+                <div id="errorbar" class="d-none"></div>
+            <div class="message-sender px-3 w-100 mt-2"><img class="bot-persona" src="./getimage(1)"><span class="persona bot-persona"> SP Medifort Hospital</span><span class="timestamp mx-1">8:33 PM</span></div><div class="col-12"><div class="d-inline-block px-2 py-2 bot-chat-bubble"><p>Please select your preferred language or click 👇bottom left of the message box for your convenience.</p>
+<div><div class="card-thumbnail text-center mt-1"><div class="option-pill-container option-pill-3"><div class="option-pill pointer">English</div></div><div class="option-pill-container option-pill-3"><div class="option-pill pointer">മലയാളം</div></div><div class="option-pill-container option-pill-3"><div class="option-pill pointer">தமிழ்</div></div><div class="option-pill-container option-pill-2"><div class="option-pill pointer">މޯލްޑިވިއަން…</div></div><div class="option-pill-container option-pill-2"><div class="option-pill pointer">عربي</div></div></div></div></div></div></div>
+        </div>
+        <div id="chatWindowFooter">
+            <div id="footer-menu" class="pointer footer-minimized smooth-scroll footer-hidden">
+                <div id="footer-menu-closed" class="pointer" title="open menu">
+                    <div class="menu-line primary-background"></div>
+                    <span class="fa fa-angle-up primary-color"></span>
+                    <div id="footer-menu-content" class="d-none">
+
+                    </div>
+                </div>
+                <div id="footer-menu-header" title="close menu">
+                    <div id="footer-menu-title">
+                        Menu
+                    </div>
+                    <div class="close-btn">
+                        <span class="fa fa-angle-down primary-color">
+                        </span>
+                    </div>
+                </div>
+                <div id="footer-menu-options" class="thin-scroll">
+
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="btn-group dropup" id="languageSection">
+                    <button type="button" class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="languageButton" style="color: rgb(255, 255, 255); background-color: rgb(133, 32, 101);">
+                        EN
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right" id="languageMenu"><h6 class="dropdown-header">Choose language</h6><button class="dropdown-item">English</button><button class="dropdown-item">മലയാളം</button><button class="dropdown-item">தமிழ்</button><button class="dropdown-item">العَرَبِيَّة</button></div>
+                </div>
+                <div class="d-flex chat-action-wrapper">
+                    <textarea rows="1" type="text" class="form-control" id="chatInput" autocomplete="off" placeholder="Type your message..." style="border-color: rgb(133, 32, 101);"></textarea>
+                    <div class="px-0 text-right" id="chatActions">
+
+                        
+                        <div class="send-btn" id="sendButton" style="color: rgb(255, 255, 255); background-color: rgb(133, 32, 101);">
+                            <span class="fa pointer fa-paper-plane"></span>
+                        </div>
+                        <div class="chat-input-buttons-container">
+                            <span class="fa fa-camera fa-fw pointer camera d-none" id="cameraButton"> </span>
+                            <span class="fa fa-microphone fa-fw pointer microphone d-none" id="speechButton"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-0">
+                
+
+                <div class="col-12 px-0 text-right text-muted" id="poweredByText">
+                    <div class="d-none">Powered by <a href="https://www.kenyt.ai/" id="brand-link" target="_blank" tabindex="-1">Kenyt.AI</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <template id="TypingIndicator"></template>
+    <template id="MessageSenderInfo"></template>
+    <template id="OTPForm"></template>
+    <template id="PhoneNumberForm"></template>
+    <template id="AddressForm"></template>
+    <template id="ShowMoreButton"></template>
+    <template id="SmallButtonCardTypeContainer"></template>
+    <template id="SmallButtonCard"></template>
+    <template id="MediumButtonCard"></template>
+    <template id="VisitingCard"></template>
+    <template id="CardButton"></template>
+    <template id="VerticalCard"></template>
+    <template id="HeaderMenuItem"></template>
+    <template id="FileCard"></template>
+    <template id="LocationCard"></template>
+    <template id="FooterMenu"></template>
+    <template id="InteractiveList"></template>
+    <template id="ShowInteractiveMenuButton"></template>
+
+
+</body></html>

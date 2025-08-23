@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    # Define your destination directory
+    - export DEPLOY_PATH=/home2/hclient/public_html/mainClient
+    
+    # Ensure the destination exists
+    - mkdir -p $DEPLOY_PATH
+    
+    # Clear old files to avoid stale assets
+    - rm -rf $DEPLOY_PATH/*
+    
+    # Copy all contents from out/ to the destination
+    - /bin/cp -r out/* $DEPLOY_PATH
+    
+    # If you want hidden files (like .htaccess), add this:
+    - /bin/cp out/.* $DEPLOY_PATH || true
