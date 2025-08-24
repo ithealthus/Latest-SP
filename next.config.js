@@ -2,9 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    unoptimized: true, // avoids Next image optimization issues on AWS without config
+    unoptimized: true,
   },
-  trailingSlash: false, // optional, works better for SSR
+  trailingSlash: false,
 };
 
-export default nextConfig;
+module.exports = nextConfig;
