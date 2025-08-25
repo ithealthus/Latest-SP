@@ -16,7 +16,7 @@ const specialties = [
     title: 'Neurosciences',
     description:
       'Our Neurosciences department offers expert diagnosis and treatment for neurological disorders such as stroke, epilepsy, and brain tumors. With state of the art neuroimaging and advanced neurosurgical capabilities, we deliver holistic and compassionate neurological care.',
-    image: '/images/dep/nephrology.webp',
+    image: '/images/homenew/Neurosciences.webp',
     procedures: ['Stroke Management', 'Brain Tumor Surgery',],
     slug: 'neurosciences',
   },
@@ -24,7 +24,7 @@ const specialties = [
     title: 'Gastroenterology',
     description:
       'The Gastroenterology division at SP Medifort focuses on digestive health using both non-invasive and minimally invasive approaches. We specialize in endoscopic procedures, liver care, and managing complex gastrointestinal disorders.',
-    image: '/images/dep/Gastroenterology.webp',
+    image: '/images/homenew/Gastroenterology.webp',
     procedures: ['Endoscopy (EGD)', 'Colonoscopy',],
     slug: 'gastroenterology',
   },
@@ -32,7 +32,7 @@ const specialties = [
     title: 'Orthopaedics',
     description:
       'Our Orthopaedics department is dedicated to advanced joint, bone, and spine care. We offer comprehensive orthopedic services including trauma management, joint replacements, sports injuries, and minimally invasive spine procedures.',
-    image: '/images/dep/joint-replacement.png',
+    image: '/images/homenew/Orthopaedics.webp',
     procedures: ['Joint Replacement', 'Arthroscopy',],
     slug: 'orthopedics-spine',
   },
@@ -40,7 +40,7 @@ const specialties = [
     title: 'Critical Care',
     description:
       'The Critical Care Unit at SP Medifort is equipped to handle life threatening conditions with round the clock monitoring, advanced life support systems, and a dedicated team of intensivists. We provide multi specialty critical care for trauma, sepsis, respiratory failure, post surgical recovery, and more ensuring rapid, coordinated, and compassionate interventions.',
-    image: '/images/dep/CriticalCare.webp',
+    image: '/images/homenew/Critical-Care.webp',
     procedures: ['Mechanical Ventilation', 'ICU Monitoring & Support',],
     slug: 'critical-care',
   }
