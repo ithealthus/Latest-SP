@@ -1,0 +1,216 @@
+#: locale=en
+
+## Action
+
+### URL
+LinkBehaviour_91A8102A_813B_1BC5_41D2_158C823DA8CD.source = https://api.whatsapp.com/send/?phone=4713100100&text=Hi&type=phone_number&app_absent=0
+LinkBehaviour_96A4149C_800D_34AB_41DD_49818B7443CA.source = https://api.whatsapp.com/send/?phone=4713100100&text=Hi&type=phone_number&app_absent=0
+LinkBehaviour_56B77926_5908_31B8_41CB_5E0B9BB3EBC3.source = https://spmedifort.com/
+WebFrame_4EACB2BF_5918_3087_41CB_D981B4BC8432.url = https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d151.75557385769207!2d76.9289485178617!3d8.482904816784941!2m3!1f0!2f45.60522560017194!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x3b05bb8bd25bb37f%3A0xe6eb1debf8a21ac7!2sSP%20Medifort%20Hospital!5e1!3m2!1sen!2sin!4v1718817602661!5m2!1sen!2sin
+LinkBehaviour_96A5F49C_800D_34AB_41CB_809302A0B405.source = mailto:youfirstalways@spmedifort.com
+LinkBehaviour_91A8302A_813B_1BC5_41DC_DF229AA5762D.source = mailto:youfirstalways@spmedifort.com
+LinkBehaviour_96A5D49C_800D_34AB_41DF_0AEE1C703D67.source = tel:+914713100100
+LinkBehaviour_91A8002A_813B_1BC5_41DF_751A5001D3F6.source = tel:+914713100100
+
+## Media
+
+### Audio
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_5A0A7BFF_4A17_CE0A_41CA_A0F7CBDC8625.mp3Url = media/audio_5A5564BE_4A17_DA0A_41D1_B4662054C39C_en.mp3
+audiores_456191EF_4A0E_BA0A_41C1_89057DDE1D1F.mp3Url = media/audio_5B0B93F3_4A0A_DE1A_41B4_210B586ABD92_en.mp3
+audiores_456191EF_4A0E_BA0A_41C1_89057DDE1D1F.mp3Url = media/audio_5B0B93F3_4A0A_DE1A_41B4_210B586ABD92_en.mp3
+audiores_AF5011FA_BDBE_18C4_41B2_5D8F8F5EA624.mp3Url = media/audio_AC967E53_BDBE_2BC4_41E7_811C46D5D916_en.mp3
+
+### Audio Subtitles
+
+### Title
+panorama_F95C78B3_F650_E8B0_41D7_234634D78864.label = CT Scan
+panorama_E6ADEE4D_F657_ABD0_41D5_89D1D962CAD1.label = Cath Lab
+panorama_F896D1E3_F650_78D0_41AE_C2A3702B749C.label = Chemo Ward
+panorama_5554341A_5957_2FE1_41BF_94E862591AE1.label = Corridor
+video_4ADE1952_5A19_2184_41AC_F7FBE6EDB706.label = Corrus
+panorama_3C7AEE8D_310F_ACFF_41C8_83A13A3513A9.label = Emergency Medicine
+panorama_3CA03D83_310C_6CEB_41A6_0B1409409599.label = Entrance
+panorama_3C793E3C_310C_AC1D_41BD_E28BC04B01DA.label = Front Garden
+panorama_F888E3B0_F650_D8B0_41E0_47789CF4F9D2.label = ICU
+panorama_554AD308_5948_E9E1_41AB_62AEA6330767.label = Kitchen View 1
+panorama_554CD1F5_5949_2823_41C8_3EFCD0D76AE3.label = Kitchen View 2
+panorama_3FFB157A_310D_BC25_41C3_FABA3A7FBC22.label = Lobby Day / Night
+panorama_F8E5E21E_F650_7B70_41E5_7CAC9BB693D2.label = Multi Level Parking 01
+panorama_F8E4864C_F650_5BD7_41DE_785D9CFBFACA.label = Multi Level Parking 02
+panorama_E6C61489_F650_5F50_41E5_8E9ACD97894A.label = Operation Theatre
+panorama_554C9A41_5949_D860_41C6_569BE5664567.label = Orthopedics OPD
+panorama_F94D6908_F651_A950_41C8_4A3B1A74A94B.label = Pharmacy
+panorama_554C77A4_5949_2820_41D5_11C5E3184A9A.label = Post-Operative Care
+panorama_F9412710_F653_D970_41DF_4920197DFEE6.label = Pre-Operative Care
+panorama_542B00DD_5A0B_E082_41D4_F2B6618D860E.label = Presidential Suite - Bystander Area
+panorama_554C9009_5949_67E3_41BF_9BAD78DF7E3D.label = Presidential Suite - Guest & Meeting Area
+panorama_5554C751_5957_E863_41C9_9CBBCB92784F.label = Presidential Suite - Patient Area
+panorama_54578D3A_5959_5821_41B7_BF87182F1244.label = Regular Room
+panorama_554B3356_5949_2860_41D5_A2CE90EC1E22.label = Restaurant
+panorama_554BDFFB_5948_F827_41D1_8C2CE844DF00.label = Signature Suite - Bystander Area
+panorama_285F84A4_3115_BC2D_41AF_DB3A713D6E6A.label = Signature Suite - Patient Area
+video_4A85C05B_5A1B_1F86_41CC_D5647D94DEC5.label = TV- Video 1
+video_7885672D_5A79_6182_41CE_0663A9FAEBA6.label = Video 01
+video_4A8FCCE1_5A19_E082_41B9_BE7788898F05.label = Video 2023
+video_4AC27778_5A1F_2182_4170_AED6F09A0A88.label = Video-tv
+video_1469EA84_31B4_A7C0_41C1_74E3828BBBC9.label = Video2023
+video_1BF202E9_31B4_A740_41C4_C22C43AF6648.label = WhatsApp Video 2024-06-19 at 23.31.56_209a0413
+panorama_F95A50B5_F650_58B0_41B5_34F4C1F22EEB.label = X-ray Imaging Suite
+video_4886B087_5A19_208E_41BB_75C002E43A2A.label = tv-video
+
+### Video
+videolevel_E7513125_E83B_0A13_41DE_02148778FAAE.url = media/video_1469EA84_31B4_A7C0_41C1_74E3828BBBC9_en.mp4
+videolevel_E7513125_E83B_0A13_41DE_02148778FAAE.posterURL = media/video_1469EA84_31B4_A7C0_41C1_74E3828BBBC9_poster_en.jpg
+videolevel_E7505170_E83B_0AF1_41EC_AA963146FE69.url = media/video_1BF202E9_31B4_A740_41C4_C22C43AF6648_en.mp4
+videolevel_E7505170_E83B_0AF1_41EC_AA963146FE69.posterURL = media/video_1BF202E9_31B4_A740_41C4_C22C43AF6648_poster_en.jpg
+videolevel_E7585328_E83B_0E12_41C4_EA0A453B5A78.url = media/video_4886B087_5A19_208E_41BB_75C002E43A2A_en.mp4
+videolevel_E7585328_E83B_0E12_41C4_EA0A453B5A78.posterURL = media/video_4886B087_5A19_208E_41BB_75C002E43A2A_poster_en.jpg
+videolevel_E75D4219_E83B_0E33_41CD_35FFFB4CC34B.url = media/video_4A85C05B_5A1B_1F86_41CC_D5647D94DEC5_en.m3u8
+videolevel_E75D5219_E83B_0E33_41D3_B0CF44FE3433.url = media/video_4A85C05B_5A1B_1F86_41CC_D5647D94DEC5_en.mp4
+videolevel_E75D4219_E83B_0E33_41CD_35FFFB4CC34B.posterURL = media/video_4A85C05B_5A1B_1F86_41CC_D5647D94DEC5_poster_en.jpg
+videolevel_E75D5219_E83B_0E33_41D3_B0CF44FE3433.posterURL = media/video_4A85C05B_5A1B_1F86_41CC_D5647D94DEC5_poster_en.jpg
+videolevel_E75381B9_E83B_0A73_41E6_1ED7F59D6A11.url = media/video_4A8FCCE1_5A19_E082_41B9_BE7788898F05_en.mp4
+videolevel_E75381B9_E83B_0A73_41E6_1ED7F59D6A11.posterURL = media/video_4A8FCCE1_5A19_E082_41B9_BE7788898F05_poster_en.jpg
+videolevel_E75912E1_E83B_0E13_41E0_2EEDC5A4DBC8.url = media/video_4AC27778_5A1F_2182_4170_AED6F09A0A88_en.mp4
+videolevel_E75912E1_E83B_0E13_41E0_2EEDC5A4DBC8.posterURL = media/video_4AC27778_5A1F_2182_4170_AED6F09A0A88_poster_en.jpg
+videolevel_E759A27D_E83B_0EF3_41EB_50E8F7D3496A.url = media/video_4ADE1952_5A19_2184_41AC_F7FBE6EDB706_en.mp4
+videolevel_E759A27D_E83B_0EF3_41EB_50E8F7D3496A.posterURL = media/video_4ADE1952_5A19_2184_41AC_F7FBE6EDB706_poster_en.jpg
+videolevel_E75B6387_E83B_0E1F_41E8_1BCA6B50B793.url = media/video_7885672D_5A79_6182_41CE_0663A9FAEBA6_en.mp4
+videolevel_E75B6387_E83B_0E1F_41E8_1BCA6B50B793.posterURL = media/video_7885672D_5A79_6182_41CE_0663A9FAEBA6_poster_en.jpg
+
+### Video Subtitles
+
+## Popup
+
+### Body
+htmlText_248C0701_3114_BDE6_41C3_56C0028E51E0.html = <div style="text-align:left; color:#000; "><HTML><BODY><DIV STYLE="text-align:left;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:'Roboto';">SP Medifort is a brand-new 475-bed multi-specialty hospital committed to delivering excellence in patient care and medical services. With a legacy spanning 26 years, our dedicated team of highly skilled doctors, nurses, and support staff works tirelessly to provide personalized and compassionate care to every patient who walks through our doors. </SPAN></SPAN></DIV><DIV STYLE="text-align:left;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-family:'Roboto';"/></SPAN></DIV><DIV STYLE="text-align:left;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:16px;font-family:'Roboto';">Covering an area of 500,000 square feet, it has multi-level parking for 650+ cars, 170 cubicle ICUs, and 30 Emergency care beds. Equipped with state-of-the-art facilities and cutting-edge technology, SP Medifort offers a comprehensive range of 50+ medical specialties, diagnostics, and treatments.</SPAN></SPAN></DIV></BODY></HTML></div>
+htmlText_AC6D1E45_BDB6_2BCD_41E4_9C22C895172B.html = <div style="text-align:left; color:#000; "><HTML><BODY><DIV STYLE="text-align:left;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:16px;font-family:Arial, Helvetica, sans-serif;">SP Medifort is dedicated to providing the finest quality and safest care to our patients, backed by empathy and compassion.</SPAN></DIV><DIV STYLE="text-align:left;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"/></DIV><DIV STYLE="text-align:left;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:16px;font-family:Arial, Helvetica, sans-serif;">1st 3D Hybrid Cath Lab (GE Allia) with Artificial Intelligence, in South Asia</SPAN></DIV><DIV STYLE="text-align:left;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"/></DIV><DIV STYLE="text-align:left;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:16px;font-family:Arial, Helvetica, sans-serif;">We are proud to have the first 3D Cath Lab (GE Allia) with Artificial Intelligence, in South Asia. A trusted state-of-the-art assistant for image guided therapies assists you to perform tasks naturally in a personalized workplace so that nothing comes between you and the patient for an effortless and efficient procedure. Augment imaging. Enhance experience. Improve outcomes.</SPAN></DIV><DIV STYLE="text-align:left;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"/></DIV><DIV STYLE="text-align:left;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:16px;font-family:Arial, Helvetica, sans-serif;">1st Fully Robotic (Zeiss Kinevo) Neuro-microscope system in South Kerala.</SPAN></DIV><DIV STYLE="text-align:left;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"/></DIV><DIV STYLE="text-align:left;font-size:16px;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-size:16px;font-family:Arial, Helvetica, sans-serif;">A robotic navigation system for image-guided neurosurgery, which can be applied to the treatment of Parkinson's disease and biopsy of brain tumors. The system integrates a computer for real-time display of brain anatomy, a magnetic tracking device for measuring the positions and orientations of surgical instruments, and a robot manipulator for guiding surgical instruments to the preplanned positions and orientations. The computer display of brain anatomy offers a convenient tool for surgeons to diagnose brain disease and to plan safe surgical paths; while the tracking device assists the robot manipulator to automatically guide surgical instruments to the preplanned direction.</SPAN></DIV><DIV STYLE="text-align:left;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"/></DIV><DIV STYLE="text-align:left;"><SPAN STYLE="display:inline-block; letter-spacing:0px; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"/></DIV></BODY></HTML></div>
+
+### Title
+window_248C3700_3114_BDE6_41C2_4F263D742225.title = SP Medifort
+window_AC6DFE45_BDB6_2BCD_41D1_743ACB1965C2.title = SP Medifort
+
+## Skin
+
+### Button
+Button_A5B6675F_BB41_2A47_41DB_F1D5F9BA2775.label = Contact
+Button_91F1485B_813F_0C7A_41DC_E7CF2017E27A.label = Contact
+Button_9921337F_800C_CC65_41D7_85AA47092C1F.label = Panorama List
+Button_91AE7F22_8015_F59E_41BF_0B81220070A4.label = Panorama List
+Button_5F9794F7_7F9A_704F_41D0_31A0B8AA8049.label = VR : Leen Thobias
+Button_5F9794F7_7F9A_704F_41D0_31A0B8AA8049.pressedLabel = p4panorama.com
+
+### Image
+Image_493B482B_5938_3F8F_41C6_04CEC9FC74CD.url = skin/Image_493B482B_5938_3F8F_41C6_04CEC9FC74CD_en.png
+Image_7F37A899_6AC2_03AD_41D3_B088CC9B0CCC.url = skin/Image_7F37A899_6AC2_03AD_41D3_B088CC9B0CCC_en.png
+Image_7F37B899_6AC2_03AD_41CA_AF8CE9AC0A6B.url = skin/Image_7F37B899_6AC2_03AD_41CA_AF8CE9AC0A6B_en.png
+Image_7F37C899_6AC2_03AD_418C_9CCE871482D6.url = skin/Image_7F37C899_6AC2_03AD_418C_9CCE871482D6_en.png
+Image_7F37D899_6AC2_03AD_41B0_F5A94F5780DF.url = skin/Image_7F37D899_6AC2_03AD_41B0_F5A94F5780DF_en.png
+Image_7F37E899_6AC2_03AD_41B2_9099B751027D.url = skin/Image_7F37E899_6AC2_03AD_41B2_9099B751027D_en.png
+Image_7F37F899_6AC2_03AD_41D5_EBEC536F064D.url = skin/Image_7F37F899_6AC2_03AD_41D5_EBEC536F064D_en.png
+Image_90B44B16_8013_7DA6_41CF_DE407B2AFD6F.url = skin/Image_90B44B16_8013_7DA6_41CF_DE407B2AFD6F_en.png
+Image_90B47B16_8013_7DA6_41C7_E3831A6F0251.url = skin/Image_90B47B16_8013_7DA6_41C7_E3831A6F0251_en.png
+Image_90B4AB16_8013_7DA6_41D8_CCAF686682D0.url = skin/Image_90B4AB16_8013_7DA6_41D8_CCAF686682D0_en.png
+Image_91A89029_813B_1BC7_41DA_D6653BEEC3CB.url = skin/Image_91A89029_813B_1BC7_41DA_D6653BEEC3CB_en.png
+Image_91A8A029_813B_1BC7_41C7_865D774563C1.url = skin/Image_91A8A029_813B_1BC7_41C7_865D774563C1_en.png
+Image_91A95029_813B_1BC7_41C6_3B07314D67C6.url = skin/Image_91A95029_813B_1BC7_41C6_3B07314D67C6_en.png
+Image_96A4049C_800D_34AB_41D5_CCE849EB71E2.url = skin/Image_96A4049C_800D_34AB_41D5_CCE849EB71E2_en.png
+Image_96A4249C_800D_34AB_41C0_8D9E6C1E732E.url = skin/Image_96A4249C_800D_34AB_41C0_8D9E6C1E732E_en.png
+Image_96A5E49C_800D_34AB_41D5_CE51E5AD79C4.url = skin/Image_96A5E49C_800D_34AB_41D5_CE51E5AD79C4_en.png
+Image_973E0D4C_801D_55AB_41BC_7C9307BB0655.url = skin/Image_973E0D4C_801D_55AB_41BC_7C9307BB0655_en.png
+Image_973E1D4D_801D_55AA_419D_841EF0BD14B0.url = skin/Image_973E1D4D_801D_55AA_419D_841EF0BD14B0_en.png
+Image_973E2D4D_801D_55AA_41B1_2F520FDA272A.url = skin/Image_973E2D4D_801D_55AA_41B1_2F520FDA272A_en.png
+Image_973E3D4D_801D_55AA_41D3_F8CC7FD8FA60.url = skin/Image_973E3D4D_801D_55AA_41D3_F8CC7FD8FA60_en.png
+Image_973E4D4C_801D_55AA_41CF_D977643AD8EF.url = skin/Image_973E4D4C_801D_55AA_41CF_D977643AD8EF_en.png
+Image_973E6D4C_801D_55AA_41D2_1A9585938AD9.url = skin/Image_973E6D4C_801D_55AA_41D2_1A9585938AD9_en.png
+Image_98C8DF59_800D_F5AA_41C0_8CED5E1BEAC4.url = skin/Image_98C8DF59_800D_F5AA_41C0_8CED5E1BEAC4_en.png
+Image_98C8EF59_800D_F5AA_41DE_6B100D8FCE74.url = skin/Image_98C8EF59_800D_F5AA_41DE_6B100D8FCE74_en.png
+Image_98C8FF59_800D_F5AA_41BF_E9B7624891B7.url = skin/Image_98C8FF59_800D_F5AA_41BF_E9B7624891B7_en.png
+
+### Multiline Text
+HTMLText_7F372898_6AC2_03AB_41DA_A24D9781CF7C.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:3.69vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:3.12vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:3.4615384615384595vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.46vh;font-family:'Roboto';">Thank you for watching our </SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:3.4615384615384595vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.46vh;font-family:'Roboto';">virtual tour.</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:3.46vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:3.4615384615384595vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.46vh;font-family:'Roboto';">Share it with </SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:3.4615384615384595vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:3.46vh;font-family:'Roboto';">your friends. </SPAN></SPAN></DIV><p STYLE="margin:0; line-height:1.85vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:1.85vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:1.85vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_973D9D4C_801D_55AA_41DC_7E1EC6EE932C.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:5.46vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:4.447268106734434vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:4.45vh;font-family:'Roboto';">Thank you for watching our virtual tour.</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:4.45vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:4.447268106734434vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:4.45vh;font-family:'Roboto';">Share it with your friends. </SPAN></SPAN></DIV><p STYLE="margin:0; line-height:4.07vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:1.85vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:1.85vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p></div>
+HTMLText_4EAF22C0_5918_30F9_41BC_C9CB8BA4D1DB.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:2.8vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;text-indent:12.9px;padding-right:12.9px;font-size:3.3036848792884372vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;text-indent:12.9px;"><SPAN STYLE="font-size:3.3vh;font-family:'Roboto';text-indent:12.9px;">Contact Us</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.8vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:2.8vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:2.795425667090215vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.8vh;font-family:'Roboto';">SP Medifort Hospital</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.795425667090215vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.8vh;font-family:'Roboto';">Eanchakkal, </SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.795425667090215vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.8vh;font-family:'Roboto';">Thiruvananthapuram, </SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.795425667090215vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.8vh;font-family:'Roboto';">Kerala 695024</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.795425667090215vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.8vh;font-family:'Roboto';">INDIA</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.8vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:2.795425667090215vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.8vh;font-family:'Roboto';">Phone:</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.795425667090215vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.8vh;font-family:'Roboto';">+914713100100</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.8vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:2.8vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:2.795425667090215vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.8vh;font-family:'Roboto';">Email:</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.287166454891995vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.29vh;font-family:'Roboto';">youfirstalways@spmedifort.com</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.5412960609911055vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.54vh;font-family:'Graphik Regular';">  </SPAN></SPAN></DIV></div>
+HTMLText_91A93029_813B_1BC7_41BA_2261743742A4.html = <div style="text-align:left; color:#000; "><p STYLE="margin:0; line-height:1.74vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><p STYLE="margin:0; line-height:2.69vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.2vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;text-indent:12.9px;padding-right:12.9px;font-size:2.6923076923076916vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;text-indent:12.9px;"><SPAN STYLE="font-size:2.69vh;font-family:'Roboto';text-indent:12.9px;">Contact Us</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.82vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.48vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:2.1794871794871784vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.18vh;font-family:'Roboto';">SP Medifort Hospital</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.1794871794871784vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.18vh;font-family:'Roboto';">Eanchakkal, </SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.1794871794871784vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.18vh;font-family:'Roboto';">Thiruvananthapuram, </SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.1794871794871784vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.18vh;font-family:'Roboto';">Kerala 695024</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.1794871794871784vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.18vh;font-family:'Roboto';">INDIA</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.18vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.48vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:2.1794871794871784vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.18vh;font-family:'Roboto';">Phone:</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.1794871794871784vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.18vh;font-family:'Roboto';">+914713100100</SPAN></SPAN></DIV><p STYLE="margin:0; line-height:2.18vh;"><BR STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-size:1.48vh;font-family:Arial, Helvetica, sans-serif;"/></p><DIV STYLE="text-align:center;font-size:2.1794871794871784vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.18vh;font-family:'Roboto';">Email:</SPAN></SPAN></DIV><DIV STYLE="text-align:center;font-size:2.051282051282051vh;"><SPAN STYLE="display:inline-block; letter-spacing:0vh; white-space:pre-wrap;color:#000000;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="font-size:2.05vh;font-family:'Roboto';">youfirstalways@spmedifort.com</SPAN></SPAN></DIV></div>
+
+### Tooltip
+Image_91A89029_813B_1BC7_41DA_D6653BEEC3CB.toolTip = Call Now
+Image_96A5E49C_800D_34AB_41D5_CE51E5AD79C4.toolTip = Call Now
+Image_91A8A029_813B_1BC7_41C7_865D774563C1.toolTip = Email Now
+Image_96A4049C_800D_34AB_41D5_CCE849EB71E2.toolTip = Email Now
+Image_91A95029_813B_1BC7_41C6_3B07314D67C6.toolTip = Message Now
+IconButton_52FCF3EB_5908_F08F_41CF_446A91AA2E91_mobile.toolTip = Next Panorama
+IconButton_60AECA52_7F96_D040_41D0_14858BD73511.toolTip = Next Panorama
+IconButton_60AE6A51_7F96_D040_41CA_DD7B37CEFABD.toolTip = Previous Panorama
+IconButton_52FB93E9_5908_F08B_41C5_A2BA9826928C_mobile.toolTip = Previous Panorama
+IconButton_90B45B16_8013_7DA6_41DD_FED10C1B55E7.toolTip = Share this VR on Facebook
+IconButton_98C8CF59_800D_F5AA_41CB_939C67A2979F.toolTip = Share this VR on Facebook
+Image_90B47B16_8013_7DA6_41C7_E3831A6F0251.toolTip = Share this VR on Linkedin
+Image_98C8EF59_800D_F5AA_41DE_6B100D8FCE74.toolTip = Share this VR on Linkedin
+Image_90B4AB16_8013_7DA6_41D8_CCAF686682D0.toolTip = Share this VR on WhatsApp
+Image_98C8DF59_800D_F5AA_41C0_8CED5E1BEAC4.toolTip = Share this VR on WhatsApp
+Image_90B44B16_8013_7DA6_41CF_DE407B2AFD6F.toolTip = Share this VR on X
+Image_98C8FF59_800D_F5AA_41BF_E9B7624891B7.toolTip = Share this VR on X
+Image_493B482B_5938_3F8F_41C6_04CEC9FC74CD.toolTip = Visit Our Website
+Image_96A4249C_800D_34AB_41C0_8D9E6C1E732E.toolTip = Whatsapp Message
+
+## Tour
+
+### Description
+tour.description = Take a virtual visit to one of the best multi-speciality hospitals in Kerala and explore the modern facilities, equipment, patient rooms, etc from home.
+
+### Title
+tour.name = 360 Virtual Tour | SP Medifort Hospital | Thiruvananthapuram
+
+## VR Menu
+
+### Text
+MenuItem_5229CF98_4A7A_4616_41C9_B49C032679E3.label = CT Scan
+MenuItem_E2BB9AE6_F650_68D3_41EC_2BA6559BC1B0.label = Cath Lab
+MenuItem_522A5F98_4A7A_4616_41B3_F6FF0E5F442A.label = Chemo Ward
+MenuItem_52288F98_4A7A_4616_41A4_1B9A08506412.label = Corridor
+MenuItem_5228FF97_4A7A_461A_41B3_3CAC5EA04448.label = Emergency Medicine
+MenuItem_5228DF97_4A7A_461A_41C4_918F6B906898.label = Entrance
+MenuItem_52299F98_4A7A_4616_41D1_AF5AAEA00AAA.label = Front Garden
+MenuItem_5229FF98_4A7A_4616_41C7_D0E4352DB542.label = ICU
+MenuItem_522A3F98_4A7A_4616_41A7_624614749E04.label = Kitchen View 1
+MenuItem_5228AF98_4A7A_4616_41BF_12D51C575827.label = Kitchen View 2
+MenuItem_5228EF97_4A7A_461A_41B1_A15CFAF4E94A.label = Lobby Day / Night
+Menu_3F4532B0_2FC9_5F41_41B6_F609A01EF0DB.label = Media
+MenuItem_E2BB7AE6_F650_68D3_41DB_F0BE3B678CEE.label = Multi Level Parking 01
+MenuItem_E2BB6AE6_F650_68D3_41DC_91810A383C0C.label = Multi Level Parking 02
+MenuItem_52289F98_4A7A_4616_41AE_F19462A74EE6.label = Operation Theatre
+MenuItem_52294F98_4A7A_4616_41BB_B682050691A2.label = Orthopedics OPD
+MenuItem_5229AF98_4A7A_4616_41C4_F4DD0508602E.label = Pharmacy
+MenuItem_522A7F98_4A7A_4616_41AC_AAB8F78489DF.label = Post-Operative Care
+MenuItem_52280F97_4A7A_461A_41C3_6ED7CFCFD0FE.label = Pre-Operative Care
+MenuItem_5229BF98_4A7A_4616_4192_A227D69B26BF.label = Presidential Suite - Bystander Area
+MenuItem_52296F98_4A7A_4616_41C1_975F5171D4FE.label = Presidential Suite - Guest & Meeting Area
+MenuItem_52292F98_4A7A_4616_41C7_933464657283.label = Presidential Suite - Patient Area
+MenuItem_52293F98_4A7A_4616_41D2_479ACAB37E8E.label = Regular Room
+MenuItem_5229EF98_4A7A_4616_41CC_3A058D54283A.label = Restaurant
+MenuItem_52290F98_4A7A_4616_41B7_A8ECEA0C719A.label = Signature Suite - Bystander Area
+MenuItem_5228CF97_4A7A_461A_41D1_BBE57D458373.label = Signature Suite - Patient Area
+MenuItem_52297F98_4A7A_4616_4194_FFFA0B7F57FE.label = X-ray Imaging Suite
