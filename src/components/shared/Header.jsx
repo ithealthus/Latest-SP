@@ -55,63 +55,75 @@ const treatmentItems = [
 
 
 const departmentItems = [
-  { name: "Cardiac Science", href: "/departments/cardiac" },
-  { name: "Anesthesiology", href: "/departments/anesthesiology" },
-  { name: "Critical Care", href: "/departments/critical-care" },
+  { name: "Cardiac Science", href: "/departments/cardiac-hospital-in-trivandrum" },
+  { name: "Anesthesiology", href: "/departments/anesthesiology-hospital-in-trivandrum" },
+  { name: "Critical Care", href: "/departments/critical-care-hospital-in-trivandrum" },
   {
     name: "Dental Oral & Maxillo Facial Surgery",
-    href: "/departments/dental-oral-maxillofacial-surgery",
+    href: "/departments/dental-oral-maxillofacial-surgery-hospital-in-trivandrum",
   },
   {
     name: "General Surgery",
-    href: "/departments/department-of-surgery/general-surgery",
+    href: "/departments/department-of-surgery/general-surgery-hospital-in-trivandrum",
+  },
+  {
+    name: "Plastic & Micro Vascular Surgery",
+    href: "/departments/plastic-micro-vascular-hospital-in-trivandrum",
   },
   {
     name: "Minimal Access Surgery",
-    href: "/departments/department-of-surgery/minimal-access-surgery",
+    href: "/departments/department-of-surgery/minimal-access-surgery-hospital-in-trivandrum",
   },
   {
     name: "Robotic and General Surgery",
-    href: "/departments/department-of-surgery/robotic-laparoscopic-and-general-surgery",
+    href: "/departments/department-of-surgery/robotic-laparoscopic-and-general-surgery-hospital-in-trivandrum",
   },
 
-  { name: "Dermatology", href: "/departments/dermatology" },
-  { name: "Emergency Medicine", href: "/departments/emergency-medicine" },
-  { name: "Endocrinology", href: "/departments/endocrinology" },
-  { name: "ENT", href: "/departments/ent" },
-  { name: "Family Medicine", href: "/departments/family-medicine" },
-  { name: "Gastroenterology", href: "/departments/gastroenterology" },
-  { name: "General Medicine", href: "/departments/general-medicine" },
-  { name: "Laryngology", href: "/departments/laryngology" },
-  { name: "Nephrology", href: "/departments/nephrology" },
-  { name: "Neuroscience", href: "/departments/neurosciences" },
+  { name: "Dermatology", href: "/departments/dermatology-hospital-in-trivandrum" },
+  { name: "Emergency Medicine", href: "/departments/emergency-medicine-hospital-in-trivandrum" },
+  { name: "Endocrinology", href: "/departments/endocrinology-hospital-in-trivandrum" },
+  { name: "ENT", href: "/departments/ent-hospital-in-trivandrum" },
+  { name: "Family Medicine", href: "/departments/family-medicine-hospital-in-trivandrum" },
+  { name: "Gastroenterology", href: "/departments/gastroenterology-hospital-in-trivandrum" },
+  { name: "General Medicine", href: "/departments/general-medicine-hospital-in-trivandrum" },
+  { name: "Laryngology", href: "/departments/laryngology-hospital-in-trivandrum" },
+  { name: "Nephrology", href: "/departments/nephrology-hospital-in-trivandrum" },
+  { name: "Neuroscience", href: "/departments/neurosciences-hospital-in-trivandrum" },
   {
     name: "Obstetrics & Gynaecology",
-    href: "/departments/obstetrics-and-gynaecology",
+    href: "/departments/obstetrics-and-gynaecology-hospital-in-trivandrum",
   },
-  { name: "Medical Oncology", href: "/departments/oncology/medical-oncology" },
+  {
+    name: "Medical Oncology",
+    href: "/departments/oncology/medical-oncology-hospital-in-trivandrum",
+  },
+
   {
     name: "Surgical Oncology",
-    href: "/departments/oncology/surgical-oncology",
+    href: "/departments/oncology/surgical-oncology-hospital-in-trivandrum",
   },
-  { name: "Ophthalmology", href: "/departments/ophthalmology" },
-  { name: "Orthopedics & Spine", href: "/departments/orthopedics-spine" },
+  { name: "Ophthalmology", href: "/departments/ophthalmology-hospital-in-trivandrum" },
+  { name: "Orthopedics & Spine", href: "/departments/orthopedics-spine-hospital-in-trivandrum" },
   {
     name: "Pediatrics Surgery",
-    href: "/departments/pediatrics/pediatric-surgery",
+    href: "/departments/pediatrics/pediatric-surgery-hospital-in-trivandrum",
   },
-  { name: "Pediatrics", href: "/departments/pediatrics/pediatrics" },
   {
-    name: "Plastic & Micro Vascular Surgery",
-    href: "/departments/plastic-micro-vascular",
+    name: "Pediatrics",
+    href: "/departments/pediatrics/pediatrics-hospital-in-trivandrum",
   },
-  { name: "Psychiatry", href: "/departments/psychiatry" },
+
+  { name: "Psychiatry", href: "/departments/psychiatry-hospital-in-trivandrum" },
   { name: "Radiodiagnosis", href: "/departments/radiodiagnosis" },
-  { name: "Respiratory Medicine", href: "/departments/respiratory-medicine" },
-  { name: "Rheumatology", href: "/departments/rheumatology" },
-  { name: "Speech Therapy", href: "/departments/speech-therapy" },
+  {
+    name: "Respiratory Medicine",
+    href: "/departments/respiratory-medicine-hospital-in-trivandrum",
+  },
+  { name: "Rheumatology", href: "/departments/rheumatology-hospital-in-trivandrum" },
+  { name: "Speech Therapy", href: "/departments/speech-therapy-hospital-in-trivandrum" },
   // { name: "Urology", href: "/departments/urology" },
 ];
+
 
 const servicesItems = [
   // { name: "Medical Services", href: "/services/medical-services" },
@@ -138,8 +150,8 @@ const contactItems = [
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-   const [scrolled, setScrolled] = useState(false);
-const pathname = usePathname();
+  const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
   const isHomePage = pathname === "/";
   useEffect(() => {
     if (!isHomePage) return;
@@ -174,13 +186,12 @@ const pathname = usePathname();
 
   return (
     <header
-      className={`w-full top-0 z-50 font-body transition-colors duration-300 ${
-        isHomePage
-          ? scrolled
-            ? "bg-primary fixed text-white shadow-md"
-            : "bg-transparent fixed text-white"
-          : "bg-primary sticky text-white shadow-md"
-      }`}
+      className={`w-full top-0 z-50 font-body transition-colors duration-300 ${isHomePage
+        ? scrolled
+          ? "bg-primary fixed text-white shadow-md"
+          : "bg-transparent fixed text-white"
+        : "bg-primary sticky text-white shadow-md"
+        }`}
     >
       <div className="max-w-[1440px] mx-auto flex items-center justify-between px-4">
         {/* Desktop Navigation */}

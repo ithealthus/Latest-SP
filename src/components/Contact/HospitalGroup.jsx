@@ -133,16 +133,16 @@ const HospitalGroup = () => {
     return (
         <section className="bg-white py-10">
             <div className="max-w-7xl mx-auto px-4 text-center">
-                <h2 data-aos="fade-up" className="text-3xl md:text-5xl font-bold text-[#870064] mb-2">
+                <h2 data-aos="fade-up" className="text-3xl md:text-5xl font-bold text-[#870064] mb-10">
                     Our Group of Hospitals
                 </h2>
-                <p data-aos="fade-up" data-aos-delay="200" className="text-[#44002E] text-xl mb-8">
+                {/* <p data-aos="fade-up" data-aos-delay="200" className="text-[#44002E] text-xl mb-8">
                     Expanding Care, One Campus at a Time 
-                </p>
-
+                </p> */}
+{/* 
                 <h3 data-aos="fade-right" className="text-black pt-5 text-2xl font-semibold mb-6 text-left">
                     Key Members Include :
-                </h3>
+                </h3> */}
                 <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-left">
                     {hospitals.map((hospital, index) => (
                         <div

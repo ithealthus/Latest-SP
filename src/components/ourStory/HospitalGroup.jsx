@@ -135,9 +135,9 @@ const HospitalGroup = () => {
                     Expanding Care, One Campus at a Time 
                 </p>
 
-                <h3 data-aos="fade-right" className="text-black pt-5 text-2xl font-semibold mb-6 text-left">
+                {/* <h3 data-aos="fade-right" className="text-black pt-5 text-2xl font-semibold mb-6 text-left">
                     Key Members Include :
-                </h3>
+                </h3> */}
                 <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 text-left">
                     {hospitals.map((hospital, index) => (
                         <div
