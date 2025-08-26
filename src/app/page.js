@@ -32,68 +32,143 @@ import {
 } from 'lucide-react';
 import ContactSection from '@/components/shared/ContactSection';
 const doctors = [
-  {
-    name: 'Dr. Arun Kumar R',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/arun-kumar.png',
-  },
-  {
-    name: 'Dr. Aathithya S',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/aathithya.png',
-  },
-  {
-    name: 'Dr. Alex Thomas N',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/alex-thomas.png',
-  },
-  {
-    name: 'Dr. Arun Kumar R',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/arun-viswanth.png',
-  },
-  {
-    name: 'Dr. Aathithya S',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/ashok-thomas.png',
-  },
-  {
-    name: 'Dr. Alex Thomas N',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/athul-babu-j.png',
-  },
+  // Anesthesiology
+  { name: "Doctor 1", specialty: "ANESTHESIOLOGY", image: "/images/doctors-card/dp-images/anesthesiology/1.png" },
+  { name: "Doctor 2", specialty: "ANESTHESIOLOGY", image: "/images/doctors-card/dp-images/anesthesiology/2.png" },
+  { name: "Doctor 3", specialty: "ANESTHESIOLOGY", image: "/images/doctors-card/dp-images/anesthesiology/3.png" },
+  { name: "Doctor 4", specialty: "ANESTHESIOLOGY", image: "/images/doctors-card/dp-images/anesthesiology/4.png" },
+  { name: "Doctor 5", specialty: "ANESTHESIOLOGY", image: "/images/doctors-card/dp-images/anesthesiology/5.png" },
+  { name: "Doctor 6", specialty: "ANESTHESIOLOGY", image: "/images/doctors-card/dp-images/anesthesiology/6.png" },
 
-  {
-    name: 'Dr. Aathithya S',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/hari-kumar.png',
-  },
-  {
-    name: 'Dr. Alex Thomas N',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/justin-thomas.png',
-  },
-  {
-    name: 'Dr. Arun Kumar R',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/niranjan.png',
-  },
-  {
-    name: 'Dr. Aathithya S',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/praveen-s-jose.png',
-  },
-  {
-    name: 'Dr. Alex Thomas N',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/rohit.png',
-  },
-  {
-    name: 'Dr. Alex Thomas N',
-    specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/shibu.png',
-  },
+  // Cardiology
+  { name: "Doctor 1", specialty: "CARDIOLOGY", image: "/images/doctors-card/dp-images/cardiology/1.png" },
+  { name: "Doctor 2", specialty: "CARDIOLOGY", image: "/images/doctors-card/dp-images/cardiology/2.png" },
+  { name: "Doctor 3", specialty: "CARDIOLOGY", image: "/images/doctors-card/dp-images/cardiology/3.png" },
+
+  // Critical Care
+  { name: "Doctor 1", specialty: "CRITICAL CARE", image: "/images/doctors-card/dp-images/critical-care/1.png" },
+  { name: "Doctor 2", specialty: "CRITICAL CARE", image: "/images/doctors-card/dp-images/critical-care/2.png" },
+  { name: "Doctor 3", specialty: "CRITICAL CARE", image: "/images/doctors-card/dp-images/critical-care/3.png" },
+
+  // Dental Oral Maxillo Facial Surgery
+  { name: "Doctor 1", specialty: "DENTAL ORAL MAXILLO FACIAL SURGERY", image: "/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/1.png" },
+  { name: "Doctor 2", specialty: "DENTAL ORAL MAXILLO FACIAL SURGERY", image: "/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/2.png" },
+  { name: "Doctor 3", specialty: "DENTAL ORAL MAXILLO FACIAL SURGERY", image: "/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/3.png" },
+  { name: "Doctor 4", specialty: "DENTAL ORAL MAXILLO FACIAL SURGERY", image: "/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/4.png" },
+  { name: "Doctor 5", specialty: "DENTAL ORAL MAXILLO FACIAL SURGERY", image: "/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/5.png" },
+  { name: "Doctor 6", specialty: "DENTAL ORAL MAXILLO FACIAL SURGERY", image: "/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/6.png" },
+  { name: "Doctor 7", specialty: "DENTAL ORAL MAXILLO FACIAL SURGERY", image: "/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/7.png" },
+  { name: "Doctor 8", specialty: "DENTAL ORAL MAXILLO FACIAL SURGERY", image: "/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/8.png" },
+  { name: "Doctor 9", specialty: "DENTAL ORAL MAXILLO FACIAL SURGERY", image: "/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/9.png" },
+
+  // Dentistry
+  { name: "Doctor 1", specialty: "DENTISTRY", image: "/images/doctors-card/dp-images/dentistry/1.png" },
+  { name: "Doctor 2", specialty: "DENTISTRY", image: "/images/doctors-card/dp-images/dentistry/2.png" },
+  { name: "Doctor 3", specialty: "DENTISTRY", image: "/images/doctors-card/dp-images/dentistry/3.png" },
+  { name: "Doctor 4", specialty: "DENTISTRY", image: "/images/doctors-card/dp-images/dentistry/4.png" },
+  { name: "Doctor 5", specialty: "DENTISTRY", image: "/images/doctors-card/dp-images/dentistry/5.png" },
+  { name: "Doctor 6", specialty: "DENTISTRY", image: "/images/doctors-card/dp-images/dentistry/6.png" },
+  { name: "Doctor 7", specialty: "DENTISTRY", image: "/images/doctors-card/dp-images/dentistry/7.png" },
+  { name: "Doctor 8", specialty: "DENTISTRY", image: "/images/doctors-card/dp-images/dentistry/8.png" },
+  { name: "Doctor 9", specialty: "DENTISTRY", image: "/images/doctors-card/dp-images/dentistry/9.png" },
+
+  // Dermatology
+  { name: "Doctor 1", specialty: "DERMATOLOGY", image: "/images/doctors-card/dp-images/dermatology/1.png" },
+  { name: "Doctor 2", specialty: "DERMATOLOGY", image: "/images/doctors-card/dp-images/dermatology/2.png" },
+
+  // Emergency Medicine
+  { name: "Doctor 1", specialty: "EMERGENCY MEDICINE", image: "/images/doctors-card/dp-images/emergency-medicine/1.png" },
+  { name: "Doctor 2", specialty: "EMERGENCY MEDICINE", image: "/images/doctors-card/dp-images/emergency-medicine/2.png" },
+
+  // Endocrinology
+  { name: "Doctor 1", specialty: "ENDOCRINOLOGY", image: "/images/doctors-card/dp-images/endocrinology/1.png" },
+
+  // ENT
+  { name: "Doctor 1", specialty: "ENT", image: "/images/doctors-card/dp-images/ent/1.png" },
+  { name: "Doctor 2", specialty: "ENT", image: "/images/doctors-card/dp-images/ent/2.png" },
+  { name: "Doctor 3", specialty: "ENT", image: "/images/doctors-card/dp-images/ent/3.png" },
+  { name: "Doctor 4", specialty: "ENT", image: "/images/doctors-card/dp-images/ent/4.png" },
+  { name: "Doctor 5", specialty: "ENT", image: "/images/doctors-card/dp-images/ent/5.png" },
+
+  // Family Medicine
+  { name: "Doctor 1", specialty: "FAMILY MEDICINE", image: "/images/doctors-card/dp-images/family-medicine/1.png" },
+
+  // Gastroenterology
+  { name: "Doctor 1", specialty: "GASTROENTEROLOGY", image: "/images/doctors-card/dp-images/gastroenterology/1.png" },
+  { name: "Doctor 2", specialty: "GASTROENTEROLOGY", image: "/images/doctors-card/dp-images/gastroenterology/2.png" },
+  { name: "Doctor 3", specialty: "GASTROENTEROLOGY", image: "/images/doctors-card/dp-images/gastroenterology/3.png" },
+
+  // Gynecology
+  { name: "Doctor 1", specialty: "GYNAECOLOGY", image: "/images/doctors-card/dp-images/gynaecology/1.png" },
+
+  // Internal Medicine
+  { name: "Doctor 1", specialty: "INTERNAL MEDICINE", image: "/images/doctors-card/dp-images/INTERNAL MEDICINE/1.png" },
+  { name: "Doctor 2", specialty: "INTERNAL MEDICINE", image: "/images/doctors-card/dp-images/INTERNAL MEDICINE/2.png" },
+
+  // Nephrology
+  { name: "Doctor 1", specialty: "NEPHROLOGY", image: "/images/doctors-card/dp-images/nephrology/1.png" },
+  { name: "Doctor 2", specialty: "NEPHROLOGY", image: "/images/doctors-card/dp-images/nephrology/2.png" },
+
+  // Neuroscience
+  { name: "Doctor 1", specialty: "NEUROSCIENCE", image: "/images/doctors-card/dp-images/neuroscience/1.png" },
+  { name: "Doctor 2", specialty: "NEUROSCIENCE", image: "/images/doctors-card/dp-images/neuroscience/2.png" },
+  { name: "Doctor 3", specialty: "NEUROSCIENCE", image: "/images/doctors-card/dp-images/neuroscience/3.png" },
+
+  // Oncology
+  { name: "Doctor 1", specialty: "ONCOLOGY", image: "/images/doctors-card/dp-images/oncology/1.png" },
+  { name: "Doctor 2", specialty: "ONCOLOGY", image: "/images/doctors-card/dp-images/oncology/2.png" },
+  { name: "Doctor 3", specialty: "ONCOLOGY", image: "/images/doctors-card/dp-images/oncology/3.png" },
+  { name: "Doctor 4", specialty: "ONCOLOGY", image: "/images/doctors-card/dp-images/oncology/4.png" },
+  { name: "Doctor 5", specialty: "ONCOLOGY", image: "/images/doctors-card/dp-images/oncology/5.png" },
+
+  // Ophthalmology
+  { name: "Doctor 1", specialty: "OPHTHALMOLOGY", image: "/images/doctors-card/dp-images/ophthalmology/1.png" },
+
+  // Orthopedics
+  { name: "Doctor 1", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/1.png" },
+  { name: "Doctor 2", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/2.png" },
+  { name: "Doctor 3", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/3.png" },
+  { name: "Doctor 4", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/4.png" },
+  { name: "Doctor 5", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/5.png" },
+  { name: "Doctor 6", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/6.png" },
+  { name: "Doctor 7", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/7.png" },
+  { name: "Doctor 8", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/8.png" },
+  { name: "Doctor 9", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/9.png" },
+  { name: "Doctor 10", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/10.png" },
+  { name: "Doctor 11", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/11.png" },
+  { name: "Doctor 12", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/12.png" },
+  { name: "Doctor 13", specialty: "ORTHOPEDICS", image: "/images/doctors-card/dp-images/orthopedics/13.png" },
+
+  // Pediatrics
+  { name: "Doctor 1", specialty: "PEDIATRICS", image: "/images/doctors-card/dp-images/pediatrics/1.png" },
+  { name: "Doctor 2", specialty: "PEDIATRICS", image: "/images/doctors-card/dp-images/pediatrics/2.png" },
+  { name: "Doctor 3", specialty: "PEDIATRICS", image: "/images/doctors-card/dp-images/pediatrics/3.png" },
+
+  // Physiotherapy
+  { name: "Doctor 1", specialty: "PHYSIOTHERAPY", image: "/images/doctors-card/dp-images/physiotherapy/1.png" },
+
+  // Plastic Surgery
+  { name: "Doctor 1", specialty: "PLASTIC SURGERY", image: "/images/doctors-card/dp-images/PLASTIC SURGERY/1.png" },
+  { name: "Doctor 2", specialty: "PLASTIC SURGERY", image: "/images/doctors-card/dp-images/PLASTIC SURGERY/2.png" },
+  { name: "Doctor 3", specialty: "PLASTIC SURGERY", image: "/images/doctors-card/dp-images/PLASTIC SURGERY/3.png" },
+  { name: "Doctor 4", specialty: "PLASTIC SURGERY", image: "/images/doctors-card/dp-images/PLASTIC SURGERY/4.png" },
+  { name: "Doctor 5", specialty: "PLASTIC SURGERY", image: "/images/doctors-card/dp-images/PLASTIC SURGERY/5.png" },
+
+  // Psychiatry
+  { name: "Doctor 1", specialty: "PSYCHIATRY", image: "/images/doctors-card/dp-images/psychiatrypsychiatry/1.png" },
+
+  // Radiology
+  { name: "Doctor 1", specialty: "RADIOLOGY", image: "/images/doctors-card/dp-images/radiology/1.png" },
+  { name: "Doctor 2", specialty: "RADIOLOGY", image: "/images/doctors-card/dp-images/radiology/2.png" },
+
+  // Respiratory Medicine
+  { name: "Doctor 1", specialty: "RESPIRATORY MEDICINE", image: "/images/doctors-card/dp-images/RESPIRATORY MEDICINE/1.png" },
+
+  // Urology
+  { name: "Doctor 1", specialty: "UROLOGY", image: "/images/doctors-card/dp-images/urology/1.png" },
+  { name: "Doctor 2", specialty: "UROLOGY", image: "/images/doctors-card/dp-images/urology/2.png" },
 ];
+
 import InternationalPatients from '@/components/shared/InternationalPatients';
 import Link from 'next/link';
 import AppDownloadBanner from '@/components/shared/AppDownloadBanner';
@@ -116,41 +191,45 @@ export default function Home() {
 
   const buttons = [
     {
-      key: 'second-opinion',
-      label: 'Second Opinion',
+      key: "second-opinion",
+      label: "Second Opinion",
       icon: <Stethoscope size={24} />,
+      link: "/second-opinion",
     },
     {
-      key: 'health-checkup',
-      label: 'Get Health Checkup',
+      key: "health-checkup",
+      label: "Get Health Checkup",
       icon: <ClipboardList size={24} />,
+      link: "/health-check-packages",
     },
     {
-      key: 'virtual-consult',
-      label: 'Book Virtual Consultation',
+      key: "virtual-consult",
+      label: "Book Virtual Consultation",
       icon: <Laptop size={24} />,
+      link: "/find-a-doctor",
     },
     {
-      key: 'homecare',
-      label: 'Homecare',
+      key: "homecare",
+      label: "Homecare",
       icon: <HomeIcon size={24} />,
+      link: "/patient-care",
     },
   ];
 
 
   const slides = [
     {
-      image: '/images/img1.jpg',
+      image: '/images/img1.webp',
       title: 'Experience Healthcare in a New Light',
       description: `At SP Medifort, we've created an advanced hospital setup in South Kerala with 475 beds, 10 high-tech operation theatres, and 170 ICU beds, designed to offer the kind of care that makes a real difference.`,
     },
     {
-      image: '/images/img2.jpg',
+      image: '/images/img2.webp',
       title: 'Driven by Innovation. Guided by Compassion',
       description: `Combining cutting-edge technology with human touch to create better patient outcomes every day.`,
     },
     {
-      image: '/images/img3.jpg',
+      image: '/images/img3.webp',
       title: 'Your Health, Our Priority',
       description: `Our team of expert doctors and support staff work around the clock to ensure holistic and trusted care.`,
     },
@@ -158,27 +237,27 @@ export default function Home() {
   const alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
   const whyChooseCards = [
     {
-      icon: <FaMicroscope size={28} className="text-[#6E2452]" />,
+      icon: <FaMicroscope size={28} className="text-primary" />,
       text: '1st Fully Robotic Zeiss Kinevo Neuro Microscope in South Kerala',
     },
     {
-      icon: <FaCogs size={28} className="text-[#6E2452]" />,
+      icon: <FaCogs size={28} className="text-primary" />,
       text: '1st 3D Hybrid Cath Lab (GE Allia) with AI in South Asia',
     },
     {
-      icon: <FaXRay size={28} className="text-[#6E2452]" />,
+      icon: <FaXRay size={28} className="text-primary" />,
       text: '1st Fully Motorized X-ray Suite in the Region',
     },
     {
-      icon: <FaParking size={28} className="text-[#6E2452]" />,
+      icon: <FaParking size={28} className="text-primary" />,
       text: 'Multi-Level 650-Car Covered Parking',
     },
     {
-      icon: <FaProcedures size={28} className="text-[#6E2452]" />,
+      icon: <FaProcedures size={28} className="text-primary" />,
       text: '170 ICU Beds with Remote Monitoring 24x7 & Level-D Isolation',
     },
     {
-      icon: <FaFireAlt size={28} className="text-[#6E2452]" />,
+      icon: <FaFireAlt size={28} className="text-primary" />,
       text: '30-Bed Emergency Wing with an Independent Burns Unit',
     },
   ];
@@ -210,13 +289,7 @@ export default function Home() {
         position: 'Consultant',
         image: '/images/doctors-card/aathithya.png',
       },
-      {
-        name: 'Dr. Rahul Patel',
-        designation: 'Orthopaedic Surgeon',
-        position: 'Consultant',
-        image: '/images/doctors-card/aathithya.png',
-      },
-
+      
     ],
     description:
       'Our team brings decades of surgical excellence, international experience, and compassionate care to every patient.',
@@ -240,7 +313,7 @@ export default function Home() {
         </video>
 
 
-        <div className="absolute top-0 left-0 w-full h-[80dvh] bg-gradient-to-b from-[#6E2452] to-transparent z-10 pointer-events-none" />
+        <div className="absolute top-0 left-0 w-full h-[80dvh] bg-gradient-to-b from-primary to-transparent z-10 pointer-events-none" />
 
         <div className="relative z-20 w-full max-w-5xl px-4">
           {/* Search */}
@@ -248,9 +321,9 @@ export default function Home() {
             <input
               type="text"
               placeholder="Search For Doctors & Specialities..."
-              className="flex-1 bg-transparent text-[#6E2452] placeholder-[#6E2452] font-semibold text-sm md:text-base focus:outline-none"
+              className="flex-1 bg-transparent text-primary placeholder-primary font-semibold text-sm md:text-base focus:outline-none"
             />
-            <button className="text-white bg-[#6E2452] p-2 rounded-full hover:bg-[#5a1d44] transition">
+            <button className="text-white bg-primary p-2 rounded-full hover:bg-primary transition">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-5 h-5"
@@ -271,28 +344,31 @@ export default function Home() {
             {/* Actual content with z-20 so it's above the border layer */}
             <div
               className="relative z-20 flex flex-col md:flex-row 
-                divide-y-2 md:divide-y-0 md:divide-x-2 divide-gray-300 rounded-2xl border-4 border-white"
+                divide-y-2 md:divide-y-0 md:divide-x-2 justify-center rounded-2xl border-4 border-white"
             >
               {buttons.map((btn, index) => (
+                <Link  className={`flex-1 flex items-center gap-3 justify-center group px-4 py-3 font-semibold text-sm md:text-base transition
+                    ${active === btn.key
+                      ? 'bg-primary text-white'
+                      : 'text-primary hover:bg-primary hover:text-white '}
+                    ${index === 0 ? 'lg:rounded-l-2xl' : 'rounded-2xl lg:rounded-none'}
+                    ${index === buttons.length - 1 ? 'lg:rounded-r-2xl' : 'rounded-2xl lg:rounded-none'}`} href={btn.link} passHref key={btn.key}>
                 <button
                   key={btn.key}
                   onClick={() => setActive(btn.key)}
-                  className={`flex-1 flex items-center gap-3 justify-center px-4 py-3 font-semibold text-sm md:text-base transition
-                    ${active === btn.key
-                      ? 'bg-[#6E2452] text-white'
-                      : 'text-[#6E2452] hover:bg-gray-50'}
-                    ${index === 0 ? 'rounded-l-2xl' : ''}
-                    ${index === buttons.length - 1 ? 'rounded-r-2xl' : ''}`}
+                 className="flex items-center gap-3 justify-center w-full"
                 >
                   <span
-                    className={`text-xl transition ${active === btn.key ? 'text-white' : 'text-[#6E2452]'
+                    className={`text-xl transition ${active === btn.key ? 'text-white' : 'text-primary group-hover:text-white'
                       }`}
                   >
                     {btn.icon}
                   </span>
                   <span>{btn.label}</span>
                 </button>
+                </Link>
               ))}
+
             </div>
             <div className="absolute inset-0 m-2 rounded-2xl border-4 border-white  z-10 pointer-events-none"></div>
           </div>
@@ -320,14 +396,14 @@ export default function Home() {
               />
 
               {/* Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-b from-[#6E2452]/90 via-[#6E2452]/70 to-transparent z-10" />
+              <div className="absolute inset-0 bg-gradient-to-b from-primary/90 via-primary/70 to-transparent z-10" />
 
               {/* Text Content */}
               <div className="relative z-20 max-w-4xl h-full mx-auto px-6 flex flex-col justify-center text-white space-y-4">
                 <h2 className="text-3xl md:text-5xl font-bold leading-tight">{slide.title}</h2>
                 <p className="text-sm md:text-lg max-w-2xl">{slide.description}</p>
                 <Link href='/health-check-packages' >
-                <button className="bg-white text-[#6E2452] px-6 py-2 rounded-full font-semibold w-max shadow hover:bg-gray-100 flex items-center gap-2">
+                <button className="bg-white text-primary px-6 py-2 rounded-full font-semibold w-max shadow hover:bg-gray-100 flex items-center gap-2">
                   Read More
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -381,7 +457,7 @@ export default function Home() {
               className="absolute right-0 top-0 
                w-[60%] md:w-[55%] 
                h-[240px] md:h-[360px] 
-               bg-[#6E2452] 
+               bg-primary 
                rounded-tl-[80px] rounded-bl-[80px] md:rounded-tl-[120px] md:rounded-bl-[120px] 
                z-0"
             />
@@ -454,7 +530,7 @@ export default function Home() {
       <section className="py-12 bg-white">
         <div className="max-w-6xl mx-auto text-center px-4">
           <h2 className="text-2xl md:text-4xl font-bold text-[#222] mb-2">Why Choose SP Medifort?</h2>
-          <p className="text-[#6E2452] font-medium mb-8">South Kerala’s 1st JCI Accredited hospital</p>
+          <p className="text-primary font-medium mb-8">South Kerala’s 1st JCI Accredited hospital</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {whyChooseCards.map((item, idx) => (
@@ -529,13 +605,13 @@ export default function Home() {
           <div className="mt-8 flex justify-center">
             <a
               href="/find-a-doctor"
-              className="bg-[#6E2452] text-white px-3 py-2 rounded-full font-semibold flex items-center gap-3 hover:bg-[#5a1d44] transition"
+              className="bg-primary text-white px-3 py-2 rounded-full font-semibold flex items-center gap-3 hover:bg-primary transition"
             >
               See All Doctors
               <span className="bg-white rounded-full p-1">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="w-4 h-4 text-[#6E2452]"
+                  className="w-4 h-4 text-primary"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -558,7 +634,7 @@ export default function Home() {
       <section className="bg-[#FDEDF8] py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
           {/* Section Title */}
-          <h2 className="text-2xl md:text-4xl font-bold text-[#6E2452] mb-4">
+          <h2 className="text-2xl md:text-4xl font-bold text-primary mb-4">
             Building the Future of Healthcare
           </h2>
           <p className="text-black mb-12 max-w-3xl mx-auto text-lg">
@@ -578,7 +654,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6 text-left">
-                <h3 className="text-[#6E2452] font-bold text-lg mb-2">
+                <h3 className="text-primary font-bold text-lg mb-2">
                   Medicine – CCT-EM (SEMI), MRCEM (UK)
                 </h3>
                 <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
@@ -601,7 +677,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6 text-left">
-                <h3 className="text-[#6E2452] font-bold text-lg mb-2">
+                <h3 className="text-primary font-bold text-lg mb-2">
                   NSDC Course: General Duty Assistant
                 </h3>
                 <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
@@ -622,7 +698,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6 text-left">
-                <h3 className="text-[#6E2452] font-bold text-lg mb-2">Other Programs:</h3>
+                <h3 className="text-primary font-bold text-lg mb-2">Other Programs:</h3>
                 <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
                   <li>MBBS Observership (Intl. students)</li>
                   <li>Physiotherapy</li>
@@ -635,13 +711,13 @@ export default function Home() {
           {/* CTA Button */}
           <Link
             href="/news-and-resources"
-            className="inline-flex items-center gap-2 bg-[#6E2452] text-white px-3 py-2 rounded-full font-semibold hover:bg-[#5a1d44] transition"
+            className="inline-flex items-center gap-2 bg-primary text-white px-3 py-2 rounded-full font-semibold hover:bg-primary transition"
           >
             Explore Academic Opportunities
             <span className="bg-white rounded-full p-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="w-4 h-4 text-[#6E2452]"
+                className="w-4 h-4 text-primary"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -656,7 +732,7 @@ export default function Home() {
       <section className="bg-white py-16 px-4">
         <div className="max-w-7xl mx-auto text-center">
           {/* Heading */}
-          <h2 className="text-3xl md:text-4xl font-bold text-black mb-2">
+          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-2">
             Healing Stories
           </h2>
           <p className="text-black text-2xl mb-12">Healing That Feels Like Home</p>
@@ -695,7 +771,6 @@ export default function Home() {
             <div>
               <VideoCard
                 src="/videos/vid3.mp4"
-
                 title="Pre-term Babies"
                 name="Ms Sakshi"
                 tall
@@ -732,10 +807,20 @@ export default function Home() {
           </div>
 
           {/* Mobile View - Stack */}
-          <div className="grid md:hidden grid-cols-1 gap-4">
-            {/* Stack all videos vertically on small screens */}
-            {/* You can reuse same VideoCard components here */}
-          </div>
+          <div className="md:hidden">
+  <div className="relative h-[250px] rounded-2xl overflow-hidden shadow-lg">
+    <video
+      src="/videos/vid1.mp4"
+      autoPlay
+      muted
+      loop
+      playsInline
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
+
+      
 
           {/* Buttons */}
           {/* <div className="mt-10 flex justify-center gap-4">
@@ -748,7 +833,7 @@ export default function Home() {
               </span>
             </button>
 
-            <button className="inline-flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-[#5a1d44] transition">
+            <button className="inline-flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-primary transition">
               Watch Patient Videos
               <span className="bg-white text-primary rounded-full p-1">
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
