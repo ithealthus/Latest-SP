@@ -139,9 +139,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link  href="https://spmedifort.com/virtual-tour/">
-                  Take a Virtual Tour
-                </Link>
+                  <Link href="/virtual-tour">
+    Take a Virtual Tour
+  </Link>
               </li>
             </ul>
           </div>
