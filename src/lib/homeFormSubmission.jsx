@@ -6,7 +6,7 @@ export const contactFormSubmission = async (
 ) => {
   try {
     const response = await fetch(
-      "https://spmedifort.com/news-and-resources/wp-json/custom/v1/submit-contact",
+      `${process.env.NEXT_PUBLIC_API_BLOGS}/wp-json/custom/v1/submit-contact`,
       {
         method: "POST",
         headers: {

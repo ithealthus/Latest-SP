@@ -55,7 +55,7 @@ const PatientCareHero = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#870064] h-14"></div>
+      <div className="bg-primary h-14"></div>
     </section>
   );
 };

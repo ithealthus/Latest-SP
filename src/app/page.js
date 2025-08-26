@@ -187,7 +187,7 @@ export default function Home() {
       scrollRef.current.scrollBy({ left: 300, behavior: 'smooth' });
     }
   };
-  const [active, setActive] = useState('second-opinion');
+  // const [active, setActive] = useState('second-opinion');
 
   const buttons = [
     {
@@ -204,7 +204,7 @@ export default function Home() {
     },
     {
       key: "virtual-consult",
-      label: "Book Virtual Consultation",
+      label: "Book Consultation",
       icon: <Laptop size={24} />,
       link: "/find-a-doctor",
     },
@@ -347,27 +347,19 @@ export default function Home() {
                 divide-y-2 md:divide-y-0 md:divide-x-2 justify-center rounded-2xl border-4 border-white"
             >
               {buttons.map((btn, index) => (
-                <Link  className={`flex-1 flex items-center gap-3 justify-center group px-4 py-3 font-semibold text-sm md:text-base transition
-                    ${active === btn.key
-                      ? 'bg-primary text-white'
-                      : 'text-primary hover:bg-primary hover:text-white '}
-                    ${index === 0 ? 'lg:rounded-l-2xl' : 'rounded-2xl lg:rounded-none'}
-                    ${index === buttons.length - 1 ? 'lg:rounded-r-2xl' : 'rounded-2xl lg:rounded-none'}`} href={btn.link} passHref key={btn.key}>
-                <button
-                  key={btn.key}
-                  onClick={() => setActive(btn.key)}
-                 className="flex items-center gap-3 justify-center w-full"
-                >
-                  <span
-                    className={`text-xl transition ${active === btn.key ? 'text-white' : 'text-primary group-hover:text-white'
-                      }`}
-                  >
-                    {btn.icon}
-                  </span>
-                  <span>{btn.label}</span>
-                </button>
-                </Link>
-              ))}
+        <Link
+          key={btn.key}
+          href={btn.link}
+          passHref
+          className={`flex-1 flex items-center gap-3 justify-center px-4 py-3 font-semibold text-sm md:text-base transition
+            text-primary hover:bg-primary hover:text-white
+            ${index === 0 ? 'lg:rounded-l-2xl' : 'rounded-2xl lg:rounded-none'}
+            ${index === buttons.length - 1 ? 'lg:rounded-r-2xl' : 'rounded-2xl lg:rounded-none'}`}
+        >
+          <span className="text-xl">{btn.icon}</span>
+          <span>{btn.label}</span>
+        </Link>
+      ))}
 
             </div>
             <div className="absolute inset-0 m-2 rounded-2xl border-4 border-white  z-10 pointer-events-none"></div>
@@ -435,7 +427,7 @@ export default function Home() {
             </h2>
 
             <p className="text-black mb-4">
-              SP Medifort is a leading multispecialty hospital in Thiruvananthapuram, offering expert care across 50+ medical fields. Equipped with cutting-edge technology like robotic surgery and AI-based diagnostics, we combine advanced infrastructure with a compassionate, patient-first approach. From 24/7 emergency services to evidence-based treatments, our experienced doctors are committed to ensuring a seamless and supportive healing journey, making us a trusted choice among Trivandrum private hospitals.
+              SP Medifort is a leading multispecialty hospital in Thiruvananthapuram, offering expert care across 50+ medical fields. Equipped with cutting-edge technology like robotic surgery and AI-based diagnostics, we combine advanced infrastructure with a compassionate, patient-first approach. From 24/7 emergency services to evidence-based treatments, our experienced doctors are committed to ensuring a seamless and supportive healing journey, making us a trusted choice among Thiruvananthapuram private hospitals.
 
             </p>
 
@@ -710,7 +702,7 @@ export default function Home() {
 
           {/* CTA Button */}
           <Link
-            href="/news-and-resources"
+            href="/contact"
             className="inline-flex items-center gap-2 bg-primary text-white px-3 py-2 rounded-full font-semibold hover:bg-primary transition"
           >
             Explore Academic Opportunities
@@ -822,26 +814,7 @@ export default function Home() {
 
       
 
-          {/* Buttons */}
-          {/* <div className="mt-10 flex justify-center gap-4">
-            <button className="inline-flex items-center gap-2 border border-primary text-primary px-6 py-2 rounded-full font-semibold hover:bg-primary hover:text-white transition">
-              Read More Stories
-              <span className="bg-primary text-white rounded-full p-1">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
-            </button>
-
-            <button className="inline-flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-primary transition">
-              Watch Patient Videos
-              <span className="bg-white text-primary rounded-full p-1">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
-            </button>
-          </div> */}
+          
         </div>
       </section>
 
@@ -900,84 +873,7 @@ export default function Home() {
       <FaqSection />
 
       <ContactSection />
-      {/* <section class="w-full bg-gradient-to-r from-[#72005F] to-[#9A007D] ">
-  <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-10 ">
-    
-    
-    <div class="w-full lg:w-1/2 text-white">
-      <h2 class="text-2xl font-bold mb-2">Post A Medical Query:</h2>
-      <p class="mb-6">Post A Question, And We Will Get Back To You Soon.</p>
       
-      <form class="space-y-4">
-        <input type="text" placeholder="Name:" class="w-full px-4 py-2 rounded-full text-black focus:outline-none" />
-        
-        <div class="flex gap-4">
-          <input type="text" placeholder="Mobile:" class="w-1/2 px-4 py-2 rounded-full text-black focus:outline-none" />
-          <input type="email" placeholder="Email:" class="w-1/2 px-4 py-2 rounded-full text-black focus:outline-none" />
-        </div>
-        
-        <select class="w-full px-4 py-2 rounded-full text-black focus:outline-none">
-          <option>Select Treatment:</option>
-          
-        </select>
-        
-        <textarea placeholder="Your Message Here:" rows="4" class="w-full px-4 py-2 rounded-lg text-black focus:outline-none"></textarea>
-        
-        <div class="flex items-center gap-2">
-          <input type="checkbox" id="agree" />
-          <label for="agree" class="text-sm">
-            I Agree To The T&C And Privacy Policy And I Am Giving My Consent To Receive Updates Through SMS/Email.
-          </label>
-        </div>
-        
-        <button type="submit" class="bg-white text-[#72005F] px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition">
-          Submit Now!
-        </button>
-      </form>
-    </div>
-
-    
-    <div class="w-full lg:w-full relative">
-      <div class="w-full h-full lg:w-full relative overflow-hidden">
-  <img src="/images/img10.png" alt="Doctors" class="w-full h-full object-cover" />
-</div>
-
-
-
-
-      
-      <div class="absolute top-4 right-0 space-y-4 py-20">
-        <div class="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
-          <div class="bg-primary p-2 rounded-full text-white">
-            📍
-          </div>
-          <p class="text-sm">
-            <span class="font-bold text-[#72005F]">Visit Us:</span> Reach Our Thiruvananthapuram Campus With Ease Using Online Directions
-          </p>
-        </div>
-
-        <div class="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
-          <div class="bg-[#72005F] p-2 rounded-full text-white">
-            📞
-          </div>
-          <p class="text-sm">
-            <span class="font-bold text-[#72005F]">Emergency 24x7:</span> Reach Us On Our Emergency Helpline: +91-0471 3100 100
-          </p>
-        </div>
-
-        <div class="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
-          <div class="bg-[#72005F] p-2 rounded-full text-white">
-            💻
-          </div>
-          <p class="text-sm">
-            <span class="font-bold text-[#72005F]">Online Consultation:</span> Talk To Our Doctors From Where You Sit
-          </p>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section> */}
 
 
     </>
