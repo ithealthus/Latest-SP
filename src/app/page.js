@@ -226,7 +226,6 @@ export default function Home() {
     },
   };
 
-
   return (
     <>
       <section className="relative w-full min-h-screen flex items-end justify-center text-white overflow-hidden pb-10">
