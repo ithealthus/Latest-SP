@@ -28,8 +28,8 @@ export default function ContactSection() {
             />
           </div>
 
-          <div className="absolute hidden lg:block top-20 right-0 space-y-4  pr-2 mt-[12rem]">
-            {/* Card 1 */}
+          {/* <div className="absolute hidden lg:block top-20 right-0 space-y-4  pr-2 mt-[12rem]">
+       
             <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
               <div className="bg-primary p-2 rounded-full text-white text-lg">
                 <MdLocationOn />
@@ -40,7 +40,7 @@ export default function ContactSection() {
               </p>
             </div>
 
-            {/* Card 2 */}
+          
             <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
               <div className="bg-[#72005F] p-2 rounded-full text-white text-lg">
                 <MdPhone />
@@ -51,7 +51,7 @@ export default function ContactSection() {
               </p>
             </div>
 
-            {/* Card 3 */}
+            
             <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
               <div className="bg-[#72005F] p-2 rounded-full text-white text-lg">
                 <MdComputer />
@@ -61,7 +61,7 @@ export default function ContactSection() {
                 Talk To Our Doctors From Where You Sit
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

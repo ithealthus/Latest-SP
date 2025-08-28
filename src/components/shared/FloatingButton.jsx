@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
+import { FaCircleArrowRight } from "react-icons/fa6";
 
 const buttons = [
   {
@@ -38,8 +39,9 @@ const FloatingButton = () => {
           <Link
             key={index}
             href={btn.href}
-            className="group flex items-center gap-3 bg-[#370025] text-white rounded-full shadow-lg h-12 w-12 overflow-hidden transition-all duration-500 hover:w-60 cursor-pointer border-2 border-white"
+            className="group flex items-center justify-between gap-3 bg-[#370025] text-white rounded-full shadow-lg h-12 w-12 overflow-hidden transition-all duration-500 hover:w-60 cursor-pointer border-2 border-white"
           >
+            <div className="flex items-center gap-3">
             <img
               src={btn.img}
               alt={btn.alt}
@@ -48,6 +50,8 @@ const FloatingButton = () => {
             <span className="flex gap-3 items-center whitespace-nowrap font-semibold text-white opacity-0 scale-0 group-hover:opacity-100 group-hover:scale-100 transition-all duration-500 ease-in-out">
               {btn.alt}
             </span>
+            </div>
+              <FaCircleArrowRight className="text-2xl mr-3" />
           </Link>
         ))}
       </div>
