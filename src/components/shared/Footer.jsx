@@ -12,8 +12,8 @@ const prefix = "/mainClient/out";
 export default function Footer() {
   return (
     <footer className="bg-white text-dark font-body border-t border-gray-100 pt-10">
-      <div className="w-full  pl-4">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 pb-5">
+      <div className="w-full">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 pb-5 pl-5 lg:pl-24">
           {/* For Patients */}
           <div>
             <h3 className="text-lg font-semibold text-primary mb-3">
@@ -56,6 +56,20 @@ export default function Footer() {
                 </Link>
               </li> */}
             </ul>
+             <div className="flex justify-start space-x-6 my-5 text-xl text-primary">
+            <Link className="font-bold" href="https://www.linkedin.com/company/sp-medifort-hospital/?originalSubdomain=in">
+              <FaFacebookF />
+            </Link>
+            <Link className="font-bold" href="https://x.com/spmedifort/">
+              <FaXTwitter />
+            </Link>
+            <Link className="font-bold" href="https://www.instagram.com/spmedifort/?hl=en">
+              <FaInstagram />
+            </Link>
+            <Link className="font-bold" href="https://www.youtube.com/channel/UClDlhQhdJfOb9cl3WSxzEkg">
+              <FaYoutube />
+            </Link>
+          </div>
           </div>
 
           {/* Hospital Services */}
@@ -139,9 +153,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                  <Link href="/virtual-tour">
-    Take a Virtual Tour
-  </Link>
+                <Link href="/virtual-tour">
+              Take a Virtual Tour
+            </Link>
               </li>
             </ul>
           </div>
@@ -200,7 +214,7 @@ export default function Footer() {
               </button>
               </Link>
             </div>
-
+           
             {/* <div className="w-full max-w-[280px] pr-4">
               <button className="w-full border-2 border-primary text-primary px-6 py-2 rounded-full text-sm font-semibold shadow-sm hover:bg-primary hover:text-white transition">
                 Book An Appointment!
@@ -210,8 +224,20 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-200 pt-6  text-center text-xs text-dark">
-          <div className="space-x-4 text-sm py-3">
+        <div className="border-t border-gray-200  text-center text-xs text-dark">        
+          <div className="border-t border-gray-200 lg:flex justify-between items-center px-5 py-3 text-center text-sm font-bold text-dark bg-[#feeef8]">
+            <p className="">
+              Copyright © 2025 SP Medifort All Rights Reserved.
+            </p>
+            <p className="">
+               Designed &
+              Maintained by{" "}
+              <Link href="https://www.healthus.ai/" target="_blank">
+                Healthus.AI
+              </Link>
+            </p>
+            <p className="">
+             <div className="space-x-4 text-sm py-3">
             <Link className="font-bold" href="/privacyandpolicy">
               Privacy Policy
             </Link>
@@ -224,30 +250,6 @@ export default function Footer() {
               Site Map
             </Link> */}
           </div>
-          <div className="flex justify-center space-x-6 mb-3 text-xl text-primary">
-            <Link className="font-bold" href="https://www.linkedin.com/company/sp-medifort-hospital/?originalSubdomain=in">
-              <FaFacebookF />
-            </Link>
-            <Link className="font-bold" href="https://x.com/spmedifort/">
-              <FaXTwitter />
-            </Link>
-            <Link className="font-bold" href="https://www.instagram.com/spmedifort/?hl=en">
-              <FaInstagram />
-            </Link>
-            <Link className="font-bold" href="https://www.youtube.com/channel/UClDlhQhdJfOb9cl3WSxzEkg">
-              <FaYoutube />
-            </Link>
-          </div>
-          <p className="py-3 text-sm ">
-            Empowering Lives. Redefining Healthcare.
-          </p>
-          <div className="border-t border-gray-200 py-6 text-center text-sm font-bold text-dark bg-[#feeef8]">
-            <p className="">
-              Copyright © 2025 SP Medifort All Rights Reserved. Designed &
-              Maintained by{" "}
-              <Link href="https://www.healthus.ai/" target="_blank">
-                Healthus.AI
-              </Link>
             </p>
           </div>
         </div>

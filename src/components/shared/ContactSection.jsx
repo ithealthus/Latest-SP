@@ -28,7 +28,7 @@ export default function ContactSection() {
             />
           </div>
 
-          <div className="absolute top-20 right-0 space-y-4  pr-2 mt-[12rem]">
+          <div className="absolute hidden lg:block top-20 right-0 space-y-4  pr-2 mt-[12rem]">
             {/* Card 1 */}
             <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
               <div className="bg-primary p-2 rounded-full text-white text-lg">

@@ -171,3 +171,8 @@ input.ant-input.css-dev-only-do-not-override-1vjf2v5.ant-input-outlined.ant-otp-
     width: 60px;
     height: 60px;
 }
+
+#kenytChatBubble.style1 {
+    margin-bottom: 70px !important;
+    margin-right: 15px !important;
+}

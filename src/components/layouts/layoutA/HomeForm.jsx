@@ -69,7 +69,7 @@ const HomeForm = () => {
     <div>
       <form
         onSubmit={handleContactSubmit}
-        className="space-y-4 bg-white p-8 rounded-2xl shadow-xl max-w-xl my-5 mx-auto"
+        className="space-y-4 bg-white p-8 rounded-2xl shadow-xl max-w-xl my-4 mx-auto"
       >
         <h2 className="text-2xl font-bold text-center text-[#72005F]">Contact Now</h2>
 
