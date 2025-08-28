@@ -1,7 +1,7 @@
 
 const FamilyMedicineData = {
   hero: {
-    title: 'Whole-family care. One doctor. One destination.',
+    title: 'Family Medicine & Primary Care Servicesi n Thiruvananthapuram',
     description: [
       "At SP Medifort, our Family Medicine department serves as your first and ongoing point of contact for lifelong healthcare. Whether it’s a child with a fever, a senior with diabetes, or a young adult needing vaccination, our family physicians manage prevention, diagnosis, and continuity of care.We ensure that every age group receives integrated, relationship-based care with access to specialists when needed."
     ],

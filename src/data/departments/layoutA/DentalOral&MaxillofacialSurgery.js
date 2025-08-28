@@ -2,7 +2,7 @@ import React from 'react';
 
 const DentalOralMaxillofacialSurgery = {
   hero: {
-    title: 'From Smile correction to Advanced Surgical care beyond dentistry',
+    title: 'Oral Care Dental Clinic & Maxillo Facial Surgeon in Thiruvananthapuram',
     description: [
       "At SP Medifort, our Dental and Oral & Maxillofacial Surgery Department blends the precision of dentistry with the expertise of facial surgery. We manage everything from routine dental extractions to complex jaw surgeries, facial trauma management, cysts, tumors and oral cancer resection, and reconstructive procedures, all under one roof.We are among the few hospitals in Trivandrum offering a full scope of oral & maxillofacial surgery inside a tertiary care setting."
     ],

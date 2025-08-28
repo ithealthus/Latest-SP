@@ -1,6 +1,6 @@
 const cardiacScienceData = {
   hero: {
-    title: 'Advanced Heart Care with a Human Touch',
+    title: 'Top Cardiac Hospitals in Thiruvananthapuram',
     description: [
       "SP Medifort’s Cardiac Science Department is one of the most comprehensive heart care centers in South Kerala. From emergency cardiac support to preventive heart screenings and interventional procedures, we provide personalized cardiology services in Trivandrum backed by innovation, empathy, and outcomes.Whether it's managing hypertension or performing a complex angioplasty, our approach is focused on quick diagnosis, minimally invasive treatment, and long-term heart wellness."
     ],

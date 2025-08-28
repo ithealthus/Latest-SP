@@ -1,7 +1,7 @@
 
   const SurgicalOncology =   {
 	hero: {
-    title: 'Hope, skill, and precision for every cancer journey',
+    title: 'Expert Surgical Oncology Clinics in Thiruvananthapuram ',
     description: [
       " We offer specialized cancer surgery for solid tumors across the body. From early-stage tumor removal to complex reconstructive procedures, we ensure safe and advanced surgical options in a multidisciplinary environment"
     ],

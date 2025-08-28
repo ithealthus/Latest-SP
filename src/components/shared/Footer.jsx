@@ -109,7 +109,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link  href="/services/physiotherapyRehabilitation">
+                <Link  href="/services/physiotherapy-rehabilitation-in-trivandrum">
                   Physiotherapy & Recovery
                 </Link>
               </li>
@@ -227,23 +227,22 @@ export default function Footer() {
         <div className="border-t border-gray-200  text-center text-xs text-dark">        
           <div className="border-t border-gray-200 lg:flex justify-between items-center px-5 py-3 text-center text-sm font-bold text-dark bg-[#feeef8]">
             <p className="">
-              Copyright © 2025 SP Medifort All Rights Reserved.
+              Copyright © 2025 SP Medifort Hospital. All rights reserved
             </p>
-            <p className="">
-               Designed &
-              Maintained by{" "}
+            <p className="lg:-ml-28">
+               Designed & maintained by {" "}
               <Link href="https://www.healthus.ai/" target="_blank">
-                Healthus.AI
+                Healthus.ai
               </Link>
             </p>
             <p className="">
              <div className="space-x-4 text-sm py-3">
             <Link className="font-bold" href="/privacyandpolicy">
-              Privacy Policy
+              Privacy policy
             </Link>
             <span>|</span>
             <Link className="font-bold" href="/termsandconditions">
-              Terms of Use
+              Terms of use
             </Link>
             {/* <span>|</span>
             <Link className="font-bold" href="#">

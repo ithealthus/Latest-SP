@@ -1,7 +1,7 @@
 import React from 'react';
 const EmergencyMedicineData = {
   hero: {
-    title: 'Every second counts – We are always ready',
+    title: 'Emergency Medicine Department in Thiruvananthapuram',
     description: [
       "SP Medifort’s Emergency Medicine Department is built to handle every kind of critical situation, whether it's a road traffic accident, cardiac event, stroke, or sudden trauma. With 24*7 emergency care in Trivandrum, we ensure rapid triage, expert evaluation, and life-saving treatment in minutes.Our goal: Stabilize fast, treat efficiently, and save lives."
     ],

@@ -1,7 +1,7 @@
 
 const GeneralSurgeryData = {
   hero: {
-    title: 'Precise, safe, and compassionate surgical care',
+    title: 'Best General Surgeon in Thiruvananthapuram',
     description: [
       "At SP Medifort, our General Surgery department offers a wide range of procedures from emergency interventions to scheduled minimally invasive operations. With a patient-first philosophy, we ensure faster recovery, fewer complications, and minimal scarring.Whether it's hernia repair, gallbladder removal, or appendicitis, our team offers dependable, high-quality care, making us a trusted choice for general surgery in Trivandrum."
     ],

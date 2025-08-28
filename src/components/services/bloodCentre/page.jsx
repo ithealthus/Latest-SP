@@ -104,7 +104,7 @@ const page = ({ data }) => {
               </p>
             </div>
             <div className="flex-1 flex justify-center md:justify-end w-full">
-              <div className="w-[280px] sm:w-[400px] md:w-[520px] h-[210px] sm:h-[320px] md:h-[391px] rounded-2xl overflow-hidden shadow-xl border-[3px] border-[#ecd7ee]">
+              <div className="w-full sm:w-[400px] md:w-[520px] h-[210px] sm:h-[320px] md:h-[391px] rounded-2xl overflow-hidden shadow-xl border-[3px] border-[#ecd7ee]">
                 <img
                   src="/images/services/overview-img/Blood-Centre.webp"
                   alt="Blood Centre Overview"
@@ -141,24 +141,30 @@ const page = ({ data }) => {
                   <SwiperSlide key={slideIndex}>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                       {group.map((item, idx) => {
-                        const Icon = icons[(startIdx + idx) % icons.length];
-                        return (
-                          <div
-                            key={idx}
-                            className="flex items-center border-l-8 border-[#D95DB0]  bg-white rounded-2xl shadow-xl py-6 px-5 md:px-6 w-full relative overflow-hidden"
-                          >
-                           {/* <div className="w-[16px] h-[112px] rounded-l-2xl bg-[#D95DB0] absolute left-0 top-0" /> */}
-                            <div className="flex items-center pl-6">
-                              <span className="flex items-center justify-center w-12 h-12 bg-[#D95DB0] rounded-md mr-4">
-                                <Icon className="text-white text-2xl" />
-                              </span>
-                              <span className="font-semibold text-[20px] sm:text-[22px] md:text-[26px] leading-[28px] tracking-[0.1px] text-[#1e1831]">
-                                {item}
-                              </span>
-                            </div>
-                          </div>
-                        );
-                      })}
+  const Icon = icons[(startIdx + idx) % icons.length];
+  return (
+    <div
+      key={idx}
+      className="flex items-center border-l-8 border-[#D95DB0] bg-white rounded-2xl shadow-xl py-6 px-5 md:px-6 w-full relative overflow-hidden"
+    >
+      <div className="flex items-center gap-4 pl-6">
+        {/* Icon Box */}
+        <span className="flex items-center justify-center 
+                        w-14 h-14 md:w-16 md:h-16 
+                        bg-[#D95DB0] rounded-xl flex-shrink-0">
+          <Icon className="text-white text-3xl md:text-4xl" />
+        </span>
+
+        {/* Text */}
+        <span className="font-semibold 
+                        text-lg sm:text-xl md:text-2xl 
+                        leading-tight text-[#1e1831]">
+          {item}
+        </span>
+      </div>
+    </div>
+  );
+})}
                     </div>
                   </SwiperSlide>
                 );

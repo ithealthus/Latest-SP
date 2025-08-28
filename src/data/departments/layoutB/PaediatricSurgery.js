@@ -2,7 +2,7 @@ import React from 'react';
   
   const PediatricSurgery =  {
 	  hero: {
-    title: 'Gentle hands for growing bodies',
+    title: 'Best Pediatric Surgery Hospital in Thiruvananthapuram',
     description: [
       "At SP Medifort, our Paediatric Surgery department provides specialized surgical care for infants, children, and adolescents. From neonatal surgeries to correction of congenital anomalies, our pediatric surgeons prioritize safety, comfort, and outcomes using child-specific techniques in a dedicated pediatric setting.We are regarded as a leading children’s surgical care center in Thiruvananthapuram, trusted by families for complex and emergency surgeries alike."
     ],

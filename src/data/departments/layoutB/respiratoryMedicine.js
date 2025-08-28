@@ -1,6 +1,6 @@
 const respiratoryMedicine = {
   hero: {
-    title: 'Breathing life into every lung concern.',
+    title: 'Best Hospitals for DNB Respiratory Medicine in Thiruvananthapuram ',
     description: [
       "The Department of Respiratory Medicine at SP Medifort focuses on diagnosing and treating diseases of the lungs and airways through evidence-based, non-invasive and interventional care. From asthma to lung fibrosis, our pulmonologists offer specialized care that improves breathing, prevents complications, and supports long-term lung health.",
       "We are known as one of the best pulmonology centers in Thiruvananthapuram, with a track record of treating complex respiratory diseases with compassion and accuracy."

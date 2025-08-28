@@ -2,7 +2,7 @@
   
   const MedicalOncology =   {
 	hero: {
-    title: 'Hope, healing, and high-precision cancer care',
+    title: 'Best Cancer Hospital in Thiruvananthapuram ',
     description: [
       "At SP Medifort, our Medical Oncology department offers evidence-based, compassionate treatment for patients diagnosed with all forms of cancer. From chemotherapy to targeted therapy and immunotherapy, our approach balances clinical precision with holistic care.We offer outpatient cancer treatment in Trivandrum tailored to each patient’s cancer type, stage, and overall health, always prioritizing quality of life and survival outcomes."
     ],

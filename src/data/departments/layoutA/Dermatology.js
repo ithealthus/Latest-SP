@@ -2,7 +2,7 @@ import React from 'react';
 
 const Dermatology = {
   hero: {
-    title: 'Expert skin, hair & nail care – Beyond beauty, focused on health',
+    title: 'Dermatology Hospital in Thiruvananthapuram',
     description: [
       "At SP Medifort, our Dermatology department offers expert care for skin, hair, and nail conditions, combining medical science with compassionate treatment. Whether it’s acne, pigmentation issues, autoimmune skin diseases, or cosmetic dermatology, we focus on accurate diagnosis, personalized therapy, and visible, lasting results.We are more than just a skin clinic. We are a full-service dermatology hospital in Trivandrum dedicated to both clinical excellence and patient well-being."
     ],

@@ -2,7 +2,7 @@
 
 const speechTherapy = {
 	hero: {
-    title: 'Helping you speak, understand, and connect.',
+    title: 'Best Speech Therapy Centre in Thiruvananthapuram ',
     description: [
       "SP Medifort offers specialized Speech and Language Therapy for children and adults with communication, speech, voice, and swallowing disorders. Whether it's delayed speech in children, stammering, voice issues, or post-stroke rehabilitation, our approach is compassionate, evidence-based, and outcome-oriented.We are a top speech therapy center in Trivandrum, equipped with child-friendly spaces and modern tools for voice and language recovery."
     ],

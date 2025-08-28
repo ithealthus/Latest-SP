@@ -1,7 +1,7 @@
 
 const NephrologyData = {
   hero: {
-    title: 'Protecting your filters for life',
+    title: 'Best Hospital for Nephrology in Thiruvananthapuram ',
     description: [
       "At SP Medifort, our Nephrology department offers complete medical care for kidney-related disorders from early-stage kidney disease to dialysis and transplant preparation. We provide comprehensive nephrology care in Trivandrum with advanced diagnostic tools, dedicated dialysis units, and expert nephrologists.Our goal is to preserve kidney function, delay progression, and offer compassionate care at every stage."
     ],

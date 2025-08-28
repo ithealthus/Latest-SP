@@ -2,7 +2,7 @@ import React from 'react';
   
   const Pediatrics =  {
 	  hero: {
-    title: 'Expert care for every stage of childhood',
+    title: 'Pediatrics Hospital in Thiruvananthapuram ',
     description: [
       "At SP Medifort, our Pediatrics department offers comprehensive, age-appropriate care for infants, children, and adolescents. From vaccinations and routine checkups to managing infections, allergies, and growth concerns, our pediatricians ensure every child gets the care they need in a child-friendly, nurturing environment.We are one of the most trusted children’s hospitals in Thiruvananthapuram, backed by advanced neonatal care and 24*7 pediatric emergency support."
     ],

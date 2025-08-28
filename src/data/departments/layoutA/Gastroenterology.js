@@ -1,7 +1,7 @@
 
 const GastroenterologyData = {
   hero: {
-    title: 'From digestion to liver health, everything starts in the gut',
+    title: 'Best Gastroenterology Hospital in Thiruvananthapuram',
     description: [
       "At SP Medifort, the Department of Medical Gastroenterology offers comprehensive care for digestive system disorders. From common conditions like acidity and IBS to complex liver and pancreatic diseases, our expert team provides accurate diagnosis, evidence-based treatments, and advanced endoscopic procedures, making us a leading gastroenterology hospital in Trivandrum.We focus on restoring gut health, managing chronic issues, and preventing complications through tailored, long-term care."
     ],

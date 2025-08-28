@@ -176,3 +176,6 @@ input.ant-input.css-dev-only-do-not-override-1vjf2v5.ant-input-outlined.ant-otp-
     margin-bottom: 70px !important;
     margin-right: 15px !important;
 }
+span.swiper-pagination-bullet {
+  background: white !important;
+}

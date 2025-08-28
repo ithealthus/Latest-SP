@@ -53,7 +53,7 @@ const icons = [
 // Add your sample hero data here (edit as needed)
 const data = {
   hero: {
-    title: "Audiology & Speech Therapy at SP Medifort Hospital",
+    title: "Best Speech Therapy Centre in Thiruvananthapuram ",
     tagline:
       "Helping You Hear Better and Speak Freely - Because Every Voice Matters.",
   },
@@ -74,6 +74,7 @@ const data = {
     "Voice Therapy (Nodules, Hoarseness, Vocal Cord Paralysis)",
     "Language Therapy for Autism, ADHD, and Delayed Speech",
     "Adult Speech Rehab (Post-Stroke, Parkinson’s, Aphasia)",
+    "Auditory Verbal Therapy (AVT) for children with hearing loss using hearing aids or cochlear implants"
   ],
   team: [
     "Qualified Audiologists – Trained in diagnostic hearing assessment & hearing aid services",
@@ -98,6 +99,7 @@ const data = {
     "Post-stroke or Parkinson’s-related speech difficulty",
     "Voice strain, hoarseness, or vocal fatigue",
     "Hearing aid requirement or evaluation",
+    "For children with autism, ADHD, or developmental delays affecting speech and language"
   ],
   whyChoose: [
     "Certified speech therapists & audiologists",
@@ -158,41 +160,60 @@ const MyPage = () => {
     setActiveIndex(index === activeIndex ? null : index);
   };
   return (
-    <div className="min-h-screen bg-gray-100 font-sans text-gray-900">
+   <div className="min-h-screen bg-gray-100 font-sans text-gray-900">
       {/* Header */}
-      <section className="relative w-full bg-[#EFDAD9] overflow-hidden">
-        <div className="px-4 sm:px-4 md:px-12 py-4 md:py-12">
-          {/* Replace or remove Breadcrumb if not defined */}
-          <Breadcrumb />
-        </div>
+      <section className="relative  bg-[#EFDAD9] overflow-hidden">
+        <div className="max-w-[1280px] mx-auto md:pt-16">   
+          <div className="lg:flex items-start gap-8">
+            <div className="w-full  px-4 md:px-8 pb-6 ">
+              <div className="pt-6 lg:pt-0 pb-3">
+                <Breadcrumb />
+              </div>
+              <div className="text-left ">
+                <h1 className="text-3xl py-5 md:text-4xl font-bold text-primary">
+                  {data.hero?.title}
+                </h1>
+              </div>
+              <div className="text-left">
+                <p className="text-xl md:text-2xl font-medium leading-tight text-[#030c3d] mb-4 lg:mb-0">
+                  {data.hero?.tagline}
+                </p>
+              </div>
+              <div className="mt-6 sm:mt-4 md:mt-10">
+              <Link
+                href='/find-a-doctor'
+                className="inline-flex items-center gap-3 sm:gap-4 md:gap-6 bg-primary text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-full font-roboto font-bold text-[16px] sm:text-[18px] md:text-[22px] leading-tight hover:bg-accent/80 transition duration-300"
+              >
+                Book Appointment
+                <span className="flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-white">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="white"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
+                  >
+                    <path d="M5 12h14M13 5l7 7-7 7" />
+                  </svg>
+                </span>
+              </Link>
+            </div>
+            </div>
 
-        <div
-          className="w-full max-w-[1800px] mx-auto px-4 md:px-8 pb-6 flex flex-col-reverse lg:flex-row items-center justify-between">
-          {/* Left - Title */}
-          <div className="text-left lg:text-left">
-            <h1 className="text-2xl sm:text-4xl md:text-5xl font-medium leading-tight text-[#030c3d] mb-4 lg:mb-0">
-              {data.hero?.title}
-            </h1>
+            <div className="relative w-full  px-4 md:px-8">
+              <div className="overflow-hidden rounded-t-2xl">
+                <img
+                  src="/images/services/banner-img/Audiology-&-Speech-Therapy.webp"
+                  alt="Blood Vials"
+                  className="w-full h-[300px] sm:h-[350px] md:h-[400px] object-cover rounded-t-2xl"
+                />
+              </div>
+            </div>
           </div>
-
-          {/* Right - Tagline */}
-          <div className="text-left lg:text-right mt-6 lg:mt-0 lg:ml-8">
-            <p className="text-2xl pb-3 sm:text-4xl md:text-5xl font-bold leading-tight text-[#870064]">
-              {data.hero?.tagline}
-            </p>
-          </div>
         </div>
-
-        <div className="relative w-full max-w-[1800px] mx-auto px-4 md:px-8">
-          <div className="overflow-hidden rounded-t-2xl">
-            <img
-              src="/images/services/banner-img/Audiology-&-Speech-Therapy.webp"
-              alt="Blood Vials"
-              className="w-full h-[300px] sm:h-[350px] md:h-[400px] object-cover rounded-t-2xl"
-            />
-          </div>
-        </div>
-
         <div className="w-full h-[60px] sm:h-[70px] md:h-[81px] bg-[#870064]"></div>
       </section>
 
@@ -201,7 +222,7 @@ const MyPage = () => {
         <section className="bg-[#f7eff9] py-12 sm:py-16 md:py-20 px-4 md:px-10 lg:px-24 xl:px-32">
           <div className="w-full max-w-[1800px] mx-auto flex flex-col md:flex-row items-start gap-4 md:gap-6 lg:gap-8">
             <div className="flex-1 w-full">
-              <h2 className="text-[28px] sm:text-[34px] md:text-[42px] leading-[115%] font-bold text-[#93005d] mb-6">
+              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary">
                 {data.overview.heading}
               </h2>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] leading-[28px] md:leading-[34px] font-normal not-italic text-[#1e1e1e] max-w-[700px]">
@@ -209,7 +230,7 @@ const MyPage = () => {
               </p>
             </div>
             <div className="flex-1 flex justify-center md:justify-end w-full">
-              <div className="w-[280px] sm:w-[400px] md:w-[520px] h-[210px] sm:h-[320px] md:h-[391px] rounded-2xl overflow-hidden shadow-xl border-[3px] border-[#ecd7ee]">
+              <div className="w-full sm:w-[400px] md:w-[520px] h-[210px] sm:h-[320px] md:h-[391px] rounded-2xl overflow-hidden shadow-xl border-[3px] border-[#ecd7ee]">
                 <img
                   src="/images/services/overview-img/Audiology-&-Speech-Therapy.webp"
                   alt="Blood Centre Overview"
@@ -225,7 +246,7 @@ const MyPage = () => {
       {data.whatWeOffer?.length > 0 && (
         <section className="bg-[#870064] py-12 sm:py-14 px-4 md:px-10 lg:px-24 xl:px-32">
           <div className="w-full max-w-[1800px] mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-8 md:mb-12 text-start">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 md:mb-12 text-start">
               What the Service Includes
             </h2>
             <Swiper
@@ -246,24 +267,31 @@ const MyPage = () => {
                   <SwiperSlide key={slideIndex}>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                       {group.map((item, idx) => {
-                        const Icon = icons[(startIdx + idx) % icons.length];
-                        return (
-                          <div
-                            key={idx}
-                            className="flex items-center border-l-8 border-[#D95DB0]  bg-white rounded-2xl shadow-xl py-6 px-5 md:px-6 w-full relative overflow-hidden"
-                          >
-                            {/* <div className="w-[16px] h-[112px] rounded-l-2xl bg-[#D95DB0] absolute left-0 top-0" /> */}
-                            <div className="flex items-center pl-6">
-                              <span className="flex items-center justify-center w-12 h-12 bg-[#D95DB0] rounded-md mr-4">
-                                <Icon className="text-white text-2xl" />
-                              </span>
-                              <span className="font-semibold text-[20px] sm:text-[22px] md:text-[26px] leading-[28px] tracking-[0.1px] text-[#1e1831]">
-                                {item}
-                              </span>
-                            </div>
-                          </div>
-                        );
-                      })}
+  const Icon = icons[(startIdx + idx) % icons.length];
+  return (
+    <div
+      key={idx}
+      className="flex items-center border-l-8 border-[#D95DB0] bg-white rounded-2xl shadow-xl py-6 px-5 md:px-6 w-full relative overflow-hidden"
+    >
+      <div className="flex items-center gap-4 pl-6">
+        {/* Icon Box */}
+        <span className="flex items-center justify-center 
+                        w-14 h-14 md:w-16 md:h-16 
+                        bg-[#D95DB0] rounded-xl flex-shrink-0">
+          <Icon className="text-white text-3xl md:text-4xl" />
+        </span>
+
+        {/* Text */}
+        <span className="font-semibold 
+                        text-lg sm:text-xl md:text-2xl 
+                        leading-tight text-[#1e1831]">
+          {item}
+        </span>
+      </div>
+    </div>
+  );
+})}
+
                     </div>
                   </SwiperSlide>
                 );
@@ -307,7 +335,7 @@ const MyPage = () => {
 
       {/* Technology Section */}
       <section className="bg-white py-10 sm:py-12 px-4 md:px-16">
-        <h2 className="text-2xl sm:text-3xl md:text-[36px] font-extrabold text-[#870064] mb-8 sm:mb-10">
+        <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary sm:mb-5">
           Technology & Infrastructure
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -333,8 +361,8 @@ const MyPage = () => {
 
       {/* When to Use */}
       {data.whenToUse?.length > 0 && (
-        <section className="py-14 sm:py-16 md:py-20 px-4 md:px-10 lg:px-20 bg-[#EFDAD9]">
-          <h2 className="text-[32px] sm:text-[40px] md:text-[48px] font-bold text-center text-[#44002E] mb-10 sm:mb-12">
+        <section className="py-14 sm:py-12 px-4 md:px-10 lg:px-20 bg-[#EFDAD9]">
+          <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-center">
             When Should You Use This Service?
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto px-4 py-10">
@@ -347,9 +375,9 @@ const MyPage = () => {
                   {item}
                 </p>
                 <div className="mt-6 flex justify-between items-center border-t pt-4">
-                  <span className="text-xl font-bold text-[#910067]">
+                  {/* <span className="text-xl font-bold text-[#910067]">
                     {String(idx + 1).padStart(2, "0")}
-                  </span>
+                  </span> */}
                   <img
                     src="/images/services/sp-md-fort-logo-2.png"
                     alt="Icon"
@@ -367,8 +395,8 @@ const MyPage = () => {
         <section className="bg-[#f4eafd] py-12 px-4 md:px-20">
           <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
-              <h2 className="text-[32px] sm:text-[40px] md:text-[48px] font-bold tracking-[-0.4px] text-[#41002d] mb-8">
-                Why Choose SP Medifort Audiology & Speech Therapy?
+              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-center mb-8">
+                Why Choose SP Medifort Rehab?
               </h2>
               <ul className="space-y-4">
                 {data.whyChoose.map((item, idx) => (
@@ -411,7 +439,7 @@ const MyPage = () => {
       {/* Patient Experience */}
       {data.successStories?.length > 0 && (
         <section className="bg-[#9C3480] py-16 px-4 md:px-24">
-          <h2 className="text-white text-4xl font-bold mb-12">
+          <h2 className="text-white text-3xl md:text-4xl font-bold mb-12">
             Patient Experience
           </h2>
           <div className="relative">
@@ -462,10 +490,11 @@ const MyPage = () => {
         </section>
       )}
 
+      {/* FAQs */}
       {data.faqs?.length > 0 && (
         <section className="py-16 px-4 md:px-0 bg-white">
           <div className="w-full max-w-[1600px] mx-auto">
-            <h2 className="font-bold text-[48px] text-[#44002E] mb-14 text-center tracking-tight">
+            <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-center mb-5">
               Frequently Asked Questions
             </h2>
             <div className="max-w-5xl mx-auto grid grid-cols-1 gap-5 px-3">
@@ -503,13 +532,7 @@ const MyPage = () => {
 
       {/* Appointment CTA */}
       {data.appointmentSection && (
-        <section className="relative w-full min-h-[350px] flex items-center overflow-hidden px-4 md:px-16 py-14 md:py-28">
-          {/* <img
-            src="/images/services/bloodCentre/Blood-Centre(footer).webp"
-            alt=""
-            className="absolute inset-0 w-full h-full object-cover"
-            style={{ zIndex: 0 }}
-          /> */}
+        <section className="relative w-full min-h-[280px] flex items-center overflow-hidden px-4 md:px-16 py-14 md:py-14">
           <img
             src="/images/services/audioSpeech/Audiology-&-Speech-Therapy(footer).webp"
             alt=""
@@ -517,42 +540,46 @@ const MyPage = () => {
             style={{ zIndex: 0 }}
           />
           <div
-            className="absolute inset-0 bg-[#aa41a2] opacity-80"
+            className="absolute inset-0 "
             style={{ zIndex: 1 }}
           />
-          <div className="relative z-10 w-full max-w-[550px] ml-0 md:ml-[7vw] lg:ml-24">
-            <div className="bg-[#D95DB0] rounded-xl px-6 py-6 md:py-8 mb-10 shadow-lg border border-white border-opacity-60 text-center w-full md:w-[526px] md:h-[193px] flex flex-col justify-center items-center">
+          <div className="relative z-10 w-full  ml-0 md:ml-[7vw] lg:ml-24">
+            <div className=" py-6 md:py-8 mb-5   border-opacity-60 text-left w-full  justify-start items-center">
               <h2
-                className="font-extrabold text-[30px] text-[#44002E] mb-3 leading-tight tracking-tight"
-                style={{ fontWeight: 800 }}
+              className="text-3xl py-5 md:text-5xl font-semibold text-white"
               >
                 {data.appointmentSection.heading}
               </h2>
               <p
-                className="font-medium text-[17px] text-white mb-2 leading-relaxed"
-                style={{ fontWeight: 500 }}
+                className="font-medium text-xl text-white mb-2 leading-relaxed"
               >
                 {data.appointmentSection.description}
               </p>
             </div>
             <div className="flex flex-col gap-6 items-start w-full">
-              <Link href="tel:04713100100"
-                className="relative flex items-center bg-[#EA6ACB] border-2 border-white rounded-full px-12 py-2 font-bold text-white text-[20px] md:text-[28px] tracking-wide min-h-[56px] md:min-h-[66px] w-fit shadow-md"
-                style={{ letterSpacing: ".01em" }}>
+              <Link
+                href="tel:04713100100"
+                className="relative flex items-center bg-primary border-4 border-white rounded-full px-12 py-2 font-bold text-white text-[20px] md:text-[28px] tracking-wide min-h-[56px] md:min-h-[66px] w-fit shadow-md"
+                style={{ letterSpacing: ".01em" }}
+              >
                 <span
-                  className="absolute -left-0 flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-[#EA6ACB] border-2 border-white rounded-full p-2"
-                  style={{ boxShadow: "0 0 0 4px #EA6ACB" }}>
-                  <MdPhone className="text-[#44002E] text-[1.8rem] md:text-[2.2rem]" />
+                  className="absolute -left-0 flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-primary border-l-0 border-4 border-white rounded-full p-2"
+                  // style={{ boxShadow: "0 0 0 4px #EA6ACB" }}
+                >
+                  <MdPhone className="text-[#fff] text-[1.8rem] md:text-[2.2rem]" />
                 </span>
                 <span className="pl-10 md:pl-14">0471 3100 100</span>
               </Link>
-              <Link href="mailto:care@spmedifort.com"
-                className="relative flex items-center bg-[#EA6ACB] border-2 border-white rounded-full px-12 py-2 font-bold text-white text-[20px] md:text-[28px] tracking-wide min-h-[56px] md:min-h-[66px] w-fit shadow-md"
-                style={{ letterSpacing: ".01em" }}>
+              <Link
+                href="mailto:care@spmedifort.com"
+               className="relative flex items-center bg-primary border-4 border-white rounded-full px-12 py-2 font-bold text-white text-[20px] md:text-[28px] tracking-wide min-h-[56px] md:min-h-[66px] w-fit shadow-md"
+                style={{ letterSpacing: ".01em" }}
+              >
                 <span
-                  className="absolute -left-0 flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-[#EA6ACB] border-2 border-white rounded-full p-2"
-                  style={{ boxShadow: "0 0 0 4px #EA6ACB" }}>
-                  <MdEmail className="text-[#44002E] text-[1.8rem] md:text-[2.2rem]" />
+                   className="absolute -left-0 flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-primary border-l-0 border-4 border-white rounded-full p-2"
+            
+                >
+                  <MdEmail className="text-[#fff] text-[1.8rem] md:text-[2.2rem]" />
                 </span>
                 <span className="pl-10 md:pl-14">care@spmedifort.com</span>
               </Link>

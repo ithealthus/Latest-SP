@@ -1,7 +1,7 @@
 
 const OrthopedicData = {
 	hero: {
-		title: 'Mobility Restored. Pain Relieved. Life Reclaimed.',
+		title: 'Best Orthopedic Hospital in Thiruvananthapuram',
 		description: [
 			"At SP Medifort, our Orthopedics & Spine Surgery department is known for treating bone, joint, and spine disorders using a combination of clinical expertise and cutting-edge surgical technologies. From fractures to robotic joint replacements and scoliosis correction, our goal is to help patients return to pain-free movement as quickly and safely as possible.We’re recognized as a leading orthopedic and spine surgery hospital in Trivandrum, trusted for both elective and emergency procedures."
 		],

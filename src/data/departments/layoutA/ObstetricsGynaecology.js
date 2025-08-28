@@ -1,7 +1,7 @@
 
 const ObstetricsGynaecologyData = {
   hero: {
-    title: 'Empowering women’s health – every step, every stage',
+    title: 'Best Gynaecology Hospital in Thiruvananthapuram',
     description: [
       "At SP Medifort, our Obstetrics & Gynaecology department is dedicated to the holistic care of women — from adolescence to menopause and beyond. Whether it’s routine pregnancy care, high-risk delivery(To be launched) advanced gynecologic surgery, or fertility planning, our team offers compassionate, customized care in a world-class environment.",
       "Recognized as a leading women’s health centre in Trivandrum, we are equipped to support your health and wellness journey with confidence."

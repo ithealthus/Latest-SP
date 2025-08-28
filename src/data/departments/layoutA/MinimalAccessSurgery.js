@@ -1,7 +1,7 @@
 
   const MinimalAccessSurgery = {
   hero: {
-    title: 'Smaller cuts, faster recovery – Surgery redefined',
+    title: 'Minimal Access Surgery Clinic  in Thiruvananthapuram',
     description: [
       "At SP Medifort, our General & Minimal Access Surgery team provides modern surgical solutions with a strong emphasis on precision, safety, and recovery. From traditional general procedures to state-of-the-art laparoscopic (keyhole) and robotic surgeries, we focus on delivering excellent outcomes with minimal pain, minimal scarring, and minimal hospital stay.We are widely trusted for laparoscopic and general surgery in Trivandrum, with a reputation for safe, patient-centered surgical care."
     ],

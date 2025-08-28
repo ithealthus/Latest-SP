@@ -12,12 +12,12 @@ export default function AppointmentConsultation({ appointmentSection }) {
       className="relative bg-cover bg-center bg-no-repeat py-12 bg-secondary"
       style={{ backgroundImage: "url('/images/bg-cardiac.jpg')" }}
     >
-      <h2 className="text-3xl md:text-4xl font-bold drop-shadow-lg text-white mb-6 px-4">
+      <h2 className="text-3xl md:text-4xl font-bold drop-shadow-lg text-white mb-8 px-4 text-center lg:text-left">
         {heading}
       </h2>
       <div className="flex flex-col lg:flex-row lg:items-start">
         {/* Left Side: Pills - Full Width on all screens, pinned to left */}
-        <div className="w-full lg:w-1/2 space-y-6 px-4 sm:px-8 md:px-0 xl:pl-0">
+        <div className="w-full lg:w-1/2 space-y-6">
           {/* Helpline Pill */}
           <div className="flex bg-white text-[#3a003f] rounded-r-full shadow-lg pl-6 py-4 pr-4 items-center max-w-[70%]">
             <div className="flex-1">

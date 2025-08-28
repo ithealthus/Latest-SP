@@ -861,7 +861,6 @@ export default function Home() {
           {/* Right Image */}
           <div>
             <img
-
               src="images/demo/img9.png"
               alt="Virtual Tour"
               className="rounded-2xl"
@@ -871,11 +870,7 @@ export default function Home() {
         </div>
       </section>
       <FaqSection />
-
       <ContactSection />
-      
-
-
     </>
   );
 }

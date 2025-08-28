@@ -1,6 +1,6 @@
 const rheumatology = {
   hero: {
-    title: "Managing pain. Restoring function. Controlling inflammation.",
+    title: "Best Rheumatology Hospital in Thiruvananthapuram ",
     description: [
       "SP Medifort’s Rheumatology department specializes in diagnosing and managing autoimmune and inflammatory joint disorders. From rheumatoid arthritis to lupus and ankylosing spondylitis, we offer personalized, long-term care using the latest biologics, disease-modifying agents, and physical therapy to reduce flare-ups and prevent joint damage.",
       "We’re known as one of the best hospitals for arthritis and autoimmune care in Thiruvananthapuram, supporting patients with both medical and lifestyle management."

@@ -1,6 +1,6 @@
 const plasticMicrovascularSurgery = {
   hero: {
-    title: 'Restoring Form. Rebuilding Function. Enhancing Confidence.',
+    title: 'Plastic & Microvascular Surgery Hospital in Thiruvananthapuram',
     description: [
       "The Department of Plastic & Microvascular Surgery at SP Medifort provides advanced care for both reconstructive and aesthetic surgical needs. Whether you're recovering from trauma, managing a birth defect, or seeking cosmetic refinement, our team offers precision surgical solutions with personalized attention and safety.",
       "We are recognized as a leading hospital for plastic and reconstructive surgery in Thiruvananthapuram, combining artistry with clinical excellence."

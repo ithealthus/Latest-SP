@@ -1,7 +1,7 @@
 
 const EntData = {
   hero: {
-    title: 'Integrated ENT care: Hearing, breathing & speech made better',
+    title: 'Best ENT Hospital in Thiruvananthapuram ',
     description: [
       "At SP Medifort, our ENT Department provides advanced medical and surgical care for disorders related to the ear, nose, throat, head, and neck. Whether you’re dealing with a sinus issue, hearing loss, or vocal cord disorder, our ENT specialists are equipped with microscopic, endoscopic, and robotic tools to diagnose and treat effectively.Recognized as one of the best ENT hospitals in Trivandrum, we offer a blend of clinical experience, modern technology, and patient comfort."
     ],

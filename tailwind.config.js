@@ -54,7 +54,7 @@ module.exports = {
         body: ['"Roboto"', 'sans-serif'],
       },
       colors: {
-        primary: '#6E2452',     // Deep Purple
+        primary: '#870064',     // Deep Purple
         secondary: '#87006494', // Accent Pink
         text: '#7D7D7D',
         accent: '#AD3B66',

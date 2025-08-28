@@ -1,7 +1,7 @@
 
 const EndocrinologyData = {
   hero: {
-    title: 'Balancing Hormones, Restoring Health',
+    title: 'Best Endocrinology Hospital in Thiruvananthapuram',
     description: [
       "At SP Medifort, the Endocrinology Department delivers comprehensive care for hormone-related disorders from diabetes and thyroid disease to complex adrenal or pituitary conditions. Each patient receives an individualized plan grounded in evidence-based medicine and delivered with compassion.",
     ],

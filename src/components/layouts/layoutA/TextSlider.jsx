@@ -11,7 +11,7 @@ function TextSlider({ highlightText }) {
         {[...Array(5)].flatMap((_, i) =>
           highlightText.map((text, index) => (
             <div key={`${i}-${index}`} className="flex items-center gap-3 px-4">
-              <span className="font-roboto font-bold text-[22px] md:text-[28px] leading-[100%] text-center block">
+              <span className="font-roboto text-[22px] md:text-[28px] leading-[100%] text-center block">
                 {text}
               </span>
               <svg 

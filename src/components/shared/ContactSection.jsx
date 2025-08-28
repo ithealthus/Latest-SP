@@ -20,7 +20,7 @@ export default function ContactSection() {
         <div className="w-full lg:w-full relative">
           <div className="w-full h-full relative overflow-visible">
             <Image
-              src="/images/Homepage/img12.png"
+              src="/images/Homepage/img12.webp"
               alt="Doctors"
               width={800}
               height={800}

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CriticalCare = {
   hero: {
-    title: 'Round-the-Clock Life Support, Expertly Delivered',
+    title: 'Top Critical Care Hospitals in Thiruvananthapuram',
     description: [
       "At SP Medifort, our Critical Care Department provides continuous, specialized medical care to patients facing life-threatening conditions. Our ICU in Trivandrum is managed by experienced intensivists, trained nurses, and supported by high-end monitoring systems, all focused on stabilizing, supporting, and reviving patients through every crisis."
     ],

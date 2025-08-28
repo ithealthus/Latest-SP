@@ -7,7 +7,7 @@ const HealthCta = () => {
   return (
     <section
       style={{
-        background: "url('/images/health-packages/cta-bg.jpeg')",
+        background: "url('/images/health-packages/Group 237772.webp')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
@@ -24,13 +24,13 @@ const HealthCta = () => {
           <div className="flex flex-col lg:flex-row md:gap-16 ">
             <div className="flex flex-col justify-end md:items-start gap-6 mb-10 md:w-1/2">
               <Link href='/find-a-doctor'>
-                <button className="flex items-center justify-between px-6 py-3 rounded-full text-white bg-[#D95DB0] font-semibold text-lg w-full md:w-auto hover:scale-105 transition border-[3px] border-white">
+                <button className="flex items-center justify-between px-6 py-3 rounded-full text-white bg-primary font-semibold text-lg w-full md:w-auto hover:scale-105 transition border-[3px] border-white">
                   Book an Appointment
                   <span className="ml-3 text-xl">➜</span>
                 </button>
               </Link>
               <Link href='/health-check-packages'>
-                <button className="flex items-center justify-between px-6 py-3 rounded-full text-white bg-[#D95DB0] font-semibold text-lg w-full md:w-auto hover:scale-105 transition border-[3px] border-white">
+                <button className="flex items-center justify-between px-6 py-3 rounded-full text-white bg-primary font-semibold text-lg w-full md:w-auto hover:scale-105 transition border-[3px] border-white">
                   Explore Health Packages
                   <span className="ml-3 text-xl">➜</span>
                 </button>
@@ -38,7 +38,7 @@ const HealthCta = () => {
             </div>
 
             <div className="flex flex-col md:items-start gap-6 mb-10 md:w-1/2">
-              <div className="flex items-center gap-3 text-white bg-[#D95DB0] pr-5 rounded-full text-lg w-full md:w-auto border-[3px] border-white">
+              <div className="flex items-center gap-3 text-white bg-primary pr-5 rounded-full text-lg w-full md:w-auto border-[3px] border-white">
                 <Link
                   href="tel:04713100100"
                   className="flex items-center gap-3 w-full"
@@ -54,7 +54,7 @@ const HealthCta = () => {
                 </Link>
               </div>
 
-              <div className="flex items-center gap-3 text-white bg-[#D95DB0] pr-5 rounded-full text-lg w-full md:w-auto border-[3px] border-white">
+              <div className="flex items-center gap-3 text-white bg-primary pr-5 rounded-full text-lg w-full md:w-auto border-[3px] border-white">
                 <Link
                   href="mailto:patientcare@spmedifort.com"
                   className="flex items-center gap-3 w-full"

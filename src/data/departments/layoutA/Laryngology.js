@@ -1,7 +1,7 @@
 
 const LaryngologyData = {
   hero: {
-    title: 'Clearer voice. Better breathing. Stronger communication.',
+    title: 'Best Laryngology Care in Thiruvananthapuram',
     description: [
       "At SP Medifort, our Laryngology unit offers specialized care for patients with voice, airway, and swallowing disorders. Whether you are a teacher, singer, speaker, or someone facing chronic throat or voice issues, our voice clinic combines expert diagnostics with surgical and non-surgical care to restore vocal health.We are one of the only advanced voice and laryngeal care centers in Trivandrum, offering comprehensive solutions for both functional and structural issues of the voice box."
     ],

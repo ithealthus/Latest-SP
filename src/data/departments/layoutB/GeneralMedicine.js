@@ -2,7 +2,7 @@
   
 const GeneralMedicineData = {
   hero: {
-    title: ' Accurate, Safe, and Caring Medical Treatment',
+    title: 'General Medicine Hospital in Thiruvananthapuram ',
     description: [
       "Welcome to the General Medicine Department at SP Medifort Hospital, Thiruvananthapuram. We provide comprehensive medical care for adults covering everything from sudden illnesses to complex chronic diseases. Our focus is on accurate diagnosis, evidence-based treatment, and compassionate care, making us a trusted choice for general medicine in Trivandrum."
     ],
