@@ -62,7 +62,7 @@ const ObstetricsGynaecologyData = {
         name: 'DR. ROHINI  L',
         designation: 'OBSTETRICS & GYNAECOLOGY',
         position: 'CONSULTANT, MBBS, DGO, DNB(OBG), MRCOG(UK), Dip CosGyn ICCG',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/GYNAECOLOGY/1.png'
       },
     ],
     description: 'Our best gynecologists in Trivandrum work in collaboration with anesthetists, neonatologists, and fertility specialists.',

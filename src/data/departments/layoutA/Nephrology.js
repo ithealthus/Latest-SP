@@ -60,13 +60,13 @@ const NephrologyData = {
         name: 'DR. BEENA  UNNIKRISHNAN',
         designation: 'NEPHROLOGY',
         position: 'SENIOR CONSULTANT, MBBS, MD, DM, DNB',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/NEPHROLOGY/1.png'
       },
       {
         name: 'DR. MANJU E ISSAC',
         designation: 'NEPHROLOGY',
         position: 'CONSULTANT, MBBS, MD(General Medicine), DNB(General Medicine)-JIPMER',
-        image: '/images/doctors-card/shibu.png'
+       image: '/images/doctors-card/dp-images/NEPHROLOGY/2.png'
       },
     ],
     description: 'Our kidney specialists in Trivandrum work to delay dialysis wherever possible and manage patients through every stage of kidney disease.',

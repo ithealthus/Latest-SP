@@ -21,7 +21,7 @@ function Page(hero, whyChoose, team,technologies, ctaSection ,highlightText ,com
       <HeroA hero={rheumatology.hero} />
       <TextSlider highlightText={rheumatology.highlightText} />
       <WhyChooseA whyChoose={rheumatology.whyChoose} />
-      <OurTeamA team={rheumatology.team} />
+      {/* <OurTeamA team={rheumatology.team} /> */}
       <TechnologiesSectionA data={rheumatology.technologies} />
       {/* <Cta ctaSection={rheumatology.ctaSection} /> */}
       <TextSlider highlightText={rheumatology.highlightText} />

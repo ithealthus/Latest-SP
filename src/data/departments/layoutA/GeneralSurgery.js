@@ -58,32 +58,15 @@ const GeneralSurgeryData = {
         name: 'DR. P. PADMANABHAN NAYAR',
         designation: 'GENERAL SURGERY',
         position: 'SENIOR CONSULTANT, MBBS, MS, FICS',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/GENERAL, ROBOTIC & LAPAROSCOPIC SURGERY/1.png'
       },
       {
         name: 'DR. SOMARAJAN M R',
         designation: 'GENERAL SURGERY',
         position: 'SENIOR CONSULTANT, MBBS, MS(General Surgery), FMAS',
-        image: '/images/doctors-card/shibu.png'
+       image: '/images/doctors-card/dp-images/GENERAL, ROBOTIC & LAPAROSCOPIC SURGERY/2.png'
       },
-      {
-        name: 'DR. ANU ANTONY VARGHESE',
-        designation: 'GENERAL & MINIMAL ACCESS SURGERY',
-        position: 'SENIOR CONSULTANT, MBBS, MS (General surgery), FIAGES,FALS',
-        image: '/images/doctors-card/shibu.png'
-      },
-      {
-        name: 'DR. AROMAL CHEKAVAR S',
-        designation: 'GENERAL SURGERY',
-        position: 'SENIOR CONSULTANT, MBBS, MS(General Surgery), Mch(Endocrine & Breast Surgery)',
-        image: '/images/doctors-card/shibu.png'
-      },
-      {
-        name: 'DR. SHAMMY S S',
-        designation: 'GENERAL SURGERY',
-        position: 'CONSULTANT, MBBS, MS(General Surgery)',
-        image: '/images/doctors-card/shibu.png'
-      },
+     
     ],
     description: 'All procedures are performed by board-certified general surgeons in Trivandrum with deep experience in trauma, gastrointestinal, and soft tissue surgery.',
     cta: {

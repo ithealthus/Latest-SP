@@ -40,20 +40,20 @@ const respiratoryMedicine = {
         name: 'Dr. Vipin P V',
         designation: 'Senior Consultant - Respiratory Medicine',
         position: '',
-        image: '/images/doctors-card/dr-vipin.png'
+        image: '/images/doctors-card/dp-images/RESPIRATORY MEDICINE/1.png'
       },
-      {
-        name: 'Mohammed Sanhal',
-        designation: 'Respiratory Therapist',
-        position: '',
-        image: '/images/doctors-card/sanhal.png'
-      },
-      {
-        name: 'Arya',
-        designation: 'Sleep Lab Technician',
-        position: '',
-        image: '/images/doctors-card/arya.png'
-      }
+      // {
+      //   name: 'Mohammed Sanhal',
+      //   designation: 'Respiratory Therapist',
+      //   position: '',
+      //   image: '/images/doctors-card/sanhal.png'
+      // },
+      // {
+      //   name: 'Arya',
+      //   designation: 'Sleep Lab Technician',
+      //   position: '',
+      //   image: '/images/doctors-card/arya.png'
+      // }
     ],
     description: 'Our top pulmonologists in Kerala provide advanced diagnosis and lifelong management plans.',
     cta: { label: 'Meet our Lung care team', href: '/our-doctors#respiratory' }

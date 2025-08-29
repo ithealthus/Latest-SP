@@ -37,7 +37,7 @@ const OphthalmologyData = {
         name: 'Dr. Aisha Beevi P K',
         designation: 'MBBS, DO(Ophthalmology)',
         position: 'Senior Consultant, Ophthalmology',
-        image: '/images/doctors-card/shibu.png',
+        image: '/images/doctors-card/dp-images/OPHTHALMOLOGY/1.png',
       },
     ],
     description: 'Our eye specialists in Trivandrum are known for accurate diagnoses, gentle surgical techniques, and personalized eye care.',

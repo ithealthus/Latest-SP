@@ -42,13 +42,13 @@ const radiodiagnosisData = {
         name: 'Dr. Natasha Krishna',
         designation: 'HOD, Consultant & RSO',
         position: 'MBBS, MD (Radiodiagnosis)',
-        image: '/images/doctors-card/dr-natasha.png'
+        image: '/images/doctors-card/dp-images/RADIOLOGY/1.png'
       },
       {
         name: 'Dr. Jayakrishnan J',
         designation: 'Consultant',
         position: 'MBBS, MD (Radiology), FRCR (UK), EDIR, DICRI',
-        image: '/images/doctors-card/dr-jayakrishnan.png'
+      image: '/images/doctors-card/dp-images/RADIOLOGY/2.png'
       }
     ],
     description: 'Our radiology team in Trivandrum works closely with every department to deliver real-time, high-value insights.',

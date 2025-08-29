@@ -21,7 +21,7 @@ function Page(hero, whyChoose, team,technologies, ctaSection ,highlightText ,com
       <HeroA hero={speechTherapy.hero} />
       <TextSlider highlightText={speechTherapy.highlightText} />
       <WhyChooseA whyChoose={speechTherapy.whyChoose} />
-      <OurTeamA team={speechTherapy.team} />
+      {/* <OurTeamA team={speechTherapy.team} /> */}
       <TechnologiesSectionA data={speechTherapy.technologies} />
       {/* <Cta ctaSection={speechTherapy.ctaSection} /> */}
       <TextSlider highlightText={speechTherapy.highlightText} />

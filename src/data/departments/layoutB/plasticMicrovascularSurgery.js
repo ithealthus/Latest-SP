@@ -39,7 +39,31 @@ const plasticMicrovascularSurgery = {
         name: 'Dr. Shreelal Shreedharan',
         designation: 'Plastic & Microvascular Surgery',
         position: 'Senior Consultant',
-        image: '/images/doctors-card/dr-shreelal.png'
+        image: '/images/doctors-card/dp-images/PLASTIC SURGERY/1.png'
+      },
+       {
+        name: 'Dr. Shreelal Shreedharan',
+        designation: 'Plastic & Microvascular Surgery',
+        position: 'Senior Consultant',
+        image: '/images/doctors-card/dp-images/PLASTIC SURGERY/2.png'
+      },
+       {
+        name: 'Dr. Shreelal Shreedharan',
+        designation: 'Plastic & Microvascular Surgery',
+        position: 'Senior Consultant',
+        image: '/images/doctors-card/dp-images/PLASTIC SURGERY/3.png'
+      },
+       {
+        name: 'Dr. Shreelal Shreedharan',
+        designation: 'Plastic & Microvascular Surgery',
+        position: 'Senior Consultant',
+        image: '/images/doctors-card/dp-images/PLASTIC SURGERY/4.png'
+      },
+       {
+        name: 'Dr. Shreelal Shreedharan',
+        designation: 'Plastic & Microvascular Surgery',
+        position: 'Senior Consultant',
+        image: '/images/doctors-card/dp-images/PLASTIC SURGERY/5.png'
       }
     ],
     description: 'Our plastic surgeons in Thiruvananthapuram work closely with trauma, oncology, and ICU teams for integrated care.',

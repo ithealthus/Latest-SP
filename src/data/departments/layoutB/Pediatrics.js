@@ -40,6 +40,18 @@ import React from 'react';
         position: 'Senior Consultant, Ophthalmology',
         image: '/images/doctors-card/dp-images/PEDIATRICS/1.png',
       },
+      {
+        name: 'Dr. Aisha Beevi P K',
+        designation: 'MBBS, DO(Ophthalmology)',
+        position: 'Senior Consultant, Ophthalmology',
+        image: '/images/doctors-card/dp-images/PEDIATRICS/2.png',
+      },
+      {
+        name: 'Dr. Aisha Beevi P K',
+        designation: 'MBBS, DO(Ophthalmology)',
+        position: 'Senior Consultant, Ophthalmology',
+        image: '/images/doctors-card/dp-images/PEDIATRICS/3.png',
+      },
     ],
     description: 'Our eye specialists in Trivandrum are known for accurate diagnoses, gentle surgical techniques, and personalized eye care.',
     cta: {

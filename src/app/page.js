@@ -823,7 +823,7 @@ export default function Home() {
       <InsurancePartners />
 
       <section className="bg-primary py-16 px-4">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-START gap-10">
           {/* Left Content */}
           <div className="text-white">
             <h2 className="text-2xl md:text-3xl font-semibold mb-4">
@@ -861,7 +861,7 @@ export default function Home() {
           {/* Right Image */}
           <div>
             <img
-              src="images/demo/img9.png"
+              src="images/HOSPITAL.WEBP"
               alt="Virtual Tour"
               className="rounded-2xl"
               priority
