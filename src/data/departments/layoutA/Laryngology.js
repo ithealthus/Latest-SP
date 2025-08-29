@@ -38,6 +38,11 @@ const LaryngologyData = {
 
       },
       {
+        icon: 'mdi:heart-pulse',
+        title: 'Advanced treatment for throat cancers, airway disorders, and complex laryngeal conditions',
+
+      },
+      {
         icon: 'material-symbols:heart-check',
         title: 'Professional voice care for singers, anchors, teachers',
       },
@@ -56,25 +61,25 @@ const LaryngologyData = {
         name: 'DR. JAYAKUMAR R MENON',
         designation: 'LARYNGOLOGY',
         position: 'HOD & SENIOR CONSULTANT, MBBS, MS, DLO, DNB, FRCS',
-        image: '/images/doctors-card/shibu.png'
+       image: '/images/doctors-card/dp-images/LARYNGOLOGY/1.png'
       },
       {
         name: 'DR. MANJU E ISSAC',
         designation: 'LARYNGOLOGY',
         position: 'SENIOR CONSULTANT, DLO, DNB(ENT), MNAMS, Fellowship in Laryngology & Phonosurgery',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/LARYNGOLOGY/2.png'
       },
       {
         name: 'DR. SABARI NATH H S',
         designation: 'LARYNGOLOGY',
         position: 'CONSULTANT, MS(ENT), Fellowship in Laryngology & Phonosurgery',
-        image: '/images/doctors-card/shibu.png'
+       image: '/images/doctors-card/dp-images/LARYNGOLOGY/3.png'
       },
       {
         name: 'DR. AMMU SREEPARVATHI',
         designation: 'LARYNGOLOGY',
         position: 'CONSULTANT, MBBS, MS(ENT), Fellowship in Laryngology & Phonosurgery',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/LARYNGOLOGY/4.png'
       },
     ],
     description: 'Our team provides both medical and rehabilitative support to restore your voice and throat health.',

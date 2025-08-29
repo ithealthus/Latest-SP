@@ -131,7 +131,7 @@ const EntData = {
           'Real-time imaging for neck masses, salivary glands, and lymph node evaluation, enhancing diagnostic accuracy.',
       },
       {
-        name: 'ROBOTIC VISUALIZATION SYSTEM® – KINEVO® 900',
+        name: 'ROBOTIC VISUALIZATION SYSTEM® - KINEVO® 900',
         description:
           ' Offers enhanced visualization and precision in ENT microsurgeries such as cholesteatoma removal and middle ear reconstruction.',
       },
@@ -284,12 +284,12 @@ const EntData = {
     items: [
       {
         type: 'text',
-        text: "“My father had constant sinus pain — surgery was smooth and recovery was quick!” – Lakshmi T."
+        text: "“My father had constant sinus pain — surgery was smooth and recovery was quick!” - Lakshmi T."
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
             {
         type: 'text',
-        text: "After struggling with hoarseness, I was diagnosed with vocal cord nodules and treated quickly.” – Hassan R., UAE."
+        text: "After struggling with hoarseness, I was diagnosed with vocal cord nodules and treated quickly.” - Hassan R., UAE."
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],

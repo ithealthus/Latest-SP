@@ -38,6 +38,11 @@ const AnesthesiologyData = {
         title: 'Pain relief services for surgeries, trauma & critical care',
 
       },
+      {
+       icon: 'fluent:laser-tool-20-filled',
+        title: 'Comprehensive post-operative pain management and recovery support',
+
+      },
     ],
     description: 'We are among the few multispeciality hospitals in Thiruvananthapuram with dedicated anesthesiologists round-the-clock for emergency and elective procedures.',
     cta: {
@@ -146,7 +151,7 @@ const AnesthesiologyData = {
           'Non-invasive ultrasound-based cardiac imaging with strain analysis to detect subtle myocardial dysfunction before symptoms arise.',
       },
       {
-        name: ' Advanced Monitoring Systems – Centricity',
+        name: ' Advanced Monitoring Systems - Centricity',
         description:
           'Centricity offers continuous, integrated monitoring of vital signs, medication, and diagnostics in one interface. It enhances patient safety and streamlines critical care workflows.',
       },
@@ -239,7 +244,7 @@ const AnesthesiologyData = {
   //       {
   //         title: 'Medical Cardiac Conditions',
   //         items: [
-  //           'Coronary Artery Disease (CAD) – early stages',
+  //           'Coronary Artery Disease (CAD) - early stages',
   //           'Heart failure & Cardiomyopathy',
   //           'Valve disorders (initial diagnosis and follow-up)',
   //           'Bradycardia, Tachycardia (managed with medication or monitoring)',
@@ -326,7 +331,7 @@ const AnesthesiologyData = {
     },
     {
       question: 'Can I eat or drink before anesthesia?',
-      answer: 'Usually, you need to fast for 6–8 hours. Specific instructions will be given.',
+      answer: 'Usually, you need to fast for 6-8 hours. Specific instructions will be given.',
     },
 
   ],

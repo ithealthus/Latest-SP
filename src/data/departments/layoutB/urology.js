@@ -101,7 +101,7 @@ const urology = {
 					'Offers high-resolution scans for prostate, pelvic, and soft tissue evaluation in complex urological cases.',
 			},
 			{
-				name: 'FULLY MOTORIZED X-RAY SUITE – DRX-COMPASS',
+				name: 'FULLY MOTORIZED X-RAY SUITE - DRX-COMPASS',
 				description:
 					'Delivers quick, clear urological imaging with reduced radiation exposure and improved workflow.',
 			},
@@ -286,7 +286,7 @@ const urology = {
 		},
 		{
 			question: 'Will I need a catheter after prostate surgery?',
-			answer: 'Yes, briefly. Most patients have it for 3–5 days and return to normal activity within a week.',
+			answer: 'Yes, briefly. Most patients have it for 3-5 days and return to normal activity within a week.',
 		},
 	],
 	appointmentSection: {

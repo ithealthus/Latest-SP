@@ -26,7 +26,7 @@ const discoverItems = [
   // { name: "Latest News Update", href: "/latest-news-update" },
   { name: "Health Blogs", href: "/health-articles-and-blogs" },
   { name: "Videos & Media Gallery", href: "/videos-and-media-gallery" },
-  // { name: "Podcasts", href: "/videos-and-media-gallery/podcast" },
+  { name: "SP Medifort Podcasts", href: "/videos-and-media-gallery/podcast" },
 ];
 
 const treatmentItems = [

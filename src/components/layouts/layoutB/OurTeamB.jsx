@@ -78,7 +78,7 @@ export default function OurTeamB({ team }) {
         </div>
 
         {/* Description & CTA */}
-        <p className="text-2xl md:text-2xl text-black font-roboto  mb-6 max-w-4xl mx-auto">
+          <p className="text-base sm:text-lg md:text-lg lg:text-2xl text-black font-roboto text-left mb-8 max-w-half mx-auto">
           {team.description}
         </p>
 

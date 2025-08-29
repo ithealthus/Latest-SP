@@ -9,7 +9,7 @@ function HeroB({ hero }) {
   return (
     <section className="bg-[url('/images/bg.png')] bg-cover bg-center bg-no-repeat px-4 md:px-12 py-8 md:py-12">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           <div>
             <div className="mb-4">
               <Breadcrumb />
@@ -20,7 +20,7 @@ function HeroB({ hero }) {
             {hero.description?.map((text, i) => (
               <p
                 key={i}
-                className="font-roboto font-normal text-base md:text-lg leading-snug md:leading-[24px] text-black mt-4"
+                className="font-roboto font-normal text-base md:text-xl leading-snug md:leading-[24px] text-black mt-4"
               >
                 {text}
               </p>

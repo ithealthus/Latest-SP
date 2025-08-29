@@ -29,7 +29,7 @@ function Page(hero, whyChoose, team,technologies, ctaSection ,highlightText ,com
       <CommonConditions scopeOfCare={ speechTherapy.scopeOfCare } />
       <InsuranceAndFinance insuranceFinance={ speechTherapy.insuranceFinance}/>
       <PatientJourney patientJourney={speechTherapy.patientJourney} />
-      <SuccessStories successStories={speechTherapy.successStories} />
+      {/* <SuccessStories successStories={speechTherapy.successStories} /> */}
       <Faq faqs={speechTherapy.faqs} />
       <AppointmentConsultation appointmentSection={speechTherapy.appointmentSection} />
     </div>

@@ -38,6 +38,11 @@ const GeneralSurgeryData = {
         icon: 'material-symbols:heart-check',
         title: 'Dedicated pre- & post-op nursing',
       },
+       {
+        icon: 'mdi:heart-cog-outline',
+        title: 'Extensive ICU and critical care backup for high-risk cases',
+
+      },
     ],
     description: 'We’re recognized as one of the best general surgery hospitals in Thiruvananthapuram, especially for procedures requiring precision and speed.',
     cta: {
@@ -118,7 +123,7 @@ const GeneralSurgeryData = {
           ' Measures bone density and body composition, valuable in preoperative assessments, particularly in endocrine or metabolic disorder-related surgeries.',
       },
       {
-        name: 'FULLY MOTORIZED X-RAY SUITE – DRX-COMPASS',
+        name: 'FULLY MOTORIZED X-RAY SUITE - DRX-COMPASS',
         description:
           'A digital X-ray system offering efficient and high-quality imaging with minimal repositioning, ideal for trauma and post-op evaluations.',
       },

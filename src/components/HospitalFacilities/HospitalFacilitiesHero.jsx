@@ -11,7 +11,7 @@ const HospitalFacilitiesHero = () => {
   return (
     <section>
       <div className="bg-[#f3dede]  flex items-center justify-center px-6 py-20">
-        <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
           {/* Text Section */}
           <div data-aos="fade-right" className="space-y-5">
             <div>

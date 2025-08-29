@@ -1,7 +1,7 @@
 
 const GeneralMinimalAccessSurgeryData = {
   hero: {
-    title: 'Smaller cuts, faster recovery – Surgery redefined',
+    title: 'Smaller cuts, faster recovery - Surgery redefined',
     description: [
       "At SP Medifort, our General & Minimal Access Surgery team provides modern surgical solutions with a strong emphasis on precision, safety, and recovery. From traditional general procedures to state-of-the-art laparoscopic (keyhole) and robotic surgeries, we focus on delivering excellent outcomes with minimal pain, minimal scarring, and minimal hospital stay.",
       "We are widely trusted for laparoscopic and general surgery in Trivandrum, with a reputation for safe, patient-centered surgical care."
@@ -95,12 +95,12 @@ const GeneralMinimalAccessSurgeryData = {
       {
         name: 'MRI GE SIGNA',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          'Continuous 24-48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
       },
       {
-        name: 'FULLY MOTORIZED X-RAY SUITE – DRX-COMPASS',
+        name: 'FULLY MOTORIZED X-RAY SUITE - DRX-COMPASS',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          'Continuous 24-48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
       },
     ],
 
@@ -215,7 +215,7 @@ const GeneralMinimalAccessSurgeryData = {
         {
           title: 'Medical GeneralMinimalAccessSurgery Conditions',
           items: [
-            'Coronary Artery Disease (CAD) – early stages',
+            'Coronary Artery Disease (CAD) - early stages',
             'Heart failure & Cardiomyopathy',
             'Valve disorders (initial diagnosis and follow-up)',
             'Bradycardia, Tachycardia (managed with medication or monitoring)',
@@ -275,7 +275,7 @@ const GeneralMinimalAccessSurgeryData = {
       { title: "Insurance/cashless documentation" },
       { title: "Minimally invasive surgery scheduled" },
       { title: "Same-day or 24-hour discharge (most cases)" },
-      { title: "Follow-up in 5–7 days" },
+      { title: "Follow-up in 5-7 days" },
     ],
     cta: "Understand your surgical path",
   },
@@ -283,12 +283,12 @@ const GeneralMinimalAccessSurgeryData = {
     items: [
       {
         type: 'text',
-        text: "I had gallbladder surgery and was home in 24 hours — no scar, no pain.– Bindu S."
+        text: "I had gallbladder surgery and was home in 24 hours — no scar, no pain.- Bindu S."
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
-        text: "The laparoscopic hernia surgery gave me zero downtime and quick recovery.” – Ahmed R., Oman"
+        text: "The laparoscopic hernia surgery gave me zero downtime and quick recovery.” - Ahmed R., Oman"
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],

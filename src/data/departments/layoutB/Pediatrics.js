@@ -15,6 +15,7 @@ import React from 'react';
     title: ' Why choose SP Medifort for Child Health?',
     subTitle: 'Where little patients get big care',
     cards: [
+      { icon: 'mdi:heart-pulse', title: 'Developmental screening and early intervention programs for learning or speech delays' },
       { icon: 'iconamoon:3d-bold', title: '24*7 pediatrician availability and child emergency unit' },
       { icon: 'fluent:laser-tool-20-filled', title: ' Level-3 NICU for premature and critical newborns ( to be launched)' },
       { icon: 'mdi:heart-pulse', title: 'Pediatric ICU with trained intensivists ( to be launched)' },
@@ -147,9 +148,9 @@ import React from 'react';
 
   successStories: {
     items: [
-      { type: 'text', text: '“SP Medifort took care of my premature baby like a family. Today, he’s healthy and thriving.” – Kavya P.' },
+      { type: 'text', text: '“SP Medifort took care of my premature baby like a family. Today, he’s healthy and thriving.” - Kavya P.' },
       { type: 'video', src: '/videos/Genesys-Vide-2.mp4', alt: 'Happy patient' },
-      { type: 'text', text: '“My daughter’s asthma is finally under control after proper allergy testing.” – Anwar M., Sharjah.' },
+      { type: 'text', text: '“My daughter’s asthma is finally under control after proper allergy testing.” - Anwar M., Sharjah.' },
       { type: 'video', src: '/videos/Genesys-Vide-2.mp4', alt: 'Happy patient' },
     ],
     cta: {

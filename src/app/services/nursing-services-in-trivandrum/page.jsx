@@ -146,7 +146,7 @@ const data = {
   appointmentSection: {
     heading: "Need Nursing Support? We’re Here 24*7",
     description:
-      "Visit SP Medifort – Your trusted hospital for inpatient and critical care nursing in Trivandrum",
+      "Visit SP Medifort - Your trusted hospital for inpatient and critical care nursing in Trivandrum",
     callToAction: "Call Us: +91-XXXXXXXXXX",
     buttons: ["Book Admission", "WhatsApp Us"],
   },
@@ -391,9 +391,9 @@ const MyPage = () => {
       {/* Why Choose Section */}
       {data.whyChoose?.length > 0 && (
         <section className="bg-[#f4eafd] py-12 px-4 md:px-20">
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div>
-              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-center mb-8">
+              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-left mb-8">
                 Why Choose SP Medifort Rehab?
               </h2>
               <ul className="space-y-4">

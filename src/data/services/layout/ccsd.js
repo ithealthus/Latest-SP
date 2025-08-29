@@ -85,7 +85,7 @@ Recognized as one of the most efficient hospital sterilization units in Trivandr
 
   appointmentSection: {
     heading: "Sterility You Can Trust, Every Time",
-    subheading: "Visit SP Medifort – Your trusted centre for sterile services and infection control in Trivandrum",
+    subheading: "Visit SP Medifort - Your trusted centre for sterile services and infection control in Trivandrum",
     helpline: "+91-XXXXXXXXXX",
     actions: [
       { text: "Explore Services", type: "button", link: "#" },
@@ -94,7 +94,7 @@ Recognized as one of the most efficient hospital sterilization units in Trivandr
   },
 
   meta: {
-    title: "CSSD in Trivandrum – SP Medifort Hospital",
+    title: "CSSD in Trivandrum - SP Medifort Hospital",
     description: "Ensure 100% sterile instruments with SP Medifort’s modern CSSD department. Autoclaving, ETO, Plasma Sterilization & infection control protocols in Trivandrum.",
     keywords: "cssd in trivandrum, hospital sterilization unit, autoclaving, eto sterilization, plasma sterilization, infection control"
   }

@@ -120,7 +120,7 @@ const ContactForm = () => {
                 </div>
                 <div className="mb-6">
                     <textarea
-                        rows={6}
+                        rows={3}
                         required
                         name="message"
                         value={message || ""}

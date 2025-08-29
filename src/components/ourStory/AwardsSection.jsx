@@ -7,7 +7,7 @@ const awards = [
         image: '/images/Awardsa/1.webp',
     },
     {
-        title: 'Joint Commission International (JCI) Accreditation – 8th Edition',
+        title: 'Joint Commission International (JCI) Accreditation - 8th Edition',
         image: '/images/Awardsa/2.webp',
     },
     {

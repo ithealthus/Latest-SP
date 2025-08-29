@@ -10,10 +10,10 @@ export default function CommonConditions2({ scopeOfCare }) {
 
   return (
     <section className="bg-primary py-12 px-4 sm:px-6 md:px-10 border-y border-primary">
-        <div className="max-w-6xl mx-auto space-y-12">
+        <div className="max-w-6xl mx-auto space-y-4">
           {/* Title + Toggle Button */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-roboto font-semibold text-white">
+            <h2 className="text-3xl sm:text-4xl md:text-4xl font-roboto font-semibold text-white">
               Conditions We Treat
             </h2>
 
@@ -28,7 +28,7 @@ export default function CommonConditions2({ scopeOfCare }) {
 
         {/* Content */}
         <div className="space-y-8">
-          <p className="text-base sm:text-lg text-white">
+          <p className="text-xl  text-white">
             {scopeOfCare[selectedCategory].overview}
           </p>
 

@@ -40,7 +40,11 @@ const DentalOralMaxillofacialSurgery = {
         title: 'Facilities for both minor dental treatments & complex reconstructive procedures',
 
       },
-      
+       {
+        icon: 'iconamoon:3d-bold',
+        title: 'Complete post-surgical care for quick recovery',
+
+      },
     ],
     description: 'We’re not just a dental clinic in Thiruvananthapuram, we’re a full-scope surgical destination.',
     cta: {
@@ -147,7 +151,7 @@ const DentalOralMaxillofacialSurgery = {
           ' An advanced electrosurgical system offering bloodless cutting and tissue coagulation, ensuring cleaner surgical fields and faster healing.',
       },
       {
-        name: 'RVG – Dentascan',
+        name: 'RVG - Dentascan',
         description:
           'Digital radiographic system that delivers high-definition 3D scans of dental structures, aiding in implant planning and endodontic evaluations.',
       },

@@ -34,13 +34,13 @@ const data = {
 const CareerStreams = () => {
   return (
     <>
-      <section className="py-16 px-4 bg-[#EFDAD952]">
+      <section className="py-10 px-4 bg-[#EFDAD952]">
         <div className="max-w-7xl mx-auto">
           {/* FAQs */}
           {data.faqs?.length > 0 && (
-            <section className="py-16 px-4 md:px-0 ">
+            <section className="py-5 px-4 md:px-0 ">
               <div className="w-full max-w-[1600px] mx-auto">
-                <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-[48px] text-[#44002E] mb-14 text-center tracking-tight">
+                <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-16 text-center">
                   Career Streams at SP Medifort
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

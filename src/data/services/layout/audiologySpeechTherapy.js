@@ -40,9 +40,9 @@ Recognized as a leading audiology clinic in Trivandrum, our unit is equipped wit
   team: {
     heading: "Who Performs the Service?",
     points: [
-      "Qualified Audiologists – Trained in diagnostic hearing assessment & hearing aid services",
-      "Speech-Language Pathologists – Specialized in paediatric and adult speech/language therapy",
-      "Child Communication Therapists – Focused on early intervention",
+      "Qualified Audiologists - Trained in diagnostic hearing assessment & hearing aid services",
+      "Speech-Language Pathologists - Specialized in paediatric and adult speech/language therapy",
+      "Child Communication Therapists - Focused on early intervention",
       "Collaboration with ENT Specialists, Neurologists, Paediatricians, and Psychologists"
     ]
   },
@@ -120,7 +120,7 @@ Recognized as a leading audiology clinic in Trivandrum, our unit is equipped wit
   appointmentSection: {
     heading: "Let’s Make Every Voice Heard",
     description:
-      "Visit SP Medifort – Your trusted centre for speech therapy and hearing test in Trivandrum",
+      "Visit SP Medifort - Your trusted centre for speech therapy and hearing test in Trivandrum",
     helpline: "+91-XXXXXXXXXX",
     actions: [
       { label: "Book a Hearing Test", type: "button", href: "#" },

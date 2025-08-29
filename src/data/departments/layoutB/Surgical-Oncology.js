@@ -34,6 +34,11 @@
         title: 'Focus on organ preservation and functional outcomes',
 
       },
+        {
+        icon: 'iconamoon:3d-bold',
+        title: 'Comprehensive rehabilitation and survivorship care post-surgery',
+
+      },
       {
         icon: 'material-symbols:heart-check',
         title: 'ICU & Oncology support integration',
@@ -235,12 +240,12 @@ scopeOfCare: [
     items: [
       {
         type: 'text',
-        text: "“Tumor removed, face rebuilt. I smile again.” – Jacob V."
+        text: "“Tumor removed, face rebuilt. I smile again.” - Jacob V."
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
-        text: " “Pain-free, dignified breast cancer surgery.” – Saniya R., UAE "
+        text: " “Pain-free, dignified breast cancer surgery.” - Saniya R., UAE "
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],

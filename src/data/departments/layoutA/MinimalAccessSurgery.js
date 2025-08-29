@@ -39,6 +39,11 @@
         title: 'Enhanced Recovery Protocol (ERAS)',
 
       },
+       {
+        icon: 'fluent:laser-tool-20-filled',
+        title: 'Specialized surgeons for gastrointestinal, gynaecological, urological, and bariatric procedures',
+
+      },
     ],
     description: 'SP Medifort is one of the top hospitals in Thiruvananthapuram for minimally invasive surgery, backed by robotic innovation and a team of experienced general surgeons.',
     cta: {
@@ -137,7 +142,7 @@
           ' Offers superior soft tissue contrast for detecting liver, pelvic, or musculoskeletal abnormalities, aiding in surgical planning and postoperative follow-up.',
       },
       {
-        name: 'FULLY MOTORIZED X-RAY SUITE – DRX-COMPASS',
+        name: 'FULLY MOTORIZED X-RAY SUITE - DRX-COMPASS',
         description:
           'A digitally controlled X-ray unit that allows fast, high-quality imaging with minimal patient movement, ideal for trauma or post-surgical evaluations.',
       },
@@ -245,7 +250,7 @@
   //       {
   //         title: 'Medical Cardiac Conditions',
   //         items: [
-  //           'Coronary Artery Disease (CAD) – early stages',
+  //           'Coronary Artery Disease (CAD) - early stages',
   //           'Heart failure & Cardiomyopathy',
   //           'Valve disorders (initial diagnosis and follow-up)',
   //           'Bradycardia, Tachycardia (managed with medication or monitoring)',
@@ -303,16 +308,16 @@
       { title: "Insurance/cashless documentation" },
       { title: "Minimally invasive surgery scheduled" },
       { title: "Same-day or 24-hour discharge (most cases)" },
-      { title: "Follow-up in 5–7 days" },
+      { title: "Follow-up in 5-7 days" },
       
     ],
     cta: "Understand your surgical path",
   },
   successStories: {
     items: [
-      { type: 'text', text: '“I had gallbladder surgery and was home in 24 hours, no scar, no pain.” – Bindu S.' },
+      { type: 'text', text: '“I had gallbladder surgery and was home in 24 hours, no scar, no pain.” - Bindu S.' },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
-      { type: 'text', text: '“The laparoscopic hernia surgery gave me zero downtime and quick recovery.” – Ahmed R., Oman.' },
+      { type: 'text', text: '“The laparoscopic hernia surgery gave me zero downtime and quick recovery.” - Ahmed R., Oman.' },
       { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
       // { type: 'text', text: 'Pre-booked angioplasty slots' },
       // { type: 'image', src: '/images/card3.webp', alt: 'Covered woman smiling' },

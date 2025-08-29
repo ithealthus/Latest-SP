@@ -6,9 +6,9 @@ export default function TechnologiesSectionA({ data }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <section className="bg-secondary px-4 md:px-12 py-16 ">
+    <section className="bg-[#efdad9] px-4 md:px-12 py-16 ">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-white font-title text-3xl md:text-4xl font-semibold font-roboto px-4 sm:px-0 mb-8">
+        <h2 className="text-primary font-title text-3xl md:text-4xl font-semibold font-roboto px-4 sm:px-0 mb-8">
           {title}
         </h2>
 

@@ -24,7 +24,8 @@ const plasticMicrovascularSurgery = {
       { icon: 'mdi:arm-flex-outline', title: 'Reconstructive microsurgery for trauma, cancer, or birth defects' },
       { icon: 'mdi:face-woman-outline', title: 'Cosmetic procedures with confidential, custom approach' },
       { icon: 'material-symbols:handshake', title: 'Hand surgery and limb replantation' },
-      { icon: 'mdi:account-group-outline', title: 'Multidisciplinary team for complex reconstruction' }
+      { icon: 'mdi:account-group-outline', title: 'Multidisciplinary team for complex reconstruction' },
+       { icon: 'mdi:arm-flex-outline', title: 'Advanced post-surgical rehabilitation and scar management' },
     ],
     description: 'SP Medifort delivers functional restoration and aesthetic improvement with utmost safety and compassion.',
     cta: { label: 'Explore reconstructive & cosmetic options', href: '/departments/plastic-surgery#services' }
@@ -50,7 +51,7 @@ const plasticMicrovascularSurgery = {
     categoryTabs: ['Surgical Technology', 'Diagnostics'],
     items: [
       { name: 'Robotic Visualization System KINEVO 900', description: 'Offers magnified, steady, and precise surgical views for microvascular reconstruction and intricate procedures.' },
-      { name: 'MRI – GE SIGNA', description: 'High-resolution MRI for pre-surgical planning and soft tissue visualization.' },
+      { name: 'MRI - GE SIGNA', description: 'High-resolution MRI for pre-surgical planning and soft tissue visualization.' },
       { name: '128 Slice CT GE Revolution', description: 'Enables detailed imaging for trauma reconstruction and cosmetic evaluation.' },
       { name: 'Ultrasound (USG) Scan', description: 'Real-time assessment for flap evaluation, vascular access, and trauma management.' },
       { name: 'Operating microscope', description: 'Used for intricate nerve and vessel repair under high magnification.' }

@@ -8,11 +8,11 @@ export default function PatientJourney({ patientJourney }) {
   const { title, subtitle, steps, cta } = patientJourney;
 
   return (
-    <section className="p-6 md:p-12 bg-secondary text-black">
+    <section className="p-6 md:p-12 bg-[#efdad9] text-black">
       <div className="max-w-7xl mx-auto">
         {/* Title and Subtitle */}
-        <h2 className="text-black font-roboto text-3xl md:text-4xl text-center font-semibold mb-2">{title}</h2>
-        <p className="text-lg text-white text-center mb-12">{subtitle}</p>
+        <h2 className="text-primary font-roboto text-3xl md:text-4xl text-center font-semibold mb-2">{title}</h2>
+        <p className="text-xl text-black text-center mb-12">{subtitle}</p>
 
         <div className="relative">
           {/* Horizontal line centered with cards (on desktop only) */}

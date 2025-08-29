@@ -96,12 +96,12 @@ const cardiacScienceData = {
     // Cardiology
     [
       {
-        name: '128 Slice CT – GE Revolution',
+        name: '128 Slice CT - GE Revolution',
         description:
           'High-resolution (down to 0.28 mm), ultra-fast cardiac CT that provides detailed 3D images of the heart and blood vessels, enabling precise evaluation of coronary artery disease.',
       },
       {
-        name: 'MRI – GE SIGNA',
+        name: 'MRI - GE SIGNA',
         description:
           'Advanced cardiac MRI offers functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
       },
@@ -272,7 +272,7 @@ const cardiacScienceData = {
   //       {
   //         title: 'Medical Cardiac Conditions',
   //         items: [
-  //           'Coronary Artery Disease (CAD) – early stages',
+  //           'Coronary Artery Disease (CAD) - early stages',
   //           'Heart failure & Cardiomyopathy',
   //           'Valve disorders (initial diagnosis and follow-up)',
   //           'Bradycardia, Tachycardia (managed with medication or monitoring)',
@@ -306,7 +306,7 @@ const cardiacScienceData = {
       {
         title: 'Medical Cardiac Conditions',
         items: [
-          'Coronary Artery Disease (CAD) – early stages',
+          'Coronary Artery Disease (CAD) - early stages',
           'Heart failure & Cardiomyopathy',
           'Valve disorders (initial diagnosis and follow-up)',
           'Bradycardia, Tachycardia (managed with medication or monitoring)',
@@ -325,14 +325,14 @@ const cardiacScienceData = {
       {
         title: 'Advanced Cardiac Conditions',
         items: [
-          'Heart attack (Myocardial Infarction – MI)',
-          'Coronary Artery Disease (CAD) – advanced stage requiring angioplasty/stenting',
-          'Valve stenosis (Mitral/Aortic) – requiring balloon valvotomy or valve replacement',
-          'Heart block – requiring pacemaker implantation',
+          'Heart attack (Myocardial Infarction - MI)',
+          'Coronary Artery Disease (CAD) - advanced stage requiring angioplasty/stenting',
+          'Valve stenosis (Mitral/Aortic) - requiring balloon valvotomy or valve replacement',
+          'Heart block - requiring pacemaker implantation',
           'Weak heart (severe cases requiring device therapy)',
           'Recurrent/restenting in Restenosis cases',
-          'Arrhythmias – requiring device-based therapy like ICD or ablation',
-          'Structural heart diseases – requiring device closure or valve intervention',
+          'Arrhythmias - requiring device-based therapy like ICD or ablation',
+          'Structural heart diseases - requiring device closure or valve intervention',
         ],
       },
     ],
@@ -447,7 +447,7 @@ export default cardiacScienceData;
 //   seo: {
 //     title: "Cardiac Science at SP Medifort Hospital, Thiruvananthapuram",
 //     description:
-//       "SP Medifort – Best cardiology hospital in Trivandrum offering advanced heart care, minimally invasive treatments, and 24x7 cardiac emergency support.",
+//       "SP Medifort - Best cardiology hospital in Trivandrum offering advanced heart care, minimally invasive treatments, and 24x7 cardiac emergency support.",
 //     keywords: [
 //       "Cardiology hospital in Trivandrum",
 //       "Best heart hospital in Thiruvananthapuram",
@@ -517,12 +517,12 @@ export default cardiacScienceData;
 //     categoryTabs: ["Interventional Cardiology", "Cardiology"],
 //     items: [
 //       {
-//         name: "128 Slice CT – GE Revolution",
+//         name: "128 Slice CT - GE Revolution",
 //         description:
 //           "High-resolution (0.28 mm), ultra-fast cardiac CT that provides detailed 3D images of the heart and blood vessels, enabling precise evaluation of coronary artery disease."
 //       },
 //       {
-//         name: "MRI – GE SIGNA",
+//         name: "MRI - GE SIGNA",
 //         description:
 //           "Advanced cardiac MRI for functional and structural heart assessment, detecting myocardial damage, perfusion, and congenital anomalies."
 //       },
@@ -539,7 +539,7 @@ export default cardiacScienceData;
 //       {
 //         name: "Holter Monitoring",
 //         description:
-//           "Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during routine ECG."
+//           "Continuous 24-48 hour ECG monitoring to detect intermittent arrhythmias not captured during routine ECG."
 //       },
 //       {
 //         name: "Treadmill Stress Test (TMT)",

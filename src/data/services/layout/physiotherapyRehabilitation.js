@@ -115,7 +115,7 @@ Treatment may start on the same day.`
 
   appointmentSection: {
     heading: "Regain Movement, Regain Life",
-    subheading: "Visit SP Medifort – Trusted for physiotherapy and rehabilitation in Trivandrum",
+    subheading: "Visit SP Medifort - Trusted for physiotherapy and rehabilitation in Trivandrum",
     helpline: "+91-XXXXXXXXXX",
     actions: [
       { text: "Book a Session", type: "button", link: "#" },
@@ -124,7 +124,7 @@ Treatment may start on the same day.`
   },
 
   meta: {
-    title: "Physiotherapy & Rehabilitation in Trivandrum – SP Medifort Hospital",
+    title: "Physiotherapy & Rehabilitation in Trivandrum - SP Medifort Hospital",
     description: "Recover faster with personalized physiotherapy and rehabilitation services at SP Medifort. Expert team, advanced equipment, and holistic care for all ages.",
     keywords: "physiotherapy Trivandrum, rehabilitation centre Trivandrum, neuro rehab, ortho physio, stroke recovery, post-surgery physio"
   }

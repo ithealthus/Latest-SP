@@ -101,7 +101,7 @@ const data = {
   ],
   whyChoose: [
     "South India’s First AI-Powered GE Allia 3D Hybrid Cath Lab",
-    "Laser Angioplasty – IVUS, FFR Facility",
+    "Laser Angioplasty - IVUS, FFR Facility",
     "Round-the-clock cardiologist availability for emergencies",
     "An expert cardiology team with decades of experience",
     "Higher accuracy, lower radiation exposure",
@@ -128,7 +128,7 @@ const data = {
     {
       question: "How long does an angiography or angioplasty take?",
       answer:
-        "An angiography usually takes 20–30 minutes. Angioplasty may take 1–2 hours, depending on complexity.",
+        "An angiography usually takes 20-30 minutes. Angioplasty may take 1-2 hours, depending on complexity.",
     },
     {
       question: "Is the procedure painful?",
@@ -144,7 +144,7 @@ const data = {
   appointmentSection: {
     heading: "Take the Smart Route to a Healthy Heart",
     description:
-      "Visit SP Medifort – Home to the most advanced cath lab in Trivandrum",
+      "Visit SP Medifort - Home to the most advanced cath lab in Trivandrum",
     callToAction: "Call Us: +91-XXXXXXXXXX",
     buttons: ["Book a Consultation", "WhatsApp Us"],
   },
@@ -390,9 +390,9 @@ const toggleIndex = (index) => {
       {/* Why Choose Section */}
       {data.whyChoose?.length > 0 && (
         <section className="bg-[#f4eafd] py-12 px-4 md:px-20">
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div>
-              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-center mb-8">
+              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-left mb-8">
                 Why Choose SP Medifort Rehab?
               </h2>
               <ul className="space-y-4">

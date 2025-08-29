@@ -89,7 +89,7 @@ Recognized for our efficient and digitally enabled hospital records management i
 
   appointmentSection: {
     heading: "Need Your Medical Documents? We’ve Got You Covered.",
-    subheading: "Visit SP Medifort – Trusted for health records management in Trivandrum",
+    subheading: "Visit SP Medifort - Trusted for health records management in Trivandrum",
     helpline: "0471 3100100",
     actions: [
       { text: "Request Records", type: "button", link: "#" },
@@ -98,7 +98,7 @@ Recognized for our efficient and digitally enabled hospital records management i
   },
 
   meta: {
-    title: "Medical Records Services in Trivandrum – SP Medifort Hospital",
+    title: "Medical Records Services in Trivandrum - SP Medifort Hospital",
     description: "Secure and fast access to medical documents, discharge summaries, and digital health records at SP Medifort Trivandrum.",
     keywords: "medical records trivandrum, discharge summary, emr, health documents, test report retrieval, hospital records"
   }

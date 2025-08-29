@@ -51,7 +51,7 @@ const roboticLaparoscopicSurgery = {
     categoryTabs: ["Robotic & Imaging", "Surgical Systems"],
     items: [
       { name: "VERSIUS ROBOT Precision Surgery", description: "State-of-the-art robotic platform for precision surgery with minimal trauma." },
-      { name: "ROBOTIC VISUALIZATION SYSTEM – KINEVO 900", description: "High-definition robotic visualization for enhanced surgical accuracy." },
+      { name: "ROBOTIC VISUALIZATION SYSTEM - KINEVO 900", description: "High-definition robotic visualization for enhanced surgical accuracy." },
       { name: "ERBE VIO 3 with APC", description: "Advanced electrosurgical unit with Argon Plasma Coagulation (APC) technology." },
       { name: "128 Slice CT GE Revolution", description: "Detailed scans for pre-op planning and post-op evaluation." },
       { name: "Ultrasound (USG) scan", description: "Real-time imaging for diagnostic and surgical guidance." }
@@ -142,8 +142,8 @@ const roboticLaparoscopicSurgery = {
 
   successStories: {
     items: [
-      { type: "text", text: "“I walked the same day after my robotic hernia surgery. Amazing care and coordination.” – Rafiq K." },
-      { type: "text", text: "“Minimal pain, no scar, and I was discharged the next morning.” – Greta S., Maldives" }
+      { type: "text", text: "“I walked the same day after my robotic hernia surgery. Amazing care and coordination.” - Rafiq K." },
+      { type: "text", text: "“Minimal pain, no scar, and I was discharged the next morning.” - Greta S., Maldives" }
     ],
     cta: {
       label: "Read more surgical experiences",
@@ -158,7 +158,7 @@ const roboticLaparoscopicSurgery = {
     },
     {
       question: "How long is recovery after minimally invasive surgery?",
-      answer: "Most patients are mobile the same day and return to work within 5–7 days, depending on the procedure."
+      answer: "Most patients are mobile the same day and return to work within 5-7 days, depending on the procedure."
     }
   ],
 

@@ -225,7 +225,7 @@ const AppointmentModal = ({ isOpen, onClose, doctor, branch_id, token }) => {
       return toast.error("Enter valid email");
 
     if (!age || age < 1 || age > 120)
-      return toast.error("Enter valid age (1–120)");
+      return toast.error("Enter valid age (1-120)");
 
     if (!gender) return toast.error("Select gender");
     if (!address.trim()) return toast.error("Address is required");

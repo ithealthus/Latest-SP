@@ -66,7 +66,7 @@ const AboutUs = () => {
         />
         <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6">
           <h1 className="text-3xl md:text-5xl font-title font-bold text-white mb-2 tracking-tight drop-shadow-lg animate__animated animate__fadeInDown">
-            About Us – SP Medifort Hospital
+            About Us - SP Medifort Hospital
           </h1>
           <p className="text-base md:text-lg text-white max-w-2xl leading-relaxed animate__animated animate__fadeInUp">
             Where Innovation Meets Compassion — A Legacy of Excellence in Patient-Centred Care.

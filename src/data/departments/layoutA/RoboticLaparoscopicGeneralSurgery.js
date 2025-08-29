@@ -35,6 +35,11 @@
         title: 'Specialized for abdominal, gastrointestinal & endocrine surgeries',
 
       },
+        {
+        icon: 'fluent:laser-tool-20-filled',
+        title: 'Comprehensive pre- & post-operative care with dedicated recovery protocols',
+
+      },
       {
         icon: 'material-symbols:heart-check',
         title: '24*7 emergency surgical team on standby',
@@ -118,7 +123,7 @@
           ' A next-generation surgical robot enabling high-precision movements through minimal access, ensuring less trauma and quicker recovery.',
       },
       {
-        name: 'ROBOTIC VISUALIZATION SYSTEM® – KINEVO® 900',
+        name: 'ROBOTIC VISUALIZATION SYSTEM® - KINEVO® 900',
         description:
           'Offers high-definition 3D imaging and intelligent automation for unparalleled clarity and control during complex procedures.',
       },
@@ -300,9 +305,9 @@
   },
   successStories: {
     items: [
-      { type: 'text', text: '““I walked the same day after my robotic hernia surgery. Amazing care and coordination.” – Rafiq K.' },
+      { type: 'text', text: '““I walked the same day after my robotic hernia surgery. Amazing care and coordination.” - Rafiq K.' },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
-      { type: 'text', text: '““Minimal pain, no scar, and I was discharged the next morning.” – Greta S., Maldives.' },
+      { type: 'text', text: '““Minimal pain, no scar, and I was discharged the next morning.” - Greta S., Maldives.' },
       { type: 'image', src: '/images/card2.webp', alt: 'Patient smiling' },
       // { type: 'text', text: 'Pre-booked angioplasty slots' },
       // { type: 'image', src: '/images/card3.webp', alt: 'Covered woman smiling' },
@@ -325,7 +330,7 @@
     },
     {
       question: 'How long is the recovery after minimally invasive surgery?',
-      answer: 'Most patients are mobile the same day and return to work within 5–7 days, depending on the procedure.',
+      answer: 'Most patients are mobile the same day and return to work within 5-7 days, depending on the procedure.',
     },
 
   ],

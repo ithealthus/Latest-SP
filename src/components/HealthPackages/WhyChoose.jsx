@@ -15,7 +15,7 @@ function CareerTraining() {
       {/* Why Choose Section */}
       {data.whyChoose?.length > 0 && (
         <section className="py-12 px-4 md:px-20">
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div>
               <h2 className="text-2xl sm:text-[36px] md:text-[44px] lg:text-[48px] leading-tight font-bold tracking-[-0.4px] text-[#41002d] mb-8">
                 Why Choose Our Packages?

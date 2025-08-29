@@ -24,7 +24,9 @@ const respiratoryMedicine = {
       { icon: 'mdi:weather-windy', title: 'Non-invasive and invasive ventilation' },
       { icon: 'mdi:sleep', title: 'Sleep studies for obstructive sleep apnea' },
       { icon: 'mdi:lungs', title: 'ILD, TB, asthma, COPD expertise' },
-      { icon: 'mdi:hospital', title: 'ICU support for respiratory failure' }
+      { icon: 'mdi:hospital', title: 'ICU support for respiratory failure' },
+      { icon: 'mdi:lungs', title: 'Bronchoscopy and interventional pulmonology for diagnosis and treatment' },
+
     ],
     description: 'Our lung care specialists in Trivandrum are supported by modern diagnostics and round-the-clock respiratory therapy.',
     cta: { label: 'Explore Lung & Airway services', href: '/departments/respiratory-medicine#services' }
@@ -36,7 +38,7 @@ const respiratoryMedicine = {
     doctors: [
       {
         name: 'Dr. Vipin P V',
-        designation: 'Senior Consultant – Respiratory Medicine',
+        designation: 'Senior Consultant - Respiratory Medicine',
         position: '',
         image: '/images/doctors-card/dr-vipin.png'
       },

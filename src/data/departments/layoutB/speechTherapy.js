@@ -19,6 +19,7 @@ const speechTherapy = {
       { icon: 'fluent:laser-tool-20-filled', title: 'Pediatric and adult speech care' },
       { icon: 'mdi:heart-pulse', title: 'Language delay, articulation, fluency & voice therapy' },
       { icon: 'mdi:heart-pulse', title: 'Swallowing assessment & therapy (dysphagia)' },
+      { icon: 'mdi:heart-pulse', title: 'Hearing aid, cochlear implant, and auditory-verbal therapy support' },
       { icon: 'mdi:heart-pulse', title: 'Autism, stroke & neurological speech support' },
       
     ],
@@ -133,9 +134,9 @@ const speechTherapy = {
 
   successStories: {
     items: [
-      { type: 'text', text: '“My son spoke his first sentence at age 4 after regular sessions here.” – Anita P.' },
+      { type: 'text', text: '“My son spoke his first sentence at age 4 after regular sessions here.” - Anita P.' },
       { type: 'video', src: '/videos/Genesys-Vide-2.mp4', alt: 'Happy patient' },
-      { type: 'text', text: '“They helped me regain my speech after a brain stroke. Grateful beyond words.” – Salim R., Oman' },
+      { type: 'text', text: '“They helped me regain my speech after a brain stroke. Grateful beyond words.” - Salim R., Oman' },
       { type: 'video', src: '/videos/Genesys-Vide-2.mp4', alt: 'Happy patient' },
     ],
     cta: {

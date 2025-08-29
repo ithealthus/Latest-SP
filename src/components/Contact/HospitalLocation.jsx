@@ -38,7 +38,7 @@ const HospitalLocation = () => {
                 alt="Map Icon"
                 className="w-3 sm:w-4 mr-2 mt-[2px]"
               />
-              Eanchakkal, Thiruvananthapuram – 695008, Kerala, India
+              Eanchakkal, Thiruvananthapuram - 695008, Kerala, India
             </p>
 
             {/* Google Maps Link */}

@@ -62,15 +62,15 @@ const data = {
       "The Imaging Services Department at SP Medifort Hospital offers advanced diagnostic tools that help clinicians visualize and interpret internal structures with high accuracy. Equipped with cutting-edge radiology technology, our facility delivers fast, detailed scans to aid early diagnosis and effective treatment planning.\nAs a trusted radiology and imaging centre in Trivandrum, we provide patient-centric care with 24*7 access to routine and emergency scans.",
   },
   whatWeOffer: [
-    "MRI (Magnetic Resonance Imaging) – 1.5 Tesla high-definition scans",
-    "CT Scan – 128-slice high-speed CT for full-body and contrast studies",
-    "Digital X-Ray – Chest, limb, spine, dental, and contrast X-rays",
-    "Ultrasound & Doppler Studies – Abdominal, pelvic, thyroid, vascular, fetal",
+    "MRI (Magnetic Resonance Imaging) - 1.5 Tesla high-definition scans",
+    "CT Scan - 128-slice high-speed CT for full-body and contrast studies",
+    "Digital X-Ray - Chest, limb, spine, dental, and contrast X-rays",
+    "Ultrasound & Doppler Studies - Abdominal, pelvic, thyroid, vascular, fetal",
     "3D/4D Pregnancy Ultrasound",
-    "Mammography – Digital breast cancer screening",
-    "Fluoroscopy – Dynamic imaging for GI and musculoskeletal studies",
+    "Mammography - Digital breast cancer screening",
+    "Fluoroscopy - Dynamic imaging for GI and musculoskeletal studies",
     "Bone Densitometry (DEXA Scan)",
-    // "Portable Imaging Units – For bedside & ICU scans",
+    // "Portable Imaging Units - For bedside & ICU scans",
   ],
   team: [
     "Radiologists (MD, DNB) for image interpretation & reporting",
@@ -100,7 +100,7 @@ const data = {
   whyChoose: [
     "24*7 availability for emergency and admitted patients",
     "Latest MRI, CT, and Ultrasound machines",
-    "Rapid report turnaround (most within 4–6 hours)",
+    "Rapid report turnaround (most within 4-6 hours)",
     "PACS-enabled digital access for clinicians",
     "Patient privacy and comfort prioritized",
     "Low-radiation safety technology, especially for children & pregnant women",
@@ -126,7 +126,7 @@ const data = {
     {
       question: "How long does a CT or MRI scan take?",
       answer:
-        "MRI: 20–45 minutes, depending on area. CT: 10–15 minutes including prep.",
+        "MRI: 20-45 minutes, depending on area. CT: 10-15 minutes including prep.",
     },
     {
       question: "Are imaging reports available online?",
@@ -142,7 +142,7 @@ const data = {
   appointmentSection: {
     heading: "Book Your Scan Today",
     description:
-      "Visit SP Medifort – Trusted diagnostic imaging centre in Trivandrum",
+      "Visit SP Medifort - Trusted diagnostic imaging centre in Trivandrum",
     callToAction: "Call Us: +91-XXXXXXXXXX",
     buttons: ["Book a Scan", "WhatsApp Now"],
   },
@@ -388,9 +388,9 @@ const toggleIndex = (index) => {
       {/* Why Choose Section */}
       {data.whyChoose?.length > 0 && (
         <section className="bg-[#f4eafd] py-12 px-4 md:px-20">
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div>
-              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-center mb-8">
+              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-left mb-8">
                 Why Choose SP Medifort Rehab?
               </h2>
               <ul className="space-y-4">

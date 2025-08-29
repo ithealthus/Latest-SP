@@ -54,7 +54,7 @@ As a NABL-accredited diagnostic lab in Trivandrum, we ensure each sample is hand
   whyChooseUs: [
     "NABL-certified lab for accuracy and safety",
     "24x7 operations with emergency testing support",
-    "Fast report turnaround, many within 2–4 hours",
+    "Fast report turnaround, many within 2-4 hours",
     "Safe & painless sample collection",
     "Paediatric & geriatric-friendly collection process",
     "Direct report access via patient portal or WhatsApp",
@@ -93,7 +93,7 @@ As a NABL-accredited diagnostic lab in Trivandrum, we ensure each sample is hand
 
   appointmentSection: {
     heading: "Book a Test or Visit Our Lab Today",
-    subheading: "Visit SP Medifort – Your trusted clinical laboratory in Trivandrum",
+    subheading: "Visit SP Medifort - Your trusted clinical laboratory in Trivandrum",
     helpline: "+91-XXXXXXXXXX",
     actions: [
       { text: "Book a Test", type: "button", link: "#" },
@@ -102,7 +102,7 @@ As a NABL-accredited diagnostic lab in Trivandrum, we ensure each sample is hand
   },
 
   meta: {
-    title: "Clinical Laboratory in Trivandrum – SP Medifort Hospital",
+    title: "Clinical Laboratory in Trivandrum - SP Medifort Hospital",
     description: "24x7 NABL-accredited clinical lab at SP Medifort. Fast, reliable blood tests and diagnostics with EMR integration and expert pathology support.",
     keywords: "clinical laboratory in Trivandrum, diagnostic lab Trivandrum, blood test Trivandrum, pathology lab, NABL lab Trivandrum"
   }

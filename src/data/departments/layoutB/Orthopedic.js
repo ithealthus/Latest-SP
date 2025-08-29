@@ -30,6 +30,10 @@ const OrthopedicData = {
 				icon: 'mdi:heart-pulse',
 				title: 'Specialized care for sports injuries & arthritis',
 			},
+				{
+				icon: 'mdi:heart-pulse',
+				title: 'Comprehensive osteoporosis screening and bone health management',
+			},
 			{
 				icon: 'mdi:heart-pulse',
 				title: 'Dedicated ortho physiotherapy & post-op rehab',
@@ -49,101 +53,101 @@ const OrthopedicData = {
 				name: 'DR. VIKRAMAN C S',
 				designation: 'ORTHOPEDICS',
 				position: 'GROUP DIRECTOR',
-				image: '/images/doctors-card/shibu.png'
+				image: '/images/doctors-card/dp-images/ORTHOPEDICS & SPINE SURGERY/1.png'
 			},
-			{
-				name: 'DR. ASHOK  THOMAS',
-				designation: 'SPINE SURGERY',
-				position: 'GROUP DIRECTOR,',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. NIRANJAN T J',
-				designation: 'ORTHOPEDICS',
-				position: 'SENIOR CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. HARI KUMAR G',
-				designation: 'ORTHOPEDICS',
-				position: 'SENIOR CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
+			// {
+			// 	name: 'DR. ASHOK  THOMAS',
+			// 	designation: 'SPINE SURGERY',
+			// 	position: 'GROUP DIRECTOR,',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. NIRANJAN T J',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'SENIOR CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. HARI KUMAR G',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'SENIOR CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
 
 
-			{
-				name: 'DR. DILEEP KUMAR A',
-				designation: 'ORTHOPEDICS',
-				position: 'SENIOR CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
+			// {
+			// 	name: 'DR. DILEEP KUMAR A',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'SENIOR CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
 
-			{
-				name: 'DR. SHIBU JOHN',
-				designation: 'ORTHOPEDICS',
-				position: 'SENIOR CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. PRAVEEN S JOSE',
-				designation: 'ORTHOPEDICS',
-				position: 'SENIOR CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. AATHITHYA S',
-				designation: 'ORTHOPEDICS',
-				position: 'EXECUTIVE DIRECTOR & CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. SUDHIR S PAI',
-				designation: 'ORTHOPEDICS',
-				position: 'SENIOR CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. JUSTIN  THOMAS',
-				designation: 'ORTHOPEDICS',
-				position: 'ASSOCIATE CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. ROHITH  RAVINDRAN',
-				designation: 'ORTHOPEDICS',
-				position: 'CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. ARUN VISWANATH',
-				designation: 'ORTHOPEDICS',
-				position: 'CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. GANESH  NAVANEEDHAN',
-				designation: 'ORTHOPEDICS',
-				position: 'CONSULTANT',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. ALEX THOMAS N',
-				designation: 'ORTHOPEDICS',
-				position: 'REGISTRAR',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. ATHUL  BABU J',
-				designation: 'ORTHOPEDICS',
-				position: 'REGISTRAR',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'DR. CHERIAN  GEORGE',
-				designation: 'ORTHOPEDICS',
-				position: 'REGISTRAR',
-				image: '/images/doctors-card/shibu.png'
-			},
+			// {
+			// 	name: 'DR. SHIBU JOHN',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'SENIOR CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. PRAVEEN S JOSE',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'SENIOR CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. AATHITHYA S',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'EXECUTIVE DIRECTOR & CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. SUDHIR S PAI',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'SENIOR CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. JUSTIN  THOMAS',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'ASSOCIATE CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. ROHITH  RAVINDRAN',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. ARUN VISWANATH',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. GANESH  NAVANEEDHAN',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'CONSULTANT',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. ALEX THOMAS N',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'REGISTRAR',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. ATHUL  BABU J',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'REGISTRAR',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
+			// {
+			// 	name: 'DR. CHERIAN  GEORGE',
+			// 	designation: 'ORTHOPEDICS',
+			// 	position: 'REGISTRAR',
+			// 	image: '/images/doctors-card/shibu.png'
+			// },
 		],
 		description: 'Our eye specialists in Trivandrum are known for accurate diagnoses, gentle surgical techniques, and personalized eye care.',
 		cta: {
@@ -183,7 +187,7 @@ const OrthopedicData = {
 					'Real-time imaging for abdomen, pregnancy, and vascular scans. Non-invasive and radiation-free for safe diagnostics.',
 			},
 			{
-				name: 'Robotic Visualization System – KINEVO 900',
+				name: 'Robotic Visualization System - KINEVO 900',
 				description:
 					' Combines robotics with optics for surgical precision.  Supports neurosurgery with better depth, stability, and visualization.',
 			},
@@ -208,193 +212,168 @@ const OrthopedicData = {
 		'Sports Injury & Pediatric Bone Care',
 
 	],
-	comprehensiveCare: {
-		title: 'Comprehensive Orthopaedic Procedures',
-		subtitle: "Restoring Movement, Relieving Pain, Rebuilding Lives",
-		categories: [
-			{
-				name: 'Orthopedics',
-				description:
-					'From joint replacements to sports injury repair, our orthopaedic team delivers precise, minimally invasive care tailored to your mobility needs.',
-				items: [
-					{
-						title: 'Robotic-assisted knee & hip replacement',
-						icon: 'mdi:stethoscope',
-						description:
-							'Advanced robotic navigation ensures precision, reduced pain, and faster recovery in joint replacement surgeries',
-					},
-					{
-						title: 'Fracture fixation with plates, rods, and screws',
-						icon: 'mdi:heart-flash',
-						description:
-							'Stabilizes broken bones using metal implants for faster healing and restored function.',
-					},
-					{
-						title: 'Arthroscopic procedures for joint repair',
-						icon: 'mdi:hospital-box-outline',
-						description:
-							'Minimally invasive surgery for torn ligaments, cartilage, or joint damage.',
-					},
-					{
-						title: 'Fracture Fixations',
-						icon: 'mdi:heart-pulse',
-						description:
-							'Use of plates, screws, nails, or external frames to stabilize bones and support early recovery.',
-					},
-					{
-						title: 'Orthobiologics (PRP therapy)',
-						icon: 'mdi:heart-plus-outline',
-						description:
-							' Natural cell-based therapies to promote healing in joints, tendons, and ligaments.',
-					},
-					{
-						title: 'Joint pain evaluation packages',
-						icon: 'mdi:heart-plus-outline',
-						description:
-							' Comprehensive clinical, radiological, and lab-based assessments to identify the cause of joint pain.',
-					},
-					{
-						title: 'Post-op rehab review + physiotherapy',
-						icon: 'mdi:heart-plus-outline',
-						description:
-							'From medication and injections to joint replacement, tailored treatments to relieve pain and slow progression.',
-					},
-					{
-						title: 'Bone health check with DEXA scan',
-						icon: 'mdi:heart-plus-outline',
-						description:
-							'Screening for osteoporosis and bone loss using advanced, low-dose imaging.',
-					},
+comprehensiveCare: {
+//   title: 'Comprehensive Orthopaedic Procedures',
+  title: 'Restoring Movement, Relieving Pain, Rebuilding Lives',
+  subtitle:
+    'From joint replacements to sports injury repair, our orthopaedic team delivers precise, minimally invasive care tailored to your mobility needs.',
+  items: [
+    {
+      title: 'Robotic-assisted knee & hip replacement',
+      icon: 'mdi:stethoscope',
+      description:
+        'Advanced robotic navigation ensures precision, reduced pain, and faster recovery in joint replacement surgeries',
+    },
+    {
+      title: 'Fracture fixation with plates, rods, and screws',
+      icon: 'mdi:heart-flash',
+      description:
+        'Stabilizes broken bones using metal implants for faster healing and restored function.',
+    },
+    {
+      title: 'Arthroscopic procedures for joint repair',
+      icon: 'mdi:hospital-box-outline',
+      description:
+        'Minimally invasive surgery for torn ligaments, cartilage, or joint damage.',
+    },
+    {
+      title: 'Fracture Fixations',
+      icon: 'mdi:heart-pulse',
+      description:
+        'Use of plates, screws, nails, or external frames to stabilize bones and support early recovery.',
+    },
+    {
+      title: 'Orthobiologics (PRP therapy)',
+      icon: 'mdi:heart-plus-outline',
+      description:
+        'Natural cell-based therapies to promote healing in joints, tendons, and ligaments.',
+    },
+    {
+      title: 'Joint pain evaluation packages',
+      icon: 'mdi:heart-plus-outline',
+      description:
+        'Comprehensive clinical, radiological, and lab-based assessments to identify the cause of joint pain.',
+    },
+    {
+      title: 'Post-op rehab review + physiotherapy',
+      icon: 'mdi:heart-plus-outline',
+      description:
+        'From medication and injections to joint replacement, tailored treatments to relieve pain and slow progression.',
+    },
+    {
+      title: 'Bone health check with DEXA scan',
+      icon: 'mdi:heart-plus-outline',
+      description:
+        'Screening for osteoporosis and bone loss using advanced, low-dose imaging.',
+    },
+  ],
+},
 
-				],
-			},
+comprehensiveCare2: {
+//   title: 'Comprehensive Orthopaedic Procedures',
+  title: 'Key Spine Procedures',
+  subtitle:
+    'Our spine specialists provide advanced surgical and minimally invasive techniques to restore spinal health and mobility.',
+  items: [
+    {
+      title: 'Spine decompression, disc surgery & fusion',
+      icon: 'mdi:stethoscope',
+      description:
+        'Relieves pressure on spinal nerves while restoring spine alignment and strength.',
+    },
+    {
+      title: 'Minimally invasive spine surgery (MISS)',
+      icon: 'mdi:heart-flash',
+      description:
+        'Smaller incisions, quicker recovery, and reduced risk in spine procedures.',
+    },
+    {
+      title: 'Correction of spinal curvature (scoliosis, kyphosis)',
+      icon: 'mdi:hospital-box-outline',
+      description:
+        'Bracing or surgery to correct and stabilise abnormal spinal curves.',
+    },
+    {
+      title: 'Spine stabilization for trauma injuries',
+      icon: 'mdi:heart-pulse',
+      description:
+        'Immediate fixation to prevent nerve damage and support recovery post-accident.',
+    },
+  ],
+},
 
-		],
-	},
-	comprehensiveCare2: {
-		title: 'Comprehensive Orthopaedic Procedures',
-		subtitle: "Key Spine Procedures",
-		categories: [
-			{
+comprehensiveCare3: {
+//   title: 'Comprehensive Orthopaedic Procedures',
+  title: 'Key Sports Medicine Procedures',
+  subtitle:
+    'Sports medicine experts provide cutting-edge treatments to help athletes recover, heal, and return to peak performance.',
+  items: [
+    {
+      title: 'ACL & PCL reconstruction',
+      icon: 'mdi:stethoscope',
+      description:
+        'Rebuilds torn knee ligaments to restore stability and function in athletes.',
+    },
+    {
+      title: 'Arthroscopic joint repair',
+      icon: 'mdi:heart-flash',
+      description:
+        'Treats joint injuries like meniscal tears or loose fragments via keyhole surgery.',
+    },
+    {
+      title: 'PRP therapy & Orthobiologics',
+      icon: 'mdi:hospital-box-outline',
+      description:
+        'Uses your own platelets to accelerate repair of soft tissue and joint damage.',
+    },
+    {
+      title: 'Sports injury evaluation (MRI + consult)',
+      icon: 'mdi:heart-pulse',
+      description:
+        'Detailed diagnostic packages to assess injury extent and plan treatment.',
+    },
+    {
+      title: 'Personalized physiotherapy & rehab',
+      icon: 'mdi:heart-pulse',
+      description:
+        'Sport-specific recovery plans designed for safe return to performance.',
+    },
+  ],
+},
 
+comprehensiveCare4: {
+//   title: 'Comprehensive Orthopaedic Procedures',
+  title: 'Key Pediatric Ortho Services',
+  subtitle:
+    'Specialized orthopaedic care designed for children, addressing growth-related conditions and bone development.',
+  items: [
+    {
+      title: 'Deformity correction (e.g., clubfoot)',
+      icon: 'mdi:stethoscope',
+      description:
+        'Early intervention and surgical alignment of limb deformities in children.',
+    },
+    {
+      title: 'Pediatric fracture care',
+      icon: 'mdi:heart-flash',
+      description:
+        'Child-safe techniques for broken bones to support proper growth.',
+    },
+    {
+      title: 'Growth-related bone disorders',
+      icon: 'mdi:hospital-box-outline',
+      description:
+        'Diagnosis and treatment of abnormalities like limb length discrepancy.',
+    },
+    {
+      title: 'Scoliosis and spine curvature management',
+      icon: 'mdi:heart-pulse',
+      description:
+        'Monitored bracing or corrective surgery for curved spines in growing kids.',
+    },
+  ],
+},
 
-				items: [
-					{
-						title: 'Spine decompression, disc surgery & fusion:',
-						icon: 'mdi:stethoscope',
-						description:
-							'Relieves pressure on spinal nerves while restoring spine alignment and strength',
-					},
-					{
-						title: 'Minimally invasive spine surgery (MISS)',
-						icon: 'mdi:heart-flash',
-						description:
-							'Smaller incisions, quicker recovery, and reduced risk in spine procedures.',
-					},
-					{
-						title: 'Correction of spinal curvature (scoliosis, kyphosis):',
-						icon: 'mdi:hospital-box-outline',
-						description:
-							'Bracing or surgery to correct and stabilise abnormal spinal curves.',
-					},
-					{
-						title: 'Spine stabilization for trauma injuries',
-						icon: 'mdi:heart-pulse',
-						description:
-							'Immediate fixation to prevent nerve damage and support recovery post-accident.',
-					},
-
-
-				],
-			},
-
-		],
-	},
-	comprehensiveCare3: {
-		title: 'Comprehensive Orthopaedic Procedures',
-		subtitle: "Key Sports Medicine Procedures",
-		categories: [
-			{
-
-
-				items: [
-					{
-						title: 'ACL & PCL reconstruction: ',
-						icon: 'mdi:stethoscope',
-						description:
-							'Rebuilds torn knee ligaments to restore stability and function in athletes.',
-					},
-					{
-						title: 'Arthroscopic joint repair',
-						icon: 'mdi:heart-flash',
-						description:
-							' Treats joint injuries like meniscal tears or loose fragments via keyhole surgery.',
-					},
-					{
-						title: 'PRP therapy & Orthobiologics:',
-						icon: 'mdi:hospital-box-outline',
-						description:
-							' Uses your own platelets to accelerate repair of soft tissue and joint damage.',
-					},
-					{
-						title: 'Sports injury evaluation (MRI + consult)',
-						icon: 'mdi:heart-pulse',
-						description:
-							'Detailed diagnostic packages to assess injury extent and plan treatment.',
-					},
-					{
-						title: 'Personalized physiotherapy & rehab',
-						icon: 'mdi:heart-pulse',
-						description:
-							'Sport-specific recovery plans designed for safe return to performance.',
-					},
-
-
-				],
-			},
-
-		],
-	},
-	comprehensiveCare4: {
-		title: 'Comprehensive Orthopaedic Procedures',
-		subtitle: "Key Pediatric Ortho Services",
-		categories: [
-			{
-
-
-				items: [
-					{
-						title: 'Deformity correction (e.g., clubfoot): ',
-						icon: 'mdi:stethoscope',
-						description:
-							'Early intervention and surgical alignment of limb deformities in children.',
-					},
-					{
-						title: 'Pediatric fracture care',
-						icon: 'mdi:heart-flash',
-						description:
-							' Child-safe techniques for broken bones to support proper growth.',
-					},
-					{
-						title: 'Growth-related bone disorders:',
-						icon: 'mdi:hospital-box-outline',
-						description:
-							' Diagnosis and treatment of abnormalities like limb length discrepancy.',
-					},
-					{
-						title: 'Scoliosis and spine curvature management',
-						icon: 'mdi:heart-pulse',
-						description:
-							'Monitored bracing or corrective surgery for curved spines in growing kids.',
-					},
-
-
-
-				],
-			},
-
-		],
-	},
 	scopeOfCare: [
 		{
 			title: 'Orthopedic',

@@ -60,7 +60,7 @@
     title: 'Advanced technology and expertise',
     categoryTabs: ['Cosmetic Surgery'],
     items: [
-      { name: 'ROBOTIC VISUALIZATION SYSTEM® – KINEVO® 900', description: 'Offers robotic-assisted visualization for precise cosmetic surgeries.' },
+      { name: 'ROBOTIC VISUALIZATION SYSTEM® - KINEVO® 900', description: 'Offers robotic-assisted visualization for precise cosmetic surgeries.' },
       { name: 'Ultrasound (USG) scan', description: 'Used for guided aesthetic procedures and pre-surgical evaluation.' },
       { name: '128 SLICE CT GE Revolution', description: 'High-resolution imaging for accurate surgical planning and simulation.' },
       { name: 'MRI GE SIGNA', description: 'Soft tissue imaging for planning aesthetic and reconstructive surgeries.' },
@@ -180,7 +180,7 @@
     },
     {
       question: 'How long before I see results?',
-      answer: 'Swelling subsides within days; final results appear in 2–4 weeks depending on the procedure.',
+      answer: 'Swelling subsides within days; final results appear in 2-4 weeks depending on the procedure.',
     },
   ],
 

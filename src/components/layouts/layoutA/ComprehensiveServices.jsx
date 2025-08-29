@@ -97,10 +97,10 @@ const { title, subtitle, description, items } = comprehensiveCare;
             {title}
           </h2>
           {subtitle && (
-            <p className="text-xl font-semibold text-accent mt-2">{subtitle}</p>
+            <p className="text-2xl font-semibold text-accent mt-2">{subtitle}</p>
           )}
           {description && (
-            <p className="text-base text-gray-700 mt-4">{description}</p>
+            <p className="text-lg text-gray-700 mt-4">{description}</p>
           )}
         </div>
 

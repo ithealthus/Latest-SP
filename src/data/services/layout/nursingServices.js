@@ -97,7 +97,7 @@ Recognized for offering the best nursing care hospital in Trivandrum, we uphold 
 
   appointmentSection: {
     heading: "Need Nursing Support? We’re Here 24x7",
-    subheading: "Visit SP Medifort – Your trusted hospital for inpatient and critical care nursing in Trivandrum",
+    subheading: "Visit SP Medifort - Your trusted hospital for inpatient and critical care nursing in Trivandrum",
     helpline: "0471 3100100",
     actions: [
       { text: "Book Admission", type: "button", link: "#" },
@@ -106,7 +106,7 @@ Recognized for offering the best nursing care hospital in Trivandrum, we uphold 
   },
 
   meta: {
-    title: "Nursing Services in Trivandrum – SP Medifort Hospital",
+    title: "Nursing Services in Trivandrum - SP Medifort Hospital",
     description: "24x7 trained nursing staff at SP Medifort. ICU, post-surgical, maternity, pediatric and elderly care available. Book admission today.",
     keywords: "nursing services trivandrum, 24x7 nurse, ICU nursing, post-operative care, neonatal nursing, hospital nursing support"
   }

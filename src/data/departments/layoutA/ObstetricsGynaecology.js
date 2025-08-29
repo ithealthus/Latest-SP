@@ -42,6 +42,11 @@ const ObstetricsGynaecologyData = {
         icon: 'material-symbols:heart-check',
         title: 'Multidisciplinary team (Endocrinology, Oncology)',
       },
+      {
+        icon: 'mdi:heart-cog-outline',
+        title: 'Comprehensive fertility, IVF, and reproductive health services',
+
+      },
     ],
     description: 'From fertility to menopause, our OB-GYN team in Thiruvananthapuram provides care that’s clinically advanced and emotionally supportive.',
     cta: {
@@ -95,7 +100,7 @@ const ObstetricsGynaecologyData = {
       {
         name: 'GE Prodigy advance DEXA Scan',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          'Continuous 24-48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
       },
     ],
 

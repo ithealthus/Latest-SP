@@ -40,7 +40,7 @@ const page = () => {
             {
               title: '4. Payments & Refunds',
               content:
-                'All online payments are processed via secure payment gateways. Refunds for cancelled appointments or services will be initiated as per our Refund Policy (within 7–10 working days). No refunds will be made for missed consultations unless cancelled at least 24 hours in advance.',
+                'All online payments are processed via secure payment gateways. Refunds for cancelled appointments or services will be initiated as per our Refund Policy (within 7-10 working days). No refunds will be made for missed consultations unless cancelled at least 24 hours in advance.',
             },
             {
               title: '5. Intellectual Property',

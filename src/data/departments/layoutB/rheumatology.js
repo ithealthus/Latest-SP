@@ -24,7 +24,8 @@ const rheumatology = {
       { icon: "mdi:human-male-height", title: "Musculoskeletal ultrasound-guided joint injections" },
       { icon: "mdi:account-group-outline", title: "Coordination with orthopedics, nephrology, dermatology" },
       { icon: "mdi:chart-line", title: "Long-term pain and joint function tracking" },
-      { icon: "mdi:run", title: "Personalized exercise and physiotherapy plans" }
+      { icon: "mdi:run", title: "Personalized exercise and physiotherapy plans" },
+      { icon: "mdi:human-male-height", title: "Comprehensive care for rare and complex rheumatologic diseases (Lupus, Vasculitis, Scleroderma)" },
     ],
     description: "We provide holistic care for chronic inflammation and joint degeneration.",
     cta: { label: "Explore Autoimmune & Arthritis services", href: "/departments/rheumatology#services" }
@@ -137,8 +138,8 @@ const rheumatology = {
 
   successStories: {
     items: [
-      { type: "text", text: "“I couldn’t walk without pain for years. With SP Medifort’s help, my arthritis is finally under control.” – Manju R." },
-      { type: "text", text: "“They diagnosed my lupus early and gave me hope.” – Razan A., Kuwait" }
+      { type: "text", text: "“I couldn’t walk without pain for years. With SP Medifort’s help, my arthritis is finally under control.” - Manju R." },
+      { type: "text", text: "“They diagnosed my lupus early and gave me hope.” - Razan A., Kuwait" }
     ],
     cta: {
       label: "Read real-life recovery stories",

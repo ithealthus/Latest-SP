@@ -24,7 +24,7 @@ const VideoCard = ({ src, poster, title, name, quote, tall = false }) => {
           <p className="text-sm italic leading-snug">
             “{quote}”
             <br />
-            <span className="text-xs font-light">– {name}</span>
+            <span className="text-xs font-light">- {name}</span>
           </p>
         ) : (
           <>

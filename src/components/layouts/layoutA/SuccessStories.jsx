@@ -1,108 +1,74 @@
 'use client';
-import Image from 'next/image';
 import React from 'react';
-import Link from 'next/link';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { HiChevronLeft, HiChevronRight } from 'react-icons/hi';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { RiArrowRightWideLine } from 'react-icons/ri';
+
 export default function SuccessStories({ successStories }) {
-  const { items, cta } = successStories;
+  const { items } = successStories;
   if (!items || items.length === 0) return null;
 
-  const firstRow = items.slice(0, 4);
-  const remainingItems = items.slice(4);
-
-  const secondRowPairs = [];
-  let leftover = null;
-
-  for (let i = 0; i < remainingItems.length; i += 2) {
-    const first = remainingItems[i];
-    const second = remainingItems[i + 1];
-
-    if (second) {
-      if (first.type === 'image') {
-        secondRowPairs.push([first, second]);
-      } else {
-        secondRowPairs.push([second, first]);
-      }
-    } else {
-      leftover = first;
-    }
-  }
+  // ✅ Only filter text type items
+  const textItems = items.filter(item => item.type === 'text');
 
   return (
-    <section className="px-4 py-8 bg-white text-gray-800">
-      <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold py-10 text-left">Success Stories</h2>
-
-        {/* First Row */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4 mx-auto w-full">
-          {firstRow.map((item, index) => (
-            <div
-              key={index}
-              className={`bg-[#87006480] rounded-xl overflow-hidden shadow-sm flex items-center justify-center min-h-[200px] text-top ${item.type === 'text' ? 'p-2' : ''
-                }`}
-            >
-              {item.type === 'text' ? (
-                <p className="text-lg font-medium leading-snug text-purple-950">{item.text}</p>
-              ) : (
-                <Image
-                  src={item.src}
-                  alt={item.alt}
-                  width={100}
-                  height={200}
-                  className="object-cover w-full h-[200px] rounded-xl shadow-2xl"
-                />
-              )}
-            </div>
-          ))}
+    <section className="relative px-6 py-16 bg-gradient-to-b from-purple-50 via-white to-purple-100 text-gray-900">
+      <div className="max-w-7xl mx-auto">
+        {/* Heading */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-4xl font-semibold text-primary">
+            Success Stories
+          </h2>
+          <p className="mt-4 text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+            Hear from patients who experienced world-class cardiac care with us.
+          </p>
         </div>
 
-        {/* Second Row */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 mx-auto w-full">
-          {secondRowPairs.map(([img, txt], index) => (
-            <React.Fragment key={index}>
-              <div className="bg-[#87006480] rounded-xl overflow-hidden shadow-sm flex items-center justify-center min-h-[200px] text-top">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  width={100}
-                  height={200}
-                  className="object-cover w-full h-[200px] rounded-xl shadow-xl"
-                />
-              </div>
-              <div className="bg-[#87006480] text-purple-950 rounded-xl overflow-hidden shadow-sm flex items-center justify-center min-h-[100px] text-top">
-                <p className="text-lg font-medium leading-snug">{txt.text}</p>
-              </div>
-            </React.Fragment>
-          ))}
+        {/* Carousel with custom arrows */}
+        <div className="relative px-10">
+          {/* Custom Nav Buttons */}
+          <button className="swiper-button-prev w-6 h-6 absolute top-1/2 -left-20 z-10 -translate-y-1/2 bg-primary text-white p-3 rounded-full shadow-lg hover:bg-purple-700 transition">
+            {/* <RiArrowRightWideLine size={24} /> */}
+          </button>
+          <button className="swiper-button-next absolute top-1/2 -right-6 z-10 -translate-y-1/2 bg-primary text-white p-3 rounded-full shadow-lg hover:bg-purple-700 transition">
+            {/* <RiArrowRightWideLine size={24} /> */}
+          </button>
+
+          <Swiper
+            modules={[Navigation, Pagination, Autoplay]}
+            spaceBetween={32}
+            slidesPerView={1}
+            navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }}
+            pagination={{ clickable: true }}
+            autoplay={{ delay: 5000, disableOnInteraction: false }}
+            breakpoints={{
+              640: { slidesPerView: 1 },
+              768: { slidesPerView: 2 },
+              1024: { slidesPerView: 3 },
+            }}
+          >
+            {textItems.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className="h-[300px] mb-10 bg-white rounded-3xl shadow-xl border border-purple-100 p-10 flex flex-col justify-center items-start text-left group hover:shadow-2xl transition-all duration-300">
+                  {/* Quotation marks */}
+                  <span className="text-6xl text-primary/60 font-serif leading-none mb-1">“</span>
+
+                  {/* Text */}
+                  <p className="text-xl md:text-2xl font-medium text-gray-800 leading-snug flex-1">
+                    {item.text}
+                  </p>
+
+                  <span className="text-6xl text-primary/60 font-serif leading-none mt-1 self-end">”</span>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
-
-        {/* Optional leftover */}
-
-
-        {/* CTA Button */}
-        {/* CTA Button */}
-
-        {/* <div className="mt-10 text-center">
-    <Link
-      href={cta.link}
-      className="inline-flex items-center gap-3 sm:gap-4 md:gap-6 bg-primary text-white px-4 sm:px-6 py-2 sm:py-3 rounded-full font-roboto font-bold text-[16px] sm:text-[18px] md:text-[22px] leading-tight hover:bg-accent/80 transition duration-300"
-    >
-      {cta.label}
-      <span className="flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-white">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="white"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="w-4 h-4 sm:w-5 sm:h-5"
-        >
-          <path d="M5 12h14M13 5l7 7-7 7" />
-        </svg>
-      </span>
-    </Link>
-  </div> */}
       </div>
     </section>
   );

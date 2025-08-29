@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import Image from "next/image";
@@ -10,13 +10,30 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 export default function OurTeamA({ team }) {
+  const [showArrows, setShowArrows] = useState(false);
+
+  // Handle screen size + doctors count
   useEffect(() => {
-    // Refresh Swiper navigation elements
-    setTimeout(() => {
-      const event = new Event("resize");
-      window.dispatchEvent(event);
-    }, 200);
-  }, []);
+    const handleResize = () => {
+      const width = window.innerWidth;
+
+      if (width < 768) {
+        // Mobile
+        setShowArrows(team.doctors.length > 1);
+      } else if (width < 1024) {
+        // Tablet
+        setShowArrows(team.doctors.length > 2);
+      } else {
+        // Desktop
+        setShowArrows(team.doctors.length > 3);
+      }
+    };
+
+    handleResize(); // Run on mount
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [team.doctors.length]);
 
   return (
     <section className="bg-white px-4 md:px-12 py-12">
@@ -41,12 +58,13 @@ export default function OurTeamA({ team }) {
             breakpoints={{
               768: { slidesPerView: 2 },
               1024: { slidesPerView: 3 },
+              // 1280: { slidesPerView: 4 },
             }}
             className="team-swiper mb-10"
           >
             {team.doctors.map((doc, index) => (
               <SwiperSlide key={index}>
-                <div className="relative bg-white rounded-xl shadow-lg text-left h-full overflow-hidden ">
+                <div className="relative bg-white rounded-xl shadow-lg text-left h-full overflow-hidden">
                   <Image
                     src={doc.image || "/images/doctor-placeholder.jpg"}
                     alt={doc.name}
@@ -54,25 +72,26 @@ export default function OurTeamA({ team }) {
                     height={400}
                     className="w-full h-128 object-cover"
                   />
-
-                  {/* Overlay Text */}
-                  {/* <div className="absolute bottom-0 left-0 w-full bg-primary p-4 rounded-lg text-white">
-                    <h3 className="text-lg font-semibold mb-1">{doc.name}</h3>
-                    <p className="text-sm font-medium">{doc.designation}</p>
-                    <p className="text-sm">{doc.position}</p>
-                  </div> */}
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
 
-          {/* Custom Arrow Buttons */}
-          <div className="swiper-button-prev-custom absolute left-0 top-1/2 -translate-y-1/2 z-10">
+          {/* Custom Arrows (visible only if showArrows is true) */}
+          <div
+            className={`swiper-button-prev-custom absolute left-0 top-1/2 -translate-y-1/2 z-10 ${
+              showArrows ? "flex" : "hidden"
+            }`}
+          >
             <button className="w-12 h-12 rounded-full bg-primary hover:bg-accent text-white flex items-center justify-center shadow-md transition">
               <ChevronLeft className="w-6 h-6" />
             </button>
           </div>
-          <div className="swiper-button-next-custom absolute right-0 top-1/2 -translate-y-1/2 z-10">
+          <div
+            className={`swiper-button-next-custom absolute right-0 top-1/2 -translate-y-1/2 z-10 ${
+              showArrows ? "flex" : "hidden"
+            }`}
+          >
             <button className="w-12 h-12 rounded-full bg-primary hover:bg-accent text-white flex items-center justify-center shadow-md transition">
               <ChevronRight className="w-6 h-6" />
             </button>
@@ -80,12 +99,12 @@ export default function OurTeamA({ team }) {
         </div>
 
         {/* Description & CTA */}
-        <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-black font-roboto text-left mb-8 max-w-half mx-auto">
+        <p className="text-base sm:text-lg md:text-lg lg:text-2xl text-black font-roboto text-left mb-8 max-w-half mx-auto">
           {team.description}
         </p>
 
         <Link
-          href='/find-a-doctor'
+          href="/find-a-doctor"
           className="inline-flex items-center gap-3 sm:gap-4 md:gap-6 bg-primary text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-full font-roboto font-bold text-[16px] sm:text-[18px] md:text-[22px] leading-tight hover:bg-accent/80 transition duration-300"
         >
           {team.cta.label}

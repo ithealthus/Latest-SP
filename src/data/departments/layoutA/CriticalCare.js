@@ -40,11 +40,11 @@ const CriticalCare = {
         title: 'Protocol-based sepsis, ventilator, and trauma care',
 
       },
-      {
-        icon: 'streamline-plump:customer-support-7-remix',
-        title: 'Isolation Rooms for Infection Control with Positive Pressure & Negative Pressure facilities',
+      // {
+      //   icon: 'streamline-plump:customer-support-7-remix',
+      //   title: 'Isolation Rooms for Infection Control with Positive Pressure & Negative Pressure facilities',
 
-      },
+      // },
       {
         icon: 'streamline-plump:customer-support-7-remix',
         title: 'Burn unit', 

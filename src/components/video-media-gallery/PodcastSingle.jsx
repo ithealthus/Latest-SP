@@ -50,12 +50,12 @@ const PodcastSingleMain = ({ slug }) => {
     <div className="max-w-7xl mx-auto px-4">
       {/* Breadcrumb */}
       <nav
-        className="text-sm sm:text-base md:text-xl text-primary mb-4 border-2 border-primary rounded-md px-2 sm:px-3 py-1 inline-block bg-white mt-8 sm:mt-8 md:mt-24"
+        className="text-sm sm:text-base md:text-xl text-primary mb-4 border-[3px] border-primary rounded-xl px-2 sm:px-4 py-2 inline-block  mt-8 sm:mt-8 md:mt-24"
         aria-label="Breadcrumb"
       >
         <ol className="flex items-center space-x-1 sm:space-x-2">
           <li>
-            <Link href="/" className="hover:underline">
+            <Link href="/" className="hover:font-semibold">
               Home
             </Link>
           </li>
@@ -69,9 +69,10 @@ const PodcastSingleMain = ({ slug }) => {
       </nav>
 
       {/* Title */}
-      <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-primary mb-6 leading-snug">
-        {podcast.title}
-      </h1>
+     <h1
+  className="text-xl sm:text-2xl md:text-4xl font-bold text-primary mb-6 leading-snug"
+  dangerouslySetInnerHTML={{ __html: podcast.title }}
+/>
     </div>
   </div>
 
@@ -108,7 +109,7 @@ const PodcastSingleMain = ({ slug }) => {
       <div className="bg-white p-4 sm:p-6 rounded-lg shadow">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
           <h2 className="text-lg sm:text-xl font-bold">Related Podcasts</h2>
-          <Link href="/podcasts" className="text-primary hover:underline text-sm sm:text-base mt-2 sm:mt-0">
+          <Link href="/videos-and-media-gallery/podcast" className="text-primary hover:underline text-sm sm:text-base mt-2 sm:mt-0">
             Show More &gt;
           </Link>
         </div>

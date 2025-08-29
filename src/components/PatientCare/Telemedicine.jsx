@@ -10,7 +10,7 @@ const Telemedicine = () => {
             <p data-aos="fade-up" data-aos-delay={100} className="text-base text-black mb-8 lg:mb-16 text-center">
                 Expert Care. Now Just a Click Away
             </p>
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
 
                 {/* Left Text Section */}
                 <div data-aos="fade-right" className="space-y-10">
@@ -57,9 +57,9 @@ const Telemedicine = () => {
                     <Image
                         src="/images/patient/Frame 171.webp"
                         alt="Telemedicine Consultation"
-                        width={600}
-                        height={400}
-                        className="w-full h-auto object-cover rounded-xl"
+                        width={400}
+                        height={300}
+                        className="w-full h-96 object-cover rounded-xl"
                     />
                 </div>
             </div>

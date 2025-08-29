@@ -15,7 +15,7 @@ function InsuranceAndFinance({ insuranceFinance }) {
           <h2 className="text-primary font-title text-3xl md:text-4xl font-semibold mb-2">
             {title}
           </h2>
-          <p className="text-lg text-accent font-medium">{subtitle}</p>
+          <p className="text-xl text-accent font-medium">{subtitle}</p>
         </div>
 
         {/* Pill-style Cards with Hover Reveal */}

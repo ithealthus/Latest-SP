@@ -90,7 +90,7 @@
     
     items: [
       {
-        name: 'ROBOTIC VISUALIZATION SYSTEM® – KINEVO® 900',
+        name: 'ROBOTIC VISUALIZATION SYSTEM® - KINEVO® 900',
         description:
           ' Enhances surgical accuracy with 3D imaging and robotic precision.',
       },

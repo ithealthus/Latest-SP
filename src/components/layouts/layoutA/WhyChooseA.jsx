@@ -36,7 +36,7 @@ export default function WhyChooseA({ whyChoose }) {
 
         {/* Description */}
         {whyChoose.description && (
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-black font-roboto text-left max-w-half mx-auto">
+          <p className="text-base sm:text-lg md:text-lg lg:text-xl xl:text-2xl text-black font-title font-small mb-10 font-roboto">
             {whyChoose.description}
           </p>
         )}

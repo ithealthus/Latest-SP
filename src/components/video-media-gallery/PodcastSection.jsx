@@ -20,7 +20,7 @@ const PodcastSection = ({ podcasts }) => {
 
         {/* Intro Text */}
         <p className="text-black text-lg max-w-3xl mx-auto mb-6 leading-relaxed">
-          Subscribe for engaging conversations with <strong>SP Medifort experts</strong> 
+          Subscribe for engaging conversations with <strong>SP Medifort experts</strong> {" "}
           as they discuss a wide range of health topics, from the intricacies of the human body to the latest innovations in healthcare.
         </p>
 
@@ -30,35 +30,35 @@ const PodcastSection = ({ podcasts }) => {
         {/* Podcast Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
          {(podcasts || []).slice(0, visibleCount).map((podcast, index) => (
-  <Link
-    key={index}
-    href={`/videos-and-media-gallery/podcast/${podcast.slug}`} 
-    className="block bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden"
-  >
-    <Image
-      src={podcast.image_url || "/fallback-image.jpg"}
-      alt={podcast.title || "Podcast"}
-      width={400}
-      height={250}
-      className="w-full h-56 object-cover"
-    />
-    <div className="p-4">
-      <h3 className="text-lg font-bold text-gray-900 mb-2">
-        {podcast.title || "Untitled"}
-      </h3>
-      <p className="text-gray-600 text-sm">
-        {podcast.short_content
-          ? podcast.short_content.length > 100
-            ? podcast.short_content.substring(0, 100) + "..."
-            : podcast.short_content
-          : ""}
-      </p>
-      <p className="text-gray-400 text-xs mt-2">
-        {podcast.post_date || ""} • {podcast.read_time || ""}
-      </p>
-    </div>
-  </Link>
-))}
+        <Link
+          key={index}
+          href={`/videos-and-media-gallery/podcast/${podcast.slug}`} 
+          className="block bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden"
+        >
+          <Image
+            src={podcast.image_url || "/fallback-image.jpg"}
+            alt={podcast.title || "Podcast"}
+            width={400}
+            height={250}
+            className="w-full h-56 object-cover"
+          />
+          <div className="p-4">
+            <h3   dangerouslySetInnerHTML={{ __html: podcast.title }} className="text-lg font-bold text-gray-900 mb-2" />
+              {/* {podcast.title || "Untitled"}
+            </h3> */}
+            <p className="text-gray-600 text-sm">
+              {podcast.short_content
+                ? podcast.short_content.length > 100
+                  ? podcast.short_content.substring(0, 100) + "..."
+                  : podcast.short_content
+                : ""}
+            </p>
+            <p className="text-gray-400 text-xs mt-2">
+              {podcast.post_date || ""} • {podcast.read_time || ""}
+            </p>
+          </div>
+        </Link>
+      ))}
         </div>
 
         {/* Show More Button */}

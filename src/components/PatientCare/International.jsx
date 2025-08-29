@@ -23,7 +23,7 @@ const International = () => {
                     <h2 data-aos="fade-up" className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#870064] mb-8 sm:mb-10 text-center">
                         International Patient Care
                     </h2>
-                    <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
+                    <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start ">
                         <div data-aos="fade-right">
                             <ul className="space-y-4">
                                 {data.whyChoose.map((item, idx) => (

@@ -47,7 +47,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="bg-[#f4e0e0] py-10 px-5 md:px-32 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center border-b-[32px] border-primary">
+    <section className="bg-[#f4e0e0] py-10 px-5 md:px-32 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start border-b-[32px] border-primary">
       {/* Left Content */}
       <div>
         <button className="border-4 border-primary text-primary text-semibold px-4 py-2 rounded-lg mb-6">

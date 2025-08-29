@@ -77,9 +77,9 @@ const data = {
     "Auditory Verbal Therapy (AVT) for children with hearing loss using hearing aids or cochlear implants"
   ],
   team: [
-    "Qualified Audiologists – Trained in diagnostic hearing assessment & hearing aid services",
-    "Speech-Language Pathologists – Specialized in paediatric and adult speech/language therapy",
-    "Child Communication Therapists – Focused on early intervention",
+    "Qualified Audiologists - Trained in diagnostic hearing assessment & hearing aid services",
+    "Speech-Language Pathologists - Specialized in paediatric and adult speech/language therapy",
+    "Child Communication Therapists - Focused on early intervention",
     "Collaboration with ENT Specialists, Neurologists, Paediatricians, and Psychologists",
   ],
   technologies: [
@@ -146,7 +146,7 @@ const data = {
   appointmentSection: {
     heading: "Let’s Make Every Voice Heard",
     description:
-      "Visit SP Medifort – Your trusted centre for speech therapy and hearing tests in Trivandrum",
+      "Visit SP Medifort - Your trusted centre for speech therapy and hearing tests in Trivandrum",
     callToAction: "Call Us: +91-XXXXXXXXXX",
     buttons: ["Book a Hearing Test", "WhatsApp Now"],
   },
@@ -393,9 +393,9 @@ const MyPage = () => {
       {/* Why Choose Section */}
       {data.whyChoose?.length > 0 && (
         <section className="bg-[#f4eafd] py-12 px-4 md:px-20">
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div>
-              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-center mb-8">
+              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-left mb-8">
                 Why Choose SP Medifort Rehab?
               </h2>
               <ul className="space-y-4">

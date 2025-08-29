@@ -257,12 +257,12 @@ const NephrologyData = {
     items: [
       {
         type: 'text',
-        text: "“I avoided dialysis for 2 years thanks to early treatment and diet support.” – Vijay L."
+        text: "“I avoided dialysis for 2 years thanks to early treatment and diet support.” - Vijay L."
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
-        text: "““The dialysis unit was spotless, caring, and efficient.” – Rasheeda K., Oman"
+        text: "““The dialysis unit was spotless, caring, and efficient.” - Rasheeda K., Oman"
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 function Hero({ breadcrumb, title, subtitle, image }) {
   return (
@@ -21,7 +22,8 @@ function Hero({ breadcrumb, title, subtitle, image }) {
       {/* Breadcrumb at Top-Left */}
       {breadcrumb && (
         <div className="absolute top-6 left-6">
-          <span className="inline-block bg-white/30 backdrop-blur-md text-white text-md font-medium px-4 py-1 rounded-md shadow-md border-2 border-primary">
+          <span className="inline-block  backdrop-blur-md text-white text-md font-medium px-4 py-2 rounded-xl shadow-md border-[3px] border-primary">
+            <Link href='/'>Home </Link>
             {breadcrumb}
           </span>
         </div>

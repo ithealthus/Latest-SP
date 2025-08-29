@@ -26,7 +26,7 @@ const csrItems = [
     },
     {
         title:
-            "School Campaign: ‘Healthy Start with SP Medifort’ – Total Healthcare Partner for Schools",
+            "School Campaign: ‘Healthy Start with SP Medifort’ - Total Healthcare Partner for Schools",
         icon: '/images/story/school.svg'
     },
 ];

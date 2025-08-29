@@ -85,16 +85,16 @@ export default function Tech2({ data }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <section className="bg-secondary px-4 md:px-12 py-16">
+    <section className="bg-[#efdad9] px-4 md:px-12 py-16">
       <div className="max-w-6xl mx-auto">
         {/* Title and Category Toggle */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 gap-4">
-          <h2 className="text-white font-roboto text-2xl sm:text-3xl md:text-4xl font-semibold">
+          <h2 className="text-primary font-roboto text-2xl sm:text-3xl md:text-4xl font-semibold">
             {title}
           </h2>
 
           {/* Pill Toggle */}
-          <div className="bg-accent rounded-full p-1 flex border-2 border-primary">
+          <div className="bg-[#efdad9] gap-2 rounded-full p-1 flex border-2 border-primary">
             {categoryTabs.map((tab, idx) => (
               <button
                 key={idx}
@@ -106,7 +106,7 @@ export default function Tech2({ data }) {
                   ${
                     idx === selectedCategory
                       ? 'bg-primary text-white shadow-md'
-                      : 'text-white hover:bg-primary hover:text-white'
+                      : 'text-primary hover:bg-primary hover:text-white'
                   }`}
               >
                 {tab}

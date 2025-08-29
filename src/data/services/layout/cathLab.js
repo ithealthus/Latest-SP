@@ -65,7 +65,7 @@ We are proud to be recognized as one of the most advanced Cath labs in Trivandru
 
   whyChooseUs: [
     "South India’s First AI-Powered GE Allia 3D Hybrid Cath Lab",
-    "Laser Angioplasty – IVUS, FFR Facility",
+    "Laser Angioplasty - IVUS, FFR Facility",
     "Rotablation facility",
     "Round-the-clock cardiologist availability for emergencies",
     "Expert cardiology team with decades of experience",
@@ -92,7 +92,7 @@ We are proud to be recognized as one of the most advanced Cath labs in Trivandru
     },
     {
       question: "How long does an angiography or angioplasty take?",
-      answer: "An angiography usually takes 20–30 minutes. Angioplasty may take 1–2 hours depending on complexity."
+      answer: "An angiography usually takes 20-30 minutes. Angioplasty may take 1-2 hours depending on complexity."
     },
     {
       question: "Is the procedure painful?",
@@ -106,7 +106,7 @@ We are proud to be recognized as one of the most advanced Cath labs in Trivandru
 
   appointmentSection: {
     heading: "Take the Smart Route to a Healthy Heart",
-    subheading: "Visit SP Medifort – Home to the most advanced cath lab in Trivandrum",
+    subheading: "Visit SP Medifort - Home to the most advanced cath lab in Trivandrum",
     helpline: "0471 3100100",
     actions: [
       { text: "Book a Consultation", type: "button", link: "#" },
@@ -115,7 +115,7 @@ We are proud to be recognized as one of the most advanced Cath labs in Trivandru
   },
 
   meta: {
-    title: "Cath Lab in Trivandrum – SP Medifort Hospital",
+    title: "Cath Lab in Trivandrum - SP Medifort Hospital",
     description: "SP Medifort's Cath Lab features South India’s first AI-powered GE Allia 3D Hybrid system. Get expert cardiac care with precision imaging and 24x7 support.",
     keywords: "cath lab in Trivandrum, angiography Trivandrum, angioplasty Trivandrum, heart hospital Trivandrum, GE Allia Cath Lab, cardiac intervention Trivandrum"
   }

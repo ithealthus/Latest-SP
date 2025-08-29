@@ -647,7 +647,7 @@ export default function Home() {
               </div>
               <div className="p-6 text-left">
                 <h3 className="text-primary font-bold text-lg mb-2">
-                  Medicine – CCT-EM (SEMI), MRCEM (UK)
+                  Medicine - CCT-EM (SEMI), MRCEM (UK)
                 </h3>
                 <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
                   <li>Duration: 3 Years</li>
@@ -674,7 +674,7 @@ export default function Home() {
                 </h3>
                 <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
                   <li>Duration: 1 Year (Theory + OJT)</li>
-                  <li>Class XII Science, age 18–26</li>
+                  <li>Class XII Science, age 18-26</li>
                   <li>Jobs: Hospitals, Clinics and Homecare</li>
                 </ul>
               </div>
@@ -827,7 +827,7 @@ export default function Home() {
           {/* Left Content */}
           <div className="text-white">
             <h2 className="text-2xl md:text-3xl font-semibold mb-4">
-              Step Inside SP Medifort – Virtually
+              Step Inside SP Medifort - Virtually
             </h2>
             <p className="mb-6 max-w-lg leading-relaxed text-white/90">
               Experience our world-class facilities, high-tech operating suites,

@@ -19,6 +19,7 @@ import React from 'react';
       { icon: 'fluent:laser-tool-20-filled', title: 'rTMS (repetitive Transcranial Magnetic Stimulation) & modified ECT suites' },
       { icon: 'mdi:heart-pulse', title: '24 × 7 crisis intervention & emergency psychiatry' },
       { icon: 'mdi:heart-pulse', title: 'Dedicated Child-Adolescent & Geriatric units' },
+      { icon: 'mdi:heart-pulse', title: 'Comprehensive rehabilitation programs for addiction, stress, and lifestyle disorders' },
       { icon: 'mdi:heart-pulse', title: 'Seamless integration with neurology, endocrinology, and pain clinics for holistic care' },
       
     ],

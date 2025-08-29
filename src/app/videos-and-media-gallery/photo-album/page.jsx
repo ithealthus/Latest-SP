@@ -65,7 +65,7 @@ function Page() {
       <Hero
         breadcrumb="Home > Videos & Media Gallery > Photo Gallery"
         title="Photo Gallery"
-        image="/images/blog/blog10.webp"
+        image="/images/blog/blog8.webp"
       />
 
       {loading ? (

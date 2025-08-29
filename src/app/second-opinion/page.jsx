@@ -9,7 +9,7 @@ import HealthCta from '@/components/secondopinion/HealthCta';
 
 function Page() {
   return (
-    <div>
+    <div className='overflow-x-hidden scrollbar-hide'>
       <Hero />
       <SecondOpinionSection />
       <MedifortTeams />

@@ -6,7 +6,7 @@ function HeroA({ hero }) {
   if (!hero) return null;
   return (
     <section className="bg-[url('/images/bg.png')] bg-cover bg-center bg-no-repeat px-4 sm:px-4 md:px-12 py-4 md:py-12">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         {/* Left Column */}
         <div className="text-left">
           <div className="mb-4 sm:mb-6">
@@ -21,7 +21,7 @@ function HeroA({ hero }) {
             {hero.description?.map((text, i) => (
               <p
                 key={i}
-                className="font-roboto font-normal text-base md:text-[18px] leading-snug md:leading-[24px] text-black "
+                className="font-roboto font-normal text-base md:text-xl leading-snug md:leading-[24px] text-black "
               >
                 {text}
               </p>

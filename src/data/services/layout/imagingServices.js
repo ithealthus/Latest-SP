@@ -11,15 +11,15 @@ const imagingServices = {
 As a trusted radiology and imaging centre in Trivandrum, we provide patient-centric care with 24x7 access to routine and emergency scans.`,
 
   whatIncludes: [
-    "MRI (Magnetic Resonance Imaging) – 1.5 Tesla high-definition scans",
-    "CT Scan – 128-slice high-speed CT for full-body and contrast studies",
-    "Digital X-Ray – Chest, limb, spine, dental, and contrast X-rays",
-    "Ultrasound & Doppler Studies – Abdominal, pelvic, thyroid, vascular, fetal",
+    "MRI (Magnetic Resonance Imaging) - 1.5 Tesla high-definition scans",
+    "CT Scan - 128-slice high-speed CT for full-body and contrast studies",
+    "Digital X-Ray - Chest, limb, spine, dental, and contrast X-rays",
+    "Ultrasound & Doppler Studies - Abdominal, pelvic, thyroid, vascular, fetal",
     "3D/4D Pregnancy Ultrasound",
-    "Mammography – Digital breast cancer screening",
-    "Fluoroscopy – Dynamic imaging for GI and musculoskeletal studies",
+    "Mammography - Digital breast cancer screening",
+    "Fluoroscopy - Dynamic imaging for GI and musculoskeletal studies",
     "Bone Densitometry (DEXA Scan)",
-    "Portable Imaging Units – For bedside & ICU scans"
+    "Portable Imaging Units - For bedside & ICU scans"
   ],
 
   whoPerforms: [
@@ -55,7 +55,7 @@ As a trusted radiology and imaging centre in Trivandrum, we provide patient-cent
   whyChooseUs: [
     "24x7 availability for emergency and admitted patients",
     "Latest MRI, CT, and Ultrasound machines",
-    "Rapid report turnaround (most within 4–6 hours)",
+    "Rapid report turnaround (most within 4-6 hours)",
     "PACS-enabled digital access for clinicians",
     "Patient privacy and comfort prioritized",
     "Low-radiation safety technology, especially for children & pregnant women"
@@ -79,7 +79,7 @@ As a trusted radiology and imaging centre in Trivandrum, we provide patient-cent
     },
     {
       question: "How long does a CT or MRI scan take?",
-      answer: "MRI: 20–45 minutes depending on area. CT: 10–15 minutes including prep."
+      answer: "MRI: 20-45 minutes depending on area. CT: 10-15 minutes including prep."
     },
     {
       question: "Are imaging reports available online?",
@@ -93,7 +93,7 @@ As a trusted radiology and imaging centre in Trivandrum, we provide patient-cent
 
   appointmentSection: {
     heading: "Book Your Scan Today",
-    subheading: "Visit SP Medifort – Trusted diagnostic imaging centre in Trivandrum",
+    subheading: "Visit SP Medifort - Trusted diagnostic imaging centre in Trivandrum",
     helpline: "+91-XXXXXXXXXX",
     actions: [
       { text: "Book a Scan", type: "button", link: "#" },
@@ -102,7 +102,7 @@ As a trusted radiology and imaging centre in Trivandrum, we provide patient-cent
   },
 
   meta: {
-    title: "Diagnostic Imaging in Trivandrum – SP Medifort Hospital",
+    title: "Diagnostic Imaging in Trivandrum - SP Medifort Hospital",
     description: "MRI, CT scan, ultrasound, digital X-ray, and more. Book 24x7 imaging at SP Medifort’s trusted radiology centre in Trivandrum.",
     keywords: "ct scan trivandrum, mri scan, x-ray, ultrasound, radiologist, doppler study, pregnancy ultrasound"
   }

@@ -92,7 +92,7 @@ We are recognized as a trusted hospital pharmacy in Trivandrum, adhering to NABH
 
   appointmentSection: {
     heading: "Need Medicines? We’re Always Open.",
-    subheading: "Visit SP Medifort – Your trusted in-house hospital pharmacy in Trivandrum",
+    subheading: "Visit SP Medifort - Your trusted in-house hospital pharmacy in Trivandrum",
     helpline: "0471 3100100",
     actions: [
       { text: "Locate Pharmacy", type: "button", link: "#" },
@@ -101,7 +101,7 @@ We are recognized as a trusted hospital pharmacy in Trivandrum, adhering to NABH
   },
 
   meta: {
-    title: "24x7 Hospital Pharmacy in Trivandrum – SP Medifort Hospital",
+    title: "24x7 Hospital Pharmacy in Trivandrum - SP Medifort Hospital",
     description: "Emergency and inpatient pharmacy at SP Medifort. Oncology, ICU, and pediatric meds available 24x7. NABH compliant hospital pharmacy in Trivandrum.",
     keywords: "hospital pharmacy trivandrum, 24x7 pharmacy, emergency medicine, insulin storage, oncology drugs, NABH pharmacy"
   }

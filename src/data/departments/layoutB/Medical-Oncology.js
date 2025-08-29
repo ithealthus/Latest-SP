@@ -240,12 +240,12 @@ scopeOfCare: [
     items: [
       {
         type: 'text',
-        text: "“6 cycles of chemo for breast cancer, handled beautifully with no hospital stays.” – Latha S."
+        text: "“6 cycles of chemo for breast cancer, handled beautifully with no hospital stays.” - Latha S."
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
       {
         type: 'text',
-        text: " “Even during my advanced stage lung cancer, SP Medifort gave me hope and comfort.” – Farid M., Oman "
+        text: " “Even during my advanced stage lung cancer, SP Medifort gave me hope and comfort.” - Farid M., Oman "
       },
       { type: 'image', src: '/images/card1.webp', alt: 'Happy patient' },
     ],

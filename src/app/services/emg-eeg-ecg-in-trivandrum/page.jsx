@@ -67,7 +67,7 @@ const data = {
     "EEG (Electroencephalogram): Detects brain wave abnormalities",
     "EMG (Electromyography): Evaluates muscle and nerve function",
     "Nerve Conduction Velocity (NCV) Tests",
-    "Holter Monitoring (24–48 hour ECG recording)",
+    "Holter Monitoring (24-48 hour ECG recording)",
     "Event Recorder & Ambulatory ECG Monitoring",
     "Sleep EEG & Epilepsy Monitoring",
     "Pre-operative ECG & Neurology Workups",
@@ -132,7 +132,7 @@ const data = {
     {
       question: "How long do these tests take?",
       answer:
-        "ECG: 5–10 minutes, EEG: 30–45 minutes, EMG/NCV: 45–60 minutes, depending on complexity.",
+        "ECG: 5-10 minutes, EEG: 30-45 minutes, EMG/NCV: 45-60 minutes, depending on complexity.",
     },
     {
       question: "Can I get reports on the same day?",
@@ -143,7 +143,7 @@ const data = {
   appointmentSection: {
     heading: "Book Your Brain, Heart, or Nerve Test Today",
     description:
-      "Visit SP Medifort – Your trusted centre for EEG, EMG, and ECG in Trivandrum",
+      "Visit SP Medifort - Your trusted centre for EEG, EMG, and ECG in Trivandrum",
     callToAction: "Call Us: +91-XXXXXXXXXX",
     buttons: ["Book a Test", "WhatsApp Now"],
   },
@@ -388,9 +388,9 @@ const toggleIndex = (index) => {
       {/* Why Choose Section */}
       {data.whyChoose?.length > 0 && (
         <section className="bg-[#f4eafd] py-12 px-4 md:px-20">
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
             <div>
-              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-center mb-8">
+              <h2 className="text-3xl py-5 md:text-4xl font-bold text-primary text-left mb-8">
                 Why Choose SP Medifort Rehab?
               </h2>
               <ul className="space-y-4">

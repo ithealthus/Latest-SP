@@ -1,61 +1,73 @@
 'use client';
-import React from 'react';
-import Image from 'next/image';
-import ContactForm from './ContactForm';
+import Image from "next/image";
+import { MdLocationOn, MdPhone, MdComputer } from "react-icons/md";
+// import ContactForm from "../layouts/layoutA/ContactForm";
+// import HomeForm from "../layouts/layoutA/HomeForm";
+import ContactForm from "./ContactForm";
 
 export default function AppointmentConsultation({ appointmentSection }) {
   if (!appointmentSection) return null;
 
   const { heading, helpline, support, form } = appointmentSection;
   return (
-    <section
-      className="relative bg-cover bg-center bg-no-repeat py-12 bg-secondary"
-      style={{ backgroundImage: "url('/images/bg-cardiac.jpg')" }}
-    >
-      <h2 className="text-3xl md:text-4xl font-bold drop-shadow-lg text-white mb-8 px-4 text-center lg:text-left">
-        {heading}
-      </h2>
-      <div className="flex flex-col lg:flex-row lg:items-start">
-        {/* Left Side: Pills - Full Width on all screens, pinned to left */}
-        <div className="w-full lg:w-1/2 space-y-6">
-          {/* Helpline Pill */}
-          <div className="flex bg-white text-[#3a003f] rounded-r-full shadow-lg pl-6 py-4 pr-4 items-center max-w-[70%]">
-            <div className="flex-1">
-              <p className="text-2xl font-bold leading-tight">{helpline.label}</p>
-              <p className="text-xl md:text-2xl font-bold leading-snug">{helpline.number}</p>
-            </div>
-            <div className="w-16 h-16 bg-[#e9d1e1] rounded-full flex items-center justify-center">
-              <Image
-                src='/icon/phone.svg'
-                alt="Helpline"
-                width={35}
-                height={18}
-              />
-            </div>
-          </div>
-
-          {/* Support Pill */}
-          <div className="flex bg-white text-[#3a003f] rounded-r-full shadow-lg pl-6 py-4 pr-4 items-center max-w-[70%]">
-            <div className="flex-1">
-              <p className="text-2xl font-bold leading-tight">{support.label}</p>
-            </div>
-            <div className="w-16 h-16 bg-[#e9d1e1] rounded-full flex items-center justify-center">
-              <Image
-                src='/icon/ambulance.svg'
-                alt="Support"
-                width={40}
-                height={18}
-              />
-            </div>
-          </div>
+  <section className="w-full bg-gradient-to-r from-[#72005F] to-[#9A007D] overflow-hidden">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row-reverse items-center gap-10 ">
+        {/* Form Section */}
+        <div className="w-full lg:w-2/3 text-white">
+          {/* <h2 className="text-2xl font-bold mb-2">Post A Medical Query:</h2>
+          <p className="mb-6">Post A Question, And We Will Get Back To You Soon.</p> */}
+<div className="bg-white rounded-3xl p-6 sm:p-8 my-5 shadow-2xl text-[#3a003f]">
+            <h3 className="text-2xl font-bold mb-6 text-center">{form.heading}</h3>
+       <ContactForm/>
+       </div>
         </div>
 
-        {/* Right Side: Appointment Form */}
-        <div className="w-full lg:w-1/2 px-4 sm:px-6 md:px-8 mt-12 lg:mt-0">
-          <div className="bg-white rounded-3xl p-6 sm:p-10 shadow-2xl text-[#3a003f]">
-            <h3 className="text-2xl font-bold mb-6 text-center">{form.heading}</h3>
-            <ContactForm/>
+        {/* Image + Info Cards */}
+        <div className="w-full lg:w-full relative">
+          <div className="w-full h-full relative overflow-visible">
+            <Image
+              src="/images/floticon/footer-doctor.webp"
+              alt="Doctors"
+              width={1600}
+              height={1200}
+              className="w-full h-full object-cover scale-150 lg:scale-[1.35] lg:-ml-3"
+            />
           </div>
+
+          {/* <div className="absolute hidden lg:block top-20 right-0 space-y-4  pr-2 mt-[12rem]">
+       
+            <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
+              <div className="bg-primary p-2 rounded-full text-white text-lg">
+                <MdLocationOn />
+              </div>
+              <p className="text-sm">
+                <span className="font-bold text-[#72005F]">Visit Us:</span> Reach
+                Our Thiruvananthapuram Campus With Ease Using Online Directions
+              </p>
+            </div>
+
+          
+            <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
+              <div className="bg-[#72005F] p-2 rounded-full text-white text-lg">
+                <MdPhone />
+              </div>
+              <p className="text-sm">
+                <span className="font-bold text-[#72005F]">Emergency 24x7:</span>{" "}
+                Reach Us On Our Emergency Helpline: +91-0471 3100 100
+              </p>
+            </div>
+
+            
+            <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
+              <div className="bg-[#72005F] p-2 rounded-full text-white text-lg">
+                <MdComputer />
+              </div>
+              <p className="text-sm">
+                <span className="font-bold text-[#72005F]">Online Consultation:</span>{" "}
+                Talk To Our Doctors From Where You Sit
+              </p>
+            </div>
+          </div> */}
         </div>
       </div>
     </section>

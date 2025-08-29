@@ -15,7 +15,7 @@ As a comprehensive neuro and cardiac diagnostic centre in Trivandrum, our servic
     "EEG (Electroencephalogram): Detects brain wave abnormalities",
     "EMG (Electromyography): Evaluates muscle and nerve function",
     "Nerve Conduction Velocity (NCV) Tests",
-    "Holter Monitoring (24–48 hour ECG recording)",
+    "Holter Monitoring (24-48 hour ECG recording)",
     "Event Recorder & Ambulatory ECG Monitoring",
     "Sleep EEG & Epilepsy Monitoring",
     "Pre-operative ECG & Neurology Workups",
@@ -82,7 +82,7 @@ As a comprehensive neuro and cardiac diagnostic centre in Trivandrum, our servic
     },
     {
       question: "How long do these tests take?",
-      answer: "ECG: 5–10 mins, EEG: 30–45 mins, EMG/NCV: 45–60 mins depending on complexity."
+      answer: "ECG: 5-10 mins, EEG: 30-45 mins, EMG/NCV: 45-60 mins depending on complexity."
     },
     {
       question: "Can I get reports on the same day?",
@@ -92,7 +92,7 @@ As a comprehensive neuro and cardiac diagnostic centre in Trivandrum, our servic
 
   appointmentSection: {
     heading: "Book Your Brain, Heart, or Nerve Test Today",
-    subheading: "Visit SP Medifort – Your trusted centre for EEG, EMG, and ECG in Trivandrum",
+    subheading: "Visit SP Medifort - Your trusted centre for EEG, EMG, and ECG in Trivandrum",
     helpline: "+91-XXXXXXXXXX",
     actions: [
       { text: "Book a Test", type: "button", link: "#" },
@@ -101,7 +101,7 @@ As a comprehensive neuro and cardiac diagnostic centre in Trivandrum, our servic
   },
 
   meta: {
-    title: "EMG, EEG, ECG Tests in Trivandrum – SP Medifort Hospital",
+    title: "EMG, EEG, ECG Tests in Trivandrum - SP Medifort Hospital",
     description: "Accurate neuro and cardiac diagnostics including EEG, EMG, and ECG. Book now at SP Medifort’s 24x7 diagnostic centre in Trivandrum.",
     keywords: "ecg trivandrum, eeg test, emg, nerve conduction, heart rhythm test, neurology diagnostics, seizure monitoring"
   }

@@ -140,13 +140,13 @@ const SpecialtiesSlider = () => {
           {/* Arrows */}
           <button
             onClick={prev}
-            className="absolute left-[-20px] md:left-[-30px] top-1/2 transform -translate-y-1/2 bg-white border border-primary text-primary p-2 rounded-full shadow hover:bg-primary hover:text-white"
+            className="absolute top-7 right-[60px] md:right-auto md:left-[-30px] md:top-1/2 transform -translate-y-1/2 bg-white border border-primary text-primary p-2 rounded-full shadow hover:bg-primary hover:text-white"
           >
             <FaArrowLeft />
           </button>
           <button
             onClick={next}
-            className="absolute right-[-20px] md:right-[-30px] top-1/2 transform -translate-y-1/2 bg-white border border-primary text-primary p-2 rounded-full shadow hover:bg-primary hover:text-white"
+            className="absolute top-7 right-[10px] md:right-[-30px] md:top-1/2 transform -translate-y-1/2 bg-white border border-primary text-primary p-2 rounded-full shadow hover:bg-primary hover:text-white"
           >
             <FaArrowRight />
           </button>

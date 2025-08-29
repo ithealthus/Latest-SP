@@ -93,7 +93,7 @@ Recognized as a leading centre for clinical dietitian services in Trivandrum, we
 
   appointmentSection: {
     heading: "Eat Well, Heal Better — Personalized Nutrition Awaits",
-    subheading: "Visit SP Medifort – Trusted for clinical nutrition and diet therapy in Trivandrum",
+    subheading: "Visit SP Medifort - Trusted for clinical nutrition and diet therapy in Trivandrum",
     helpline: "0471 3100100",
     actions: [
       { text: "Book Diet Consultation", type: "button", link: "#" },
@@ -102,7 +102,7 @@ Recognized as a leading centre for clinical dietitian services in Trivandrum, we
   },
 
   meta: {
-    title: "Dietetics & Nutrition in Trivandrum – SP Medifort Hospital",
+    title: "Dietetics & Nutrition in Trivandrum - SP Medifort Hospital",
     description: "Personalized diet plans, ICU nutrition, cancer and post-surgery recovery support. Consult clinical dietitians at SP Medifort Trivandrum.",
     keywords: "nutritionist in trivandrum, clinical dietitian, diabetes diet counselling, cancer nutrition, weight loss, ICU nutrition, wellness diet"
   }

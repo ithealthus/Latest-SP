@@ -243,7 +243,7 @@ const EndocrinologyData = {
       { title: "Targeted lab tests/imaging" },
       { title: "Personalized treatment plan & education" },
       { title: "Nutrition/lifestyle coaching or device training" },
-      { title: "Follow-up review (2–4 weeks) with digital reports" },
+      { title: "Follow-up review (2-4 weeks) with digital reports" },
       { title: "Long-term monitoring & complication screening" },
     ],
     cta: "Map your endocrine care plan",

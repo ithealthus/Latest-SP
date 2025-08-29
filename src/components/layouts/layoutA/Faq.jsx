@@ -27,10 +27,10 @@ const Faq = ({ faqs }) => {
         <div key={index}>
   <button
     onClick={() => toggleFaq(index)}
-    className={`w-full flex items-center justify-between gap-4 border-2 border-[#870064] text-left px-6 py-4 font-semibold text-lg md:text-xl transition-all duration-300 ${
+    className={`w-full flex items-center justify-between gap-4 border border-primary text-left px-6 py-4 font-semibold text-lg md:text-xl transition-all duration-300 ${
       openIndex === index
-        ? 'bg-[#87006480] text-white rounded-t-2xl rounded-b-none'
-        : 'bg-[#87006480] text-[#3a003f] rounded-2xl'
+        ? 'bg-primary text-[#fff] rounded-t-2xl rounded-b-none'
+        : 'bg-primary text-[#fff] rounded-2xl'
     }`}
   >
     <span className="flex items-center gap-3 ">
@@ -40,7 +40,7 @@ const Faq = ({ faqs }) => {
   </button>
 
   {openIndex === index && (
-    <div className="bg-[#c076a540] rounded-b-2xl px-6 py-4 text-base md:text-lg text-[#3a003f] font-medium border-x-2 border-b-2 border-t-0 border-[#870064]">
+    <div className="bg-[#c076a540] rounded-b-2xl px-6 py-4 text-base md:text-lg text-[#3a003f] font-medium border-x border-b border-t-0 border-primary">
       {faq.answer}
     </div>
   )}

@@ -1,11 +1,11 @@
 
 const FamilyMedicineData = {
   hero: {
-    title: 'Family Medicine & Primary Care Servicesi n Thiruvananthapuram',
+    title: 'Family Medicine & Primary Care Service in Thiruvananthapuram',
     description: [
       "At SP Medifort, our Family Medicine department serves as your first and ongoing point of contact for lifelong healthcare. Whether it’s a child with a fever, a senior with diabetes, or a young adult needing vaccination, our family physicians manage prevention, diagnosis, and continuity of care.We ensure that every age group receives integrated, relationship-based care with access to specialists when needed."
     ],
-    cta: { label: 'Book an appointment with a family physician', href: '/appointments/cardiology' },
+    cta: { label: 'Book appointment ', href: '/appointments/cardiology' },
     image: { src: '/images/departments/Family-Medicine.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
@@ -35,6 +35,11 @@ const FamilyMedicineData = {
       {
         icon: 'mdi:heart-cog-outline',
         title: 'Daily outpatient OPD + in-patient care',
+
+      },
+       {
+        icon: 'fluent:laser-tool-20-filled',
+        title: 'Comprehensive care for all age groups; children, adults, and elderly',
 
       },
       {
@@ -89,7 +94,7 @@ const FamilyMedicineData = {
           ' Offers non-invasive imaging to assess abdominal pain, detect gallstones, or evaluate thyroid nodules in a routine OPD setting.',
       },
       {
-        name: 'FULLY MOTORIZED X-RAY SUITE – DRX-COMPASS',
+        name: 'FULLY MOTORIZED X-RAY SUITE - DRX-COMPASS',
         description:
           ' High-speed digital imaging for quick assessment of respiratory infections, bone injuries, and joint pain.',
       },

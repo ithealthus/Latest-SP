@@ -15,6 +15,7 @@ import React from 'react';
     title: ' Why choose SP Medifort for Paediatric Surgery?',
     subTitle: 'Surgical excellence in a child-friendly environment',
     cards: [
+      { icon: 'mdi:heart-pulse', title: 'Multidisciplinary care with pediatric urology, orthopedics, and oncology support' },
       { icon: 'iconamoon:3d-bold', title: 'Neonatal surgery capability with NICU support' },
       { icon: 'fluent:laser-tool-20-filled', title: 'Pediatric laparoscopic & minimally invasive surgery' },
       { icon: 'mdi:heart-pulse', title: ' Child-focused anesthesia and pain control' },
@@ -173,7 +174,7 @@ import React from 'react';
     },
     {
       question: 'How long will my child stay in the hospital?',
-      answer: 'Many procedures are daycare. Some may need 2–3 days depending on the child’s recovery.',
+      answer: 'Many procedures are daycare. Some may need 2-3 days depending on the child’s recovery.',
     },
   ],
 

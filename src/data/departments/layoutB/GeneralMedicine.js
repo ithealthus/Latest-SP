@@ -20,6 +20,16 @@ const GeneralMedicineData = {
         title: '10 + senior general physicians & internists',
 
       },
+       {
+        icon: 'mdi:heart-cog-outline',
+        title: 'Comprehensive infectious disease management with dedicated isolation protocols',
+
+      },
+      {
+        icon: 'mdi:heart-pulse',
+        title: 'Preventive health check-ups and long-term chronic disease monitoring',
+
+      },
       {
         icon: 'fluent:laser-tool-20-filled',
         title: ' 24*7 rapid-response medical team & ICU backup',

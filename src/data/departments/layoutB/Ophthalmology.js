@@ -159,7 +159,7 @@ const OphthalmologyData = {
   faqs: [
     {
       question: 'How long does cataract surgery take?',
-      answer: 'It’s usually a 15–20 minute painless procedure. You can go home the same day.',
+      answer: 'It’s usually a 15-20 minute painless procedure. You can go home the same day.',
     },
     {
       question: 'Is LASIK safe for everyone?',

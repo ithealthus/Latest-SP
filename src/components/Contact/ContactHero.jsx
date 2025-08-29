@@ -12,27 +12,27 @@ const ContactHero = () => {
   }, []);
 
   return (
-    <section className="bg-primary text-white rounded-bl-[50px] rounded-br-[40px] overflow-hidden mx-3 lg:mx-20 pt-10">
+    <section className="bg-primary text-white rounded-bl-[50px] rounded-br-[40px] overflow-hidden lg:mx-14  pt-10">
       {/* Breadcrumb */}
-      <div className="px-4 md:px-20">
+      <div className="px-5 md:px-20">
         <Breadcrumb textColor="text-white" borderColor="border-white" />
       </div>
 
       {/* Content */}
-      <div className="px-4 md:px-8 lg:px-12 xl:px-20 flex flex-col md:flex-row items-stretch justify-between gap-10">
+      <div className="px-5 md:px-8 lg:px-12 xl:px-20 flex flex-col md:flex-row items-stretch justify-between gap-10">
         {/* Text Section */}
         <div className="w-full md:w-2/3 flex flex-col justify-center mt-6 md:mt-0 space-y-5 md:pr-10">
           <div className="lg:-mt-24">
-            <h1 className="text-4xl lg:text-7xl font-medium leading-none mb-5">
+            <h1 className="text-3xl lg:text-6xl font-medium leading-none mb-2 lg:mb-5">
               Contact Us
             </h1>
-            <p className="text-3xl lg:text-4xl font-medium font-roboto">
+            <p className="text-xl lg:text-3xl font-medium font-roboto">
               SP Medifort Hospital
             </p>
           </div>
 
-          <p className="text-xl font-medium">
-            We are here when you need us – for emergencies, appointments, or just a question.
+          <p className="text-base lg:text-xl font-medium">
+            We are here when you need us - for emergencies, appointments, or just a question.
           </p>
 
           {/* CTA Button */}
@@ -51,7 +51,7 @@ const ContactHero = () => {
           <img
             src="/images/contact/Contact-us.webp"
             alt="Doctor"
-            className="object-contain h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[650px] lg:w-full mx-auto scale-x-[-1]"
+            className="object-contain h-[400px] lg:h-[500px] xl:h-[550px] 2xl:h-[650px] lg:w-full mx-auto scale-x-[-1]"
           />
         </div>
       </div>

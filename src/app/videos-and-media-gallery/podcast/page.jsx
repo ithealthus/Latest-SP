@@ -30,7 +30,7 @@ const Page = () => {
   return (
     <div>
       <Hero
-        breadcrumb="Home > Podcast"
+        breadcrumb="> Podcast"
         title="Health & Wellness Podcasts"
         subtitle="Listen to Expert Insights Anytime"
         tagline="Your health journey, now in audio form"

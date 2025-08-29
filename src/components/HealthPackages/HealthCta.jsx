@@ -19,7 +19,7 @@ const HealthCta = () => {
       >
         <div className="max-w-6xl mx-auto text-white">
           <h2 className="text-3xl md:text-5xl font-bold mb-16">
-            Need Help Selecting a <br className="hidden md:block" /> Package?
+            Need Help Selecting a  Package?
           </h2>
           <div className="flex flex-col lg:flex-row md:gap-16 ">
             <div className="flex flex-col justify-end md:items-start gap-6 mb-10 md:w-1/2">

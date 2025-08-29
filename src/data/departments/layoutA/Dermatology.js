@@ -35,7 +35,16 @@ const Dermatology = {
         title: ' Cosmetic care under medical supervision',
 
       },
+       {
+        icon: 'fluent:laser-tool-20-filled',
+        title: 'Advanced laser & phototherapy treatments for skin, hair, and nail conditions',
 
+      },
+ {
+        icon: 'mdi:heart-cog-outline',
+        title: ' Personalized care for chronic skin issues like psoriasis, vitiligo, acne, and eczema',
+
+      },
     ],
     description: 'Our dermatology unit is known for both evidence-based care and cosmetic finesse making us one of the best skin hospitals in Thiruvananthapuram.',
     cta: {
@@ -246,7 +255,7 @@ const Dermatology = {
       { title: "Clinical evaluation & imaging/tests (if needed)" },
       { title: "Diagnosis and treatment plan" },
       { title: "Medication/cosmetic procedure" },
-      { title: "Review after 2–4 weeks" },
+      { title: "Review after 2-4 weeks" },
       { title: "Maintenance therapy or advanced treatment" },
 
     ],

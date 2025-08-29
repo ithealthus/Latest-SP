@@ -24,6 +24,7 @@ const radiodiagnosisData = {
     subTitle: 'Image clarity that saves lives.',
     cards: [
       { icon: 'mdi:scanner', title: '128-slice CT scanner with ultra-low radiation' },
+      { icon: 'mdi:cloud-sync', title: 'Image-guided procedures and interventional radiology support' },
       { icon: 'mdi:magnet', title: '1.5 Tesla MRI with silent scan capability' },
       { icon: 'mdi:human-pregnant', title: '4D ultrasound & fetal anomaly scanning' },
       { icon: 'mdi:x-ray', title: 'Fully automated digital X-ray suite' },
@@ -60,15 +61,15 @@ const radiodiagnosisData = {
     items: [
       { name: 'MRI GE SIGNA', description: 'High-definition MRI for detailed neurological and body imaging.' },
       { name: '128 Slice CT GE Revolution', description: 'Advanced CT imaging with faster scans and lower radiation exposure.' },
-      { name: 'FULLY MOTORIZED X-RAY SUITE – DRX-COMPASS', description: 'Automated and digital X-ray for rapid acquisition and diagnosis.' },
+      { name: 'FULLY MOTORIZED X-RAY SUITE - DRX-COMPASS', description: 'Automated and digital X-ray for rapid acquisition and diagnosis.' },
       { name: 'Ultrasound (USG) Scan', description: 'Real-time imaging for soft tissue and fetal evaluation.' },
       { name: 'GE Prodigy Advance DEXA scan', description: 'Bone density and health assessment with precision.' },
-      { name: '1st 3D cath lab in India – GE Allia', description: 'AI-powered cardiac imaging and interventional planning.' }
+      { name: '1st 3D cath lab in India - GE Allia', description: 'AI-powered cardiac imaging and interventional planning.' }
     ]
   },
 
   ctaSection: {
-    text: 'Accurate imaging. Fast results. Expert analysis – all under one roof at SP Medifort.',
+    text: 'Accurate imaging. Fast results. Expert analysis - all under one roof at SP Medifort.',
     button: {
       label: 'Explore imaging infrastructure',
       link: '/departments/radiodiagnosis#technology'
@@ -139,8 +140,8 @@ const radiodiagnosisData = {
 
   successStories: {
     items: [
-      { type: 'text', text: '“My stroke was diagnosed in time with the emergency MRI. The speed saved my life.” – Ravi N.' },
-      { type: 'text', text: '“The anomaly scan during my pregnancy gave us peace of mind and clarity.” – Zainab A., UAE' }
+      { type: 'text', text: '“My stroke was diagnosed in time with the emergency MRI. The speed saved my life.” - Ravi N.' },
+      { type: 'text', text: '“The anomaly scan during my pregnancy gave us peace of mind and clarity.” - Zainab A., UAE' }
     ],
     cta: {
       label: 'Read more imaging testimonials',

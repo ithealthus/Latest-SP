@@ -173,6 +173,7 @@ export default function Footer() {
                 <span className="font-semibold text-primary">
                   Emergency Line:
                 </span>{" "}
+                <br className="lg:block hidden"/>
                 <span className="font-bold">+91-0471 3100 100</span>
               </p>
               <p>

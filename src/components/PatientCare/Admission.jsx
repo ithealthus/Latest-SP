@@ -14,7 +14,7 @@ const Admission = () => {
     <>
       {data.whyChoose?.length > 0 && (
         <section className="py-12 px-4 md:px-20">
-          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
+          <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start ">
             <div data-aos="fade-right">
               <h2 className="text-[32px] sm:text-[40px] md:text-[48px] font-bold text-[#870064] leading-[50px] mb-8">
                Admission & Discharge Process

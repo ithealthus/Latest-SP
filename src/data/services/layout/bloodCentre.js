@@ -82,7 +82,7 @@ const bloodCentre = {
     {
       question: "Can I walk in to donate blood?",
       answer:
-        "Yes. We accept voluntary donors daily and encourage donation by healthy individuals aged 18–60."
+        "Yes. We accept voluntary donors daily and encourage donation by healthy individuals aged 18-60."
     },
     {
       question: "Do I need to pay for blood?",
@@ -98,7 +98,7 @@ const bloodCentre = {
   appointmentSection: {
     heading: "Connect with Our Blood Centre",
     description:
-      "Visit SP Medifort – Your trusted blood donation centre in Trivandrum",
+      "Visit SP Medifort - Your trusted blood donation centre in Trivandrum",
     callToAction: "Call Us: +91-XXXXXXXXXX",
     buttons: ["Request Blood", "Register as a Donor", "WhatsApp Now"]
   }
